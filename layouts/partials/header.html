@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/base.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://drewdevault.com/feed.xml">
+    <link rel="icon" type="image/png" href="/avatar.png">
+    <title>{{ .Title }} - {{ .Site.BaseURL }}</title>
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    {{ if .RSSLink }}<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />{{ end }}
+</head>
