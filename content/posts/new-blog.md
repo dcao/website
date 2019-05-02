@@ -4,7 +4,7 @@ date: 2019-05-01T21:23:32-07:00
 ---
 
 Back in ye olde days, I managed to get a website for myself running on
-Github Pages. I thought it was the shit: full-spread images with
+Github Pages. I thought it was so cool: full-spread images with
 parallax scrolling, a persistent navbar up top, Bootstrap thrown over
 the whole thing, the works.
 
