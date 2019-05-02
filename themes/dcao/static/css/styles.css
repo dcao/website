@@ -22,6 +22,10 @@ body {
     counter-reset: sec;
 }
 
+footer {
+    margin-bottom: 4em;
+}
+
 p, li {
     margin-bottom: 1em;
 }
