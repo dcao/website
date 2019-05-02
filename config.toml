@@ -1,4 +1,5 @@
 baseURL = "https://cao.st"
 languageCode = "en-us"
 title = "~dcao"
-summaryLength = 16
+summaryLength = 24
+theme = "dcao"
