@@ -173,3 +173,7 @@ nav.site-nav {
 nav:not(.site-nav) {
     margin-top: 0.5em;
 }
+
+nav.home-nav {
+    font-size: 1em;
+}
