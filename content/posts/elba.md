@@ -16,19 +16,19 @@ Binary releases are available via GitHub Releases. Just download the archive cor
 
 Alternatively, if you'd prefer to build the project yourself, you'll need to have the Rust toolchain installed, as elba is written in Rust (more on that later). After that, installation is a piece of cake:
 
-{{< highlight shell >}}
+```shell
 $ cargo install elba
 # remember to add `~/.elba/bin` to your PATH afterwards!
-{{< / highlight >}}
+```
 
 From there, all the typical package-manager-y commands should work as you'd expect:
 
-{{< highlight shell >}}
+```shell
 $ elba new me/test # all names in elba are namespaced
 $ cd test
 $ elba build 
 $ elba repl
-{{< / highlight >}}
+```
 
 A short demo of some of elba's basic functionality is [available on asciinema](https://asciinema.org/a/196230), and more detailed documentation is also available online in the form of [a guide](https://elba.readthedocs.io).
 
