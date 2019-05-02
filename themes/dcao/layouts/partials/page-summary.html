@@ -1,22 +1,19 @@
 <article itemprop="citation" itemscope itemtype="https://schema.org/CreativeWork">
   <header>
-    <h1 itemprop="name">
-        <a href="{{ .RelPermalink }}" rel="bookmark">{{ .Title }}<span class="smol-topic">{{ .Date.Format "1/2/06" }}</span></a>
-    </h1>
-    {{ if eq .Type "post" }}
-      <p class="muted">{{ partial "post/meta.html" . }}</p>
-    {{ end }}
+      <h1 itemprop="name">
+          <a href="{{ .RelPermalink }}" rel="bookmark">{{ .Title }}<span class="smol-topic">{{ .Date.Format "1/2/06" }}</span></a>
+      </h1>
   </header>
   {{ if .Description }}
-    <blockquote itemprop="headline">{{ .Description }}</blockquote>
+      <blockquote class="headline" itemprop="headline">{{ .Description }}</blockquote>
   {{ end }}
   <div itemprop="description">
-    {{ .Summary }}
+      {{ .Summary }}
   </div>
   {{ if .Truncated }}
-    <nav class="readmore"><p>
-      <a itemprop="url" href="{{ .RelPermalink }}" rel="bookmark">...con't</a>
-    </p></nav>
+      <nav class="readmore"><p>
+          <a itemprop="url" href="{{ .RelPermalink }}" rel="bookmark">...con't</a>
+      </p></nav>
   {{ end }}
   <meta itemprop="inLanguage" content="{{ .Site.LanguageCode }}">
   <meta itemprop="datePublished" content="{{ dateFormat "2006-01-02T15:04:05-07:00" (default .Date (.PublishDate)) }}">

@@ -176,4 +176,31 @@ nav:not(.site-nav) {
 
 nav.home-nav {
     font-size: 1em;
+    margin-top: 0.75rem;
+    margin-bottom: 0.5em;
+}
+
+ul {
+    padding-left: 1em;
+}
+
+ol {
+    padding-left: 1em;
+}
+
+blockquote {
+    padding-left: 0.75em;
+    font-style: italic;
+    border-left: 4px solid #C0D3D9;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+p.subtitle {
+    margin-top: 0.75rem;
+    margin-bottom: 0.5em;
+    font-family: "Fira Sans";
+    font-size: 1.25rem;
+    font-style: italic;
+    color: #7794A1;
 }
