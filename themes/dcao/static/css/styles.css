@@ -204,3 +204,9 @@ p.subtitle {
     font-style: italic;
     color: #7794A1;
 }
+
+pre {
+    padding: 1em;
+    margin-bottom: 1rem;
+    overflow: auto;
+}
