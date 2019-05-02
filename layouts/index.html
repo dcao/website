@@ -1,13 +1,19 @@
-{{ partial "header.html" . }}
-<h2>dcao @ www</h2>
-<p>this is the personal website of david cao, currently under heavy construction.</p>
+{{ define "header" }}
+    <header class="post-header">
+        <h1 class="topic">{{ .Site.Title }}</h1>
+        <nav>
+            <a href="/posts/">posts/</a>
+        </nav>
+    </header>
+{{ end }}
+{{ define "main" }}
+    <p>this is the personal website of david cao: high school student and wannabe programming language researcher</p>
+    <h1 class="no-num">links</h1>
+    <ul>
+        <li>Email: <a href="mailto:david@cao.st">david@cao.st</a></li>
+        <li>GitHub: <a href="https://github.com/dcao">@dcao</a></li>
+        <li>sr.ht: <a href="https://git.sr.ht/~dcao">~dcao</a></li>
+        <li>GPG: <a href="http://keys.gnupg.net/pks/lookup?op=get&search=0xBAF82063B3C00397">BAF82063B3C00397</a></li>
+    </ul>
+{{ end }}
 
-<h3>links</h3>
-<ul>
-    <li>Legacy blog: <a href="https://dcao.gitlab.io">dcao.gitlab.io</a></li>
-    <li>Email: <a href="mailto:david@cao.st">david@cao.st</a></li>
-    <li>GitHub: <a href="https://github.com/dcao">@dcao</a></li>
-    <li>sr.ht: <a href="https://git.sr.ht/~dcao">~dcao</a></li>
-    <li>GPG: <a href="http://keys.gnupg.net/pks/lookup?op=get&search=0xBAF82063B3C00397">BAF82063B3C00397</a></li>
-</ul>
-{{ partial "footer.html" . }}

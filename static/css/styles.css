@@ -1,18 +1,144 @@
 @import "normalize.css";
+@import "../fonts/charter/stylesheet.css";
+@import "../fonts/fira-sans/stylesheet.css";
+@import "../fonts/fira-sans-condensed/stylesheet.css";
+@import "../fonts/fira-mono/stylesheet.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     margin: 1em auto;
-    max-width: 38em;
+    max-width: 38rem;
     padding: 0 .62em;
-    font-size: 1.1em;
+    font-size: 1.2rem;
     line-height: 1.62;
-    font-family: "Hoefler Text", Baskerville, "Libre Baskerville", Garamond, "Palatino Linotype", Georgia, "Times New Roman", serif;
+    font-family: "charterregular";
     background-color: #f2fdff;
     color: #393d3f;
+    counter-reset: sec;
+}
+
+p, li {
+    margin-bottom: 1em;
 }
 
 h1, h2, h3 {
     line-height: 1.2;
+}
+
+h1.topic {
+    font-size: 1.5em;
+    line-height: 1.25;
+    font-family: "Fira Sans";
+    margin-bottom: 0.5rem;
+}
+
+header.post-header {
+    margin-top: 3.5em;
+    margin-bottom: 2em;
+    padding-bottom: 1.25em;
+    border-bottom: 1px solid black;
+    counter-reset: sec;
+}
+
+span.smol-topic {
+    font-weight: 400;
+    font-size: 0.75em;
+    padding-left: 1em;
+    color: #699999;
+}
+
+h1:not(.topic), h2, h3, h4, h5, h6 {
+    /* TODO: Font size */
+    font-family: "Fira Sans Condensed";
+    margin-top: 1.4em;
+    margin-bottom: 0.4em;
+}
+
+h1:not(.topic) {
+    font-size: 1.25em;
+    color: #466A7C;
+    counter-reset: subsec;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: #5E7F8E;
+    counter-reset: subsubsec;
+}
+
+h3 {
+    font-size: 1.15em;
+    color: #7794A1;
+}
+
+h4 {
+    font-size: 1.1em;
+    color: #8FA9B4;
+}
+
+h5 {
+    font-size: 1.05em;
+    color: #A8BEC6;
+}
+
+h6 {
+    font-size: 1em;
+    color: #C0D3D9;
+}
+
+@media only screen and (min-width: 768px) {
+    h1:not(.topic):not(.no-num)::before {
+        counter-increment: sec;
+        content: counter(sec);
+        position: relative;
+        float: left;
+        clear: left;
+        margin-left: -8.25rem;
+        width: calc(2.5rem * 3);
+        text-align: right;
+        margin-bottom: 1rem;
+        color: #8FA9B4;
+    }
+
+    h2:not(.no-num)::before {
+        counter-increment: subsec;
+        content: counter(sec) "." counter(subsec);
+        position: relative;
+        float: left;
+        clear: left;
+        margin-left: -8.25rem;
+        width: calc(2.5rem * 3);
+        text-align: right;
+        margin-bottom: 1rem;
+        color: #A8BEC6;
+    }
+
+    h3:not(.no-num)::before {
+        counter-increment: subsubsec;
+        content: counter(sec) "." counter(subsec) "." counter(subsubsec);
+        position: relative;
+        float: left;
+        clear: left;
+        margin-left: -8.25rem;
+        width: calc(2.5rem * 3);
+        text-align: right;
+        margin-bottom: 1rem;
+        color: #C0D3D9;
+    }
+
+    aside.left {
+        position: relative;
+        float: left;
+        clear: left;
+        margin-left: -8.25rem;
+        width: calc(2.5rem * 3);
+        text-align: right;
+        margin-bottom: 1rem;
+    }
 }
 
 @media print {
@@ -24,11 +150,26 @@ h1, h2, h3 {
 a {
     color: #589a9e;
     text-decoration: none;
-    animation-duration: 0.25s;
+    transition: color 0.1s, background-color 0.1s;
 }
 
 a:hover {
     color: #564787;
     background-color: #9ad4d6;
-    animation-duration: 0.25s;
+    transition: color 0.1s, background-color 0.1s;
+}
+
+nav {
+    font-family: "Fira Mono";
+    font-weight: 500;
+    font-size: 0.9em;
+    letter-spacing: -0.03em;
+}
+
+nav.site-nav {
+    margin-top: 2em;
+}
+
+nav:not(.site-nav) {
+    margin-top: 0.5em;
 }

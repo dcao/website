@@ -1,3 +1,4 @@
-baseURL = "http://cao.st"
+baseURL = "https://cao.st"
 languageCode = "en-us"
-title = "dcao @ www"
+title = "~dcao"
+summaryLength = 16
