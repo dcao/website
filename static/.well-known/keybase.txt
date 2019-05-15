@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/dmcao
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://cao.st
+  * I am dmcao (https://keybase.io/dmcao) on keybase.
+  * I have a public key ASCRXBBIKxXBcAFxtL2DnXuCPlh4wzMY_q-M5Qrt5SwdQgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101f4793429c1f31715be5b2442458cf67e2de1a2d9b6bd06a7d9e07c176361a56b0a",
+      "host": "keybase.io",
+      "kid": "0120915c10482b15c1700171b4bd839d7b823e5878c33318feaf8ce50aede52c1d420a",
+      "uid": "d222e214b2fddf702eeff6bc353dec19",
+      "username": "dmcao"
+    },
+    "merkle_root": {
+      "ctime": 1557890497,
+      "hash": "84167c17e52eebde2b54818979e80b6c4773e484c2d51d50804b04d90a175b33eb9e30d3570730f528449b17c4f8e034de1640d5cb4b64160464e8cfcf894754",
+      "hash_meta": "b004dc7163b26523e2b306c8620a735708b3417b1826abcd81ed7bc96a53b8bc",
+      "seqno": 5374299
+    },
+    "service": {
+      "entropy": "OeCNztJkoXaTCHhYacWHe9xc",
+      "hostname": "cao.st",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.2.2"
+  },
+  "ctime": 1557890519,
+  "expire_in": 504576000,
+  "prev": "d813a2525dc22eb33e3f5ac20ca5bc4566aa97a594b9290b350aaf6f4c755554",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgkVwQSCsVwXABcbS9g517gj5YeMMzGP6vjOUK7eUsHUIKp3BheWxvYWTESpcCDMQg2BOiUl3CLrM+P1rCDKW8RWaql6WUuSkLNQqvb0x1VVTEID9pJO1RN2OsJk9GU5rhIX1ULDpFoyfK04bZvxYFwH0NAgHCo3NpZ8RAPiq4q+73IBpP7csT/effE+Xq82yGuw0Cvwec3ZFdHjCTBscvdZMCBcWag7QKd1N/DwEL1V2W0LCouzBV6iIrDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAAAECHJwfyOkYPpAyluDHaVT5vZJaaxAJShcrH1iTaSo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dmcao
+
+==================================================================
