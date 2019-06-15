@@ -43,8 +43,8 @@ h1.topic {
 
 header.post-header {
     margin-top: 3.5em;
-    margin-bottom: 2em;
-    padding-bottom: 1.25em;
+    margin-bottom: 1em;
+    padding-bottom: 0.75em;
     /* border-bottom: 1px solid black; */
     counter-reset: sec;
 }
