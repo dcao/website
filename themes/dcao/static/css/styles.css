@@ -1,9 +1,6 @@
 @import "normalize.css";
 @import "syntax.css";
-@import "../fonts/charter/stylesheet.css";
 @import "../fonts/fira-sans/stylesheet.css";
-@import "../fonts/fira-sans-condensed/stylesheet.css";
-@import "../fonts/fira-mono/stylesheet.css";
 
 * {
     margin: 0;
@@ -14,9 +11,9 @@ body {
     margin: 1em auto;
     max-width: 38rem;
     padding: 0 .62em;
-    font-size: 1.2rem;
+    font-size: 1.175rem;
     line-height: 1.62;
-    font-family: "charterregular";
+    font-family: -apple-system,BlinkMacSystemFont,'avenir next',avenir,helvetica,'helvetica neue',ubuntu,roboto,noto,'segoe ui',arial,sans-serif;
     background-color: #f2fdff;
     color: #393d3f;
     counter-reset: sec;
@@ -44,7 +41,7 @@ h1.topic {
 header.post-header {
     margin-top: 3.5em;
     margin-bottom: 1em;
-    padding-bottom: 0.75em;
+    padding-bottom: 0.5em;
     /* border-bottom: 1px solid black; */
     counter-reset: sec;
 }
@@ -58,9 +55,9 @@ span.smol-topic {
 
 h1:not(.topic), h2, h3, h4, h5, h6 {
     /* TODO: Font size */
-    font-family: "Fira Sans Condensed";
-    margin-top: 1.4em;
-    margin-bottom: 0.4em;
+    font-family: "Fira Sans";
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
 }
 
 h1:not(.topic) {
@@ -165,10 +162,7 @@ a:hover {
 }
 
 nav {
-    font-family: "Fira Mono";
-    font-weight: 500;
-    font-size: 0.9em;
-    letter-spacing: -0.03em;
+    font-family: "Fira Sans";
 }
 
 nav.site-nav {
@@ -185,6 +179,20 @@ nav.home-nav {
     margin-bottom: 0.5em;
 }
 
+nav.home-nav > a {
+    font-weight: bold;
+}
+
+nav.site-nav > a#logo {
+    font-weight: bold;
+    margin-right: 0.25em;
+}
+
+nav.site-nav > a:not(#logo) {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
 ul {
     padding-left: 1em;
 }
@@ -194,11 +202,12 @@ ol {
 }
 
 blockquote {
+    font-family: "Fira Sans";
     padding-left: 0.75em;
-    font-style: italic;
     border-left: 4px solid #C0D3D9;
     margin-top: 0.25em;
     margin-bottom: 0.25em;
+    color: #7794A1
 }
 
 p.subtitle {
@@ -206,7 +215,6 @@ p.subtitle {
     margin-bottom: 0.5em;
     font-family: "Fira Sans";
     font-size: 1.25rem;
-    font-style: italic;
     color: #7794A1;
 }
 
