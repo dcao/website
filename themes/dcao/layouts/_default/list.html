@@ -1,12 +1,10 @@
 {{ define "header" }}
     {{ partial "navbar.html" . }}
-{{ partial "pagination.html" . }}
-
-    </nav>
 {{ end }}
+
 {{ define "main" }}
     <header class="post-header">
-        <h1 class="topic">{{ .Title }}<span class="smol-topic">p. {{ .Paginator.PageNumber }}/{{ .Paginator.TotalPages }}</h1>
+        <h1 class="topic">{{ .Title }}<span class="smol-topic">p. {{ .Paginator.PageNumber }}/{{ .Paginator.TotalPages }} {{ partial "pagination.html" . }}</h1>
     </header>
     {{ range .Paginator.Pages }}
         {{ partial "page-summary" . }}
