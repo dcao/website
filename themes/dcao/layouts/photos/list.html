@@ -4,17 +4,17 @@
 
 {{ define "main" }}
     <header class="post-header" style="padding-left: .62em; padding-right: .62em; margin: 3.5em auto 1em auto; max-width: 38rem;">
-        <h1 class="topic" >{{ .Title }}</h1>
+        <h1 class="topic">{{ .Title }}</h1>
+        <p class="subtitle">see also: instagram <a href="https://www.instagram.com/pci3/">@pci3</a></p>
     </header>
     <div class="photo-grid" style="padding: 0 .62em;">
         {{ range .Pages }}
         {{ $file := index (.Resources.ByType "image") 0 }}
         {{ $image := $file.Resize "640x" }}
-        <div class="photo-grid-item" style="background-image: {{ $image.RelPermalink }};">
-            <a href="{{ .RelPermalink }}">
-                <img class="photo-grid-img" alt="" src="{{ $image.RelPermalink }}">
-            </a>
-        </div>
+        <a style="padding: 0.25em;" href="{{ .RelPermalink }}">
+            <div class="photo-grid-item" style="background-image: url('{{ $image.RelPermalink }}');">
+            </div>
+        </a>
         {{ end }}
     </div>
 {{ end }}

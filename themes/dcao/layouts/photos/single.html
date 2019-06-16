@@ -6,7 +6,7 @@
     <section class="img-container">
         {{ with .Resources.ByType "image" }}
         {{ range . }}
-        {{ $image := .Resize "1280x" }}
+        {{ $image := .Resize "1600x" }}
         <a href="{{ .RelPermalink }}">
             <img class="photo" alt src="{{ $image.RelPermalink }}">
         </a>
