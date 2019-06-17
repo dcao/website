@@ -9,10 +9,9 @@
     </header>
     <div class="photo-grid" style="padding: 0 .62em;">
         {{ range .Pages }}
-        {{ $file := index (.Resources.ByType "image") 0 }}
-        {{ $image := $file.Resize "640x" }}
+        {{ $image := printf "https://photos.cao.st/%s_640.jpg" (index .Params.img 0) }}
         <a style="padding: 0.25em;" href="{{ .RelPermalink }}">
-            <div class="photo-grid-item" style="background-image: url('{{ $image.RelPermalink }}');">
+            <div class="photo-grid-item" style="background-image: url('{{ $image }}');">
             </div>
         </a>
         {{ end }}
