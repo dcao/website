@@ -2,7 +2,6 @@
 title: "elba 0.3.0 & elba.pub"
 date: 2019-06-16T21:43:33-07:00
 description: "Idris is basically production-ready now"
-draft: true
 ---
 
 [elba](https://github.com/elba/elba) is a new-ish package manager for
@@ -25,7 +24,8 @@ of the project has been spearheaded by [**Lok Andy (@andylokandy)**]
 (@mixedCase)**](https://github.com/mixedCase) - without them, there'd be
 no elba.pub!
 
-This website serves several purposes:
+The best way to learn about the website is to go browse it yourself,
+but the basic functionality is as follows:
 
 ## Uploading a package
 
@@ -47,8 +47,10 @@ for more info.
 
 ## Browsing packages
 
-Like any other big-name package repository, elba.pub has a pretty face
+Like any other big-name package repository, elba.pub has a pretty UI
 which you can use to search for and find info about various packages.
+Each package's README is accessible from the package's page, along with
+links to other pertinent places (homepage, repo, etc.).
 
 Additionally, package searching functionality is available from the
 command line. Just whack `elba search <query>` to fuzzy-find a package.
@@ -118,7 +120,7 @@ compiler, there are some caveats:
 - `elba repl` doesn't work due to the inability to add multiple source
 paths
 - Doc generation doesn't work
-- Library codegen doesn't work
+- Codegen doesn't work (i.e. you can't build binaries)
 
 This release also lays the groundwork for more robust Idris 2 support
 in the future. For instance, this release has added the concept of a
@@ -126,3 +128,11 @@ in the future. For instance, this release has added the concept of a
 package `idris/idris` could be created, with different versions of the
 package checking for the presence of a certain version of the compiler
 via hooks.
+
+# In sum
+
+Now that elba has these two pieces of infrastructure in place, elba is
+much more capable of properly handling the Idris package ecosystem. So
+go forth and code! In the future, I expect even more improvements
+to come through the pipeline (including in the far future, rewriting
+elba in Idris!), so stay tuned!
