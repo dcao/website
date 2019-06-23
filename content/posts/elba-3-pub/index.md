@@ -19,7 +19,7 @@ elba is now Production Ready(tm).
 
 Nothing screams "production ready" like a fancy website, and now, elba
 has one, located at [elba.pub](https://www.elba.pub)! Work on this part
-of the project has been spearheaded by [**Lok Andy (@andylokandy)**]
+of the project has been spearheaded by [**Andy Lok (@andylokandy)**]
 (https://github.com/andylokandy) and assisted by [**Andrés Rodríguez
 (@mixedCase)**](https://github.com/mixedCase) - without them, there'd be
 no elba.pub!
@@ -62,7 +62,7 @@ package, instead of having to specify a git repo:
 
 ```toml
 [dependencies]
-"dcao/hello" = 0.1.0
+"dcao/hello" = "0.1.0"
 ```
 
 This also means that the Pubgrub dependency resolution system which
