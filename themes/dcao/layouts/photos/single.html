@@ -5,8 +5,8 @@
 {{ define "main" }}
     <section class="img-container">
         {{ range .Params.img }}
-        {{ $image := printf "https://photos.cao.st/%s_1600.jpg" . }}
-        {{ $full := printf "https://photos.cao.st/%s.jpg" . }}
+        {{ $image := printf "https://photo-cdn.cao.st/%s_1600.jpg" . }}
+        {{ $full := printf "https://photo-cdn.cao.st/%s.jpg" . }}
         <a href="{{ $full }}">
             <img class="photo" alt src="{{ $image }}">
         </a>

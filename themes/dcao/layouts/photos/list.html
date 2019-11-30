@@ -5,11 +5,18 @@
 {{ define "main" }}
     <header class="post-header" style="padding-left: .62em; padding-right: .62em; margin: 3.5em auto 1em auto; max-width: 38rem;">
         <h1 class="topic">{{ .Title }}</h1>
-        <p class="subtitle">see also: instagram <a href="https://www.instagram.com/pci3/">@pci3</a></p>
+        <p class="subtitle">
+            freelance photography services available: events, casual outings, and everything in between
+            <br />
+            for specific inquiries, contact: <a href="mailto:david@cao.st">david@cao.st</a>
+        </p>
+        <p class="subtitle" style="margin-top: 1em;">
+           <a class="call-to-action" href="#">book an appointment (tba)</a>
+        </p>
     </header>
     <div class="photo-grid" style="padding: 0 .62em;">
         {{ range .Pages }}
-        {{ $image := printf "https://photos.cao.st/%s_640.jpg" (index .Params.img 0) }}
+        {{ $image := printf "https://photo-cdn.cao.st/%s_640.jpg" (index .Params.img 0) }}
         <a style="padding: 0.25em;" href="{{ .RelPermalink }}">
             <div class="photo-grid-item" style="background-image: url('{{ $image }}');">
             </div>
