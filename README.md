@@ -5,5 +5,5 @@ david cao's very own website
 ## how is this thing run?
 
 - domain registered with namecheap
-- dns, main page hosting with netlify
-- photo cdn via aws (s3, cloudfront, acm for https cert)
+- dns + cdn, main page hosting with netlify
+- photo hosting via aws (s3; we don't use cloudfront since we have netlify dns already)

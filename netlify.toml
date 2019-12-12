@@ -9,3 +9,8 @@ from = "https://www.cao.sh/*"
 to = "https://cao.sh/:splat"
 status = 301
 force = true
+
+[[redirects]]
+from = "https://photos.cao.sh/*"
+to = "/photos/:splat"
+status = 301
