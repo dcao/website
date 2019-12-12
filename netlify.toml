@@ -14,3 +14,4 @@ force = true
 from = "https://photos.cao.sh/*"
 to = "/photos/:splat"
 status = 301
+force = true
