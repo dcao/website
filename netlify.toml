@@ -1,0 +1,11 @@
+[[redirects]]
+from = "http://www.cao.sh/*"
+to = "https://cao.sh/:splat"
+status = "301"
+force = true
+
+[[redirects]]
+from = "https://www.cao.sh/*"
+to = "https://cao.sh/:splat"
+status = "301"
+force = true

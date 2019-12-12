@@ -3,7 +3,7 @@ title: "Seascape: a smarterer CAPE"
 date: 2019-09-09T11:59:05-07:00
 ---
 
-**[Seascape](http://seascape.cao.st)** is a new website for finding and
+**[Seascape](http://seascape.cao.sh)** is a new website for finding and
 comparing courses and professors at UCSD. It uses existing professor/course
 quality data and provides metrics and graphs which makes it easier to compare
 and quantify the quality of different professors/courses.
@@ -109,5 +109,5 @@ future:
     combo pages, and adding more visualizations in general.
     
 But for now, Seascape is a plenty useful tool which can help compare professors
-and classes. So [try it out](http://seascape.cao.st), and if you have any comments
+and classes. So [try it out](http://seascape.cao.sh), and if you have any comments
 or concerns, [leave some feedback on Github](https://github.com/dcao/seascape/issues)!

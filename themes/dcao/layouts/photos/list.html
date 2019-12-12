@@ -9,12 +9,12 @@
             freelance photography services available in the san diego area: events, casual outings, and everything in between
         </p>
         <p class="subtitle" style="margin-top: 1em;">
-            <a class="call-to-action" href="mailto:david@cao.st">contact: david@cao.st</a>
+            <a class="call-to-action" href="mailto:david@cao.sh">contact: david@cao.sh</a>
         </p>
     </header>
     <div class="photo-grid" style="padding: 0 .62em;">
         {{ range .Pages }}
-        {{ $image := printf "https://photo-cdn.cao.st/%s_640.jpg" (index .Params.img 0) }}
+        {{ $image := printf "https://photo-cdn.cao.sh/%s_640.jpg" (index .Params.img 0) }}
         <a style="padding: 0.25em;" href="{{ .RelPermalink }}">
             <div class="photo-grid-item" style="background-image: url('{{ $image }}');">
             </div>
