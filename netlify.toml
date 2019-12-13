@@ -12,12 +12,12 @@ force = true
 
 [[redirects]]
 from = "http://photos.cao.sh/*"
-to = "https://cao.sh/photos/:splat"
-status = 301
+to = "/photos/:splat"
+status = 200
 force = true
 
 [[redirects]]
 from = "https://photos.cao.sh/*"
-to = "https://cao.sh/photos/:splat"
-status = 301
+to = "/photos/:splat"
+status = 200
 force = true
