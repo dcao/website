@@ -1,16 +1,4 @@
 [[redirects]]
-from = "http://photos.cao.sh/*"
-to = "https://cao.sh/photos/:splat"
-status = 301
-force = true
-
-[[redirects]]
-from = "https://photos.cao.sh/*"
-to = "https://cao.sh/photos/:splat"
-status = 301
-force = true
-
-[[redirects]]
 from = "http://www.cao.sh/*"
 to = "https://cao.sh/:splat"
 status = 301
@@ -20,4 +8,16 @@ force = true
 from = "https://www.cao.sh/*"
 to = "https://cao.sh/:splat"
 status = 301
+force = true
+
+[[redirects]]
+from = "http://photos.cao.sh/*"
+to = "/photos/:splat"
+status = 200
+force = true
+
+[[redirects]]
+from = "https://photos.cao.sh/*"
+to = "/photos/:splat"
+status = 200
 force = true
