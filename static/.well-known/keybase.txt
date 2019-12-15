@@ -4,7 +4,7 @@ https://keybase.io/dmcao
 
 I hereby claim:
 
-  * I am an admin of https://cao.st
+  * I am an admin of https://cao.sh
   * I am dmcao (https://keybase.io/dmcao) on keybase.
   * I have a public key ASCRXBBIKxXBcAFxtL2DnXuCPlh4wzMY_q-M5Qrt5SwdQgo
 
@@ -20,14 +20,14 @@ To do so, I am signing this object:
       "username": "dmcao"
     },
     "merkle_root": {
-      "ctime": 1557890497,
-      "hash": "84167c17e52eebde2b54818979e80b6c4773e484c2d51d50804b04d90a175b33eb9e30d3570730f528449b17c4f8e034de1640d5cb4b64160464e8cfcf894754",
-      "hash_meta": "b004dc7163b26523e2b306c8620a735708b3417b1826abcd81ed7bc96a53b8bc",
-      "seqno": 5374299
+      "ctime": 1576385855,
+      "hash": "1ff30bee33402cf6247bafed4ca5fea06746f65cc03356dc7692b67e1531ad235c3195c225dc1cc7ae04a8f192ef3e173df7edd27a9c61ad0a990f67d7ac0563",
+      "hash_meta": "ecb12f0e3e38a533728e7ef900c088d5054f85e57ef384912ed9060582d5e5cf",
+      "seqno": 13568723
     },
     "service": {
-      "entropy": "OeCNztJkoXaTCHhYacWHe9xc",
-      "hostname": "cao.st",
+      "entropy": "S9nFTxYq7DZktE/t4xXZHw4k",
+      "hostname": "cao.sh",
       "protocol": "https:"
     },
     "type": "web_service_binding",
@@ -35,18 +35,18 @@ To do so, I am signing this object:
   },
   "client": {
     "name": "keybase.io go client",
-    "version": "3.2.2"
+    "version": "5.0.0"
   },
-  "ctime": 1557890519,
+  "ctime": 1576385858,
   "expire_in": 504576000,
-  "prev": "d813a2525dc22eb33e3f5ac20ca5bc4566aa97a594b9290b350aaf6f4c755554",
-  "seqno": 12,
+  "prev": "92f9a805e5df3f447c424c6f5d310b16c301d331cdc7c5eef2e2000f1c3a70ca",
+  "seqno": 14,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgkVwQSCsVwXABcbS9g517gj5YeMMzGP6vjOUK7eUsHUIKp3BheWxvYWTESpcCDMQg2BOiUl3CLrM+P1rCDKW8RWaql6WUuSkLNQqvb0x1VVTEID9pJO1RN2OsJk9GU5rhIX1ULDpFoyfK04bZvxYFwH0NAgHCo3NpZ8RAPiq4q+73IBpP7csT/effE+Xq82yGuw0Cvwec3ZFdHjCTBscvdZMCBcWag7QKd1N/DwEL1V2W0LCouzBV6iIrDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAAAECHJwfyOkYPpAyluDHaVT5vZJaaxAJShcrH1iTaSo3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgkVwQSCsVwXABcbS9g517gj5YeMMzGP6vjOUK7eUsHUIKp3BheWxvYWTESpcCDsQgkvmoBeXfP0R8QkxvXTELFsMB0zHNx8Xu8uIADxw6cMrEIP/RTUMH3er/X+ygPrQAFHFqfmeGHBZHlvrsyVlZoTAcAgHCo3NpZ8RAJxyRhf7UkxOmJJk4lQ7bU1+4UUM56CU4xB4/J+ayCVT8uFb3ScGNXJwlX0Ca6lCoD4eTZnCObAP2M5JEeWv2D6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIH3wOaUY7nyivRaWUF59KL9D5AlFNp5hyyRCPY3yxsLbo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
