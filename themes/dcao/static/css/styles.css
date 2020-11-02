@@ -184,8 +184,11 @@ nav.home-nav {
 }
 
 nav.home-nav > a {
-    font-weight: bold;
     margin-right: 0.5em;
+}
+
+.ss {
+    font-weight: bold;
 }
 
 nav.site-nav > a#logo {

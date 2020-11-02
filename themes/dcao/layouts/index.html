@@ -1,31 +1,32 @@
 {{ define "header" }}
     <header class="post-header">
         <h1 class="topic">{{ .Site.Title }}</h1>
-        <nav class="home-nav">
+        <nav class="home-nav ss">
             <a href="/posts">posts</a>
             <a href="/photos">photos</a>
+            <a href="/resume.pdf">resume</a>
+        </nav>
+        <nav class="home-nav">
+            <a href="mailto:david@cao.sh">email: david@cao.sh</a>
+            <a href="https://github.com/dcao">github: @dcao</a>
+            <a href="http://keys.gnupg.net/pks/lookup?op=get&search=0xBAF82063B3C00397">gpg: baf82063b3c00397</a>
         </nav>
     </header>
 {{ end }}
 {{ define "main" }}
-    <p>this is the personal website of <strong>david cao</strong>, PL-interested computer science student at UCSD.</p>
-    <h1 class="no-num">projects</h1>
+    <p>hey!</p>
+    <p>i'm <strong>david cao</strong>, and i'm a second year undergraduate at UC San Diego with an interest in programming languages and systems. i'm currently doing research working with automated resource analysis and applying liquid types. nice to meet you!</p>
+    <p>i've worked on some other odds and ends too:</p>
+    <h3 class="no-num">open source projects</h2>
     <ul>
-        <li><a href="https://github.com/elba/elba">elba</a>: a package manager for Idris</li>
         <li><a href="https://seascape.app">seascape</a>: a smarter professor/course evaluation tool for UCSD</li>
-        <li><a href="https://github.com/dcao/wordsmith">wordsmith</a>: a smol, speedy, and extensible prose linter</li>
-        <li><a href="https://github.com/dcao/ramble">ramble</a>: a mobile org-roam companion</li>
+        <li><a href="https://seascape.app">spisbot</a>: a Discord bot made to administrate <a href="https://spis.ucsd.edu">SPIS 2020</a> virtually</li>
+        <li><a href="https://github.com/elba/elba">elba</a>: a package manager for Idris</li>
     </ul>
-    <h2 class="no-num">fun stuff</h2>
+    <h3 class="no-num">other work</h2>
     <ul>
         <li>i made a <a href="https://ucsdwushu.org">website for ucsd wushu</a></li>
-    </ul>
-    <h1 class="no-num">links</h1>
-    <ul>
-        <li>Email: <a href="mailto:david@cao.sh">david@cao.sh</a></li>
-        <li>GitHub: <a href="https://github.com/dcao">@dcao</a></li>
-        <li>sr.ht: <a href="https://git.sr.ht/~dcao">~dcao</a></li>
-        <li>GPG: <a href="http://keys.gnupg.net/pks/lookup?op=get&search=0xBAF82063B3C00397">BAF82063B3C00397</a></li>
+        <li>i also made a <a href="https://defundsfpdnow.com">website for the defund sfpd now campaign</a></li>
     </ul>
 {{ end }}
 
