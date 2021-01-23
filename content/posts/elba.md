@@ -4,6 +4,7 @@ date: 2018-08-13T00:53:02-07:00
 description: "A new package manager for Idris."
 toc: true
 categories: ["elba"]
+draft: true
 ---
 
 [Idris](https://www.idris-lang.org/) is a pretty neat language. But it doesn't have a package manager, which means managing large projects becomes a bit of a chore.
