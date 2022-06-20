@@ -1,3 +1,7 @@
+[build]
+publish = "_site"
+command = "npx @11ty/eleventy"
+
 [[redirects]]
 from = "http://www.cao.sh/*"
 to = "https://cao.sh/:splat"
