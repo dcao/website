@@ -1,7 +1,0 @@
-baseURL = "https://cao.sh"
-languageCode = "en-us"
-title = "~dcao"
-summaryLength = 24
-theme = "dcao"
-pygmentsCodeFences = true
-pygmentsUseClasses = true

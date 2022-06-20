@@ -1,9 +1,4 @@
-# david's website
+# website
 
-david cao's very own website
+my website; uses 11ty
 
-## how is this thing run?
-
-- domain registered with namecheap
-- dns, main page hosting with netlify
-- photo hosting via aws (s3, cloudfront, acm)
