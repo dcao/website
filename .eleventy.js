@@ -1,3 +1,6 @@
 module.exports = config => {
-    // no-op
+    config.addPassthroughCopy('css')
+    return {
+        passthroughFileCopy: true
+    }
 };
