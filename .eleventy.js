@@ -24,19 +24,13 @@ module.exports = config => {
         let weight = typ === "paper" || typ === "src" ? "font-bold" : "";
 
         return `
-            <li>
-                <table class="lowercase">
-                    <tr>
-                        <td class="w-20 text-gray-400 whitespace-nowrap pr-1 align-top">${time}</span> <span
-                                class="${typeColor}">${typ}</span></td>
-                        <td class="lowercase ${weight}">${item}</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td class="text-sm text-gray-400">${rest}</td>
-                    </tr>
-                </table>
-            </li>
+            <div class="lowercase flex flex-col sm:flex-row mb-3 sm:mb-0">
+                <p class="text-gray-400 whitespace-nowrap pr-1 align-top">${time} <span class="${typeColor}">${typ}</span></p>
+                <div>
+                    <p class="${weight}">${item}</p>
+                    <div class="text-sm text-gray-400">${rest}</div>
+                </div>
+            </div>
         `
     });
 
