@@ -653,11 +653,6 @@ video {
   clear: none;
 }
 
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
 .-mx-6 {
   margin-left: -1.5rem;
   margin-right: -1.5rem;
@@ -676,28 +671,12 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mt-auto {
   margin-top: auto;
 }
 
 .mb-auto {
   margin-bottom: auto;
-}
-
-.mt-8 {
-  margin-top: 2rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.mr-2 {
-  margin-right: 0.5rem;
 }
 
 .block {
@@ -740,20 +719,8 @@ video {
   display: none;
 }
 
-.h-20 {
-  height: 5rem;
-}
-
-.h-0 {
-  height: 0px;
-}
-
-.w-1\/4 {
-  width: 25%;
-}
-
-.w-4 {
-  width: 1rem;
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-20 {
@@ -770,10 +737,6 @@ video {
 
 .grow {
   flex-grow: 1;
-}
-
-.table-fixed {
-  table-layout: fixed;
 }
 
 .transform {
@@ -903,12 +866,55 @@ video {
   border-bottom-width: 1px;
 }
 
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-dotted {
+  border-style: dotted;
+}
+
 .border-double {
   border-style: double;
 }
 
 .border-hidden {
   border-style: hidden;
+}
+
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
+
+.border-zinc-50 {
+  --tw-border-opacity: 1;
+  border-color: rgb(250 250 250 / var(--tw-border-opacity));
+}
+
+.border-b-zinc-50 {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(250 250 250 / var(--tw-border-opacity));
+}
+
+.border-b-zinc-500 {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(113 113 122 / var(--tw-border-opacity));
+}
+
+.border-b-zinc-400 {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(161 161 170 / var(--tw-border-opacity));
+}
+
+.bg-slate-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
+}
+
+.bg-slate-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
 .bg-none {
@@ -937,12 +943,17 @@ video {
   background-repeat: space;
 }
 
-.pr-3 {
+.px-3 {
+  padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
 
-.pr-2 {
-  padding-right: 0.5rem;
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .pr-1 {
@@ -978,29 +989,14 @@ video {
   line-height: 2rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .font-bold {
@@ -1035,14 +1031,19 @@ video {
   font-style: normal;
 }
 
+.text-slate-200 {
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
+}
+
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-.text-gray-300 {
+.text-slate-300 {
   --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
+  color: rgb(203 213 225 / var(--tw-text-opacity));
 }
 
 .text-gray-400 {
@@ -1050,24 +1051,44 @@ video {
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
-.text-amber-600 {
+.text-teal-400 {
   --tw-text-opacity: 1;
-  color: rgb(217 119 6 / var(--tw-text-opacity));
+  color: rgb(45 212 191 / var(--tw-text-opacity));
 }
 
-.text-lime-700 {
+.text-amber-300 {
   --tw-text-opacity: 1;
-  color: rgb(77 124 15 / var(--tw-text-opacity));
+  color: rgb(252 211 77 / var(--tw-text-opacity));
 }
 
-.text-purple-700 {
+.text-purple-400 {
   --tw-text-opacity: 1;
-  color: rgb(126 34 206 / var(--tw-text-opacity));
+  color: rgb(192 132 252 / var(--tw-text-opacity));
 }
 
 .text-teal-700 {
   --tw-text-opacity: 1;
   color: rgb(15 118 110 / var(--tw-text-opacity));
+}
+
+.text-lime-400 {
+  --tw-text-opacity: 1;
+  color: rgb(163 230 53 / var(--tw-text-opacity));
+}
+
+.text-blue-200 {
+  --tw-text-opacity: 1;
+  color: rgb(191 219 254 / var(--tw-text-opacity));
+}
+
+.text-blue-300 {
+  --tw-text-opacity: 1;
+  color: rgb(147 197 253 / var(--tw-text-opacity));
+}
+
+.text-amber-400 {
+  --tw-text-opacity: 1;
+  color: rgb(251 191 36 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1162,6 +1183,14 @@ video {
   transition-duration: 150ms;
 }
 
+.delay-150 {
+  transition-delay: 150ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .\[github\:simonepri\] {
   github: simonepri;
 }
@@ -1180,6 +1209,11 @@ video {
 
 .\[k\:K\] {
   k: K;
+}
+
+.hover\:text-blue-200:hover {
+  --tw-text-opacity: 1;
+  color: rgb(191 219 254 / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px) {

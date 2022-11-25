@@ -5,49 +5,67 @@ layout: base.njk
 <style>
 </style>
 
-<div class="font-sans">
-    <h1 class="text-2xl font-bold mb-1">david minh-duy cao <span class="text-gray-500">he/him</span></h1>
-    <p class="font-bold mb-2">contact: david@cao.sh
-    <p>
-    <p>fourth year computer science/ethnic studies @ ucsd</p>
-    <p class="mb-8">hobbyist photographer/videographer</p>
+<div class="font-sans bg-slate-700 min-h-screen">
+    <div class="bg-slate-800 text-slate-200 px-3 pt-4 pb-4">
+        <h1 class="text-2xl font-bold mb-1">david minh-duy cao <span class="text-gray-500">he/him</span></h1>
+        <p class="font-bold mb-2">contact: david@cao.sh</p>
+        <p>computer science + ethnic studies @ ucsd '23</p>
+    </div>
 
-    <ul class="lowercase">
-        <li>
-            <table class="lowercase">
-                <tr>
-                    <td class="w-20 text-gray-400 whitespace-nowrap pr-1">jun 2022</span> <span
-                            class="text-purple-700">paper</span></td>
-                    <td class="lowercase font-bold">Type-Directed Program Synthesis for RESTful APIs @ pldi 22</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td class="text-sm">Zheng Guo, David Cao, Davin Tjong, Jean Yang, Cole Schlesinger, Nadia
-                        Polikarpova</td>
-                </tr>
-            </table>
-        </li>
+    <div class="px-3 pt-4 text-slate-300">
+        <ul class="lowercase">
+            <li>
+                {% homeItem "jan 2023", "paper", "babble: Learning Better Abstractions with E-Graphs and Anti-Unification" %}
+                    <p><strong>popl 2023</strong></p>
+                    <p><strong>David Cao</strong>, Rose Kunkel, Chandrakana Nandi, Max Willsey, Zachary Tatlock, Nadia Polikarpova</p>
+                {% endhomeItem %}
+            </li>
 
-        <li><span class="text-gray-400">jan 2022 - present</span> <span class="text-lime-700">position</span> campus
-            diversity engagement co-coordinator, ucsd spaces</li>
-        <li><span class="text-gray-400">2022</span> <span class="text-teal-700">project</span> <a href="https://spgatucsf.org">ucsf science policy group</a> website</li>
-        <li><span class="text-gray-400">jun 2021</span> <span class="text-amber-600">award</span> ucsd cse undergraduate
-            student honorable mention, excellence in research</li>
-        <li>
-            <table class="lowercase">
-                <tr>
-                    <td class="w-20 text-gray-400 whitespace-nowrap pr-1">jun 2022</span> <span
-                            class="text-purple-700">src</span></td>
-                    <td class="lowercase font-bold">automated dependent resource analysis @ popl 2021 src</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td class="text-sm">david cao, tristan knoth, nadia polikarpova</td>
-                </tr>
-            </table>
-        </li>
-        <li><span class="text-gray-400">2020</span> <span class="text-teal-700">project</span> <a href="https://seascape.app">seascape</a> (ucsd cape eval analysis)</li>
-        <li><span class="text-gray-400">2020</span> <span class="text-teal-700">project</span> <a href="https://ucsdwushu.org">ucsd wushu</a> website</li>
-        <li><span class="text-gray-400">2020</span> <span class="text-teal-700">project</span> <a href="https://defundsfpdnow.com">defund sfpd now</a> website</li>
-    </ul>
+            <li>
+                {% homeItem "jun 2022", "paper", "Type-Directed Program Synthesis for RESTful APIs" %}
+                    <p><strong>pldi 2022</strong></p>
+                    <p>Zheng Guo, <strong>David Cao</strong>, Davin Tjong, Jean Yang, Cole Schlesinger, Nadia Polikarpova</p>
+                {% endhomeItem %}
+            </li>
+
+            <li>
+                {% homeItem "jan 2022—present", "position", "campus diversity engagement coordinator" %}
+                    <p>ucsd spaces</p>
+                {% endhomeItem %}
+            </li>
+
+            <li>
+                {% homeItem "2022", "project", "<a class='text-blue-300 hover:text-blue-200 transition ease-in-out' href='https://www.spgatucsf.org/'><u>ucsf science policy group</u></a> website" %}
+                {% endhomeItem %}
+            </li>
+
+            <li>
+                {% homeItem "jun 2021", "award", "undergraduate excellence in research, honorable mention" %}
+                    <p>ucsd cse</p>
+                {% endhomeItem %}
+            </li>
+
+            <li>
+                {% homeItem "jan 2021", "src", "automated dependent resource analysis" %}
+                    <p><strong>popl 2021</strong> src (2nd prize)</p>
+                    <p><strong>david cao</strong>, tristan knoth, nadia polikarpova</p>
+                {% endhomeItem %}
+            </li>
+
+            <li>
+                {% homeItem "sep 2020", "project", "<a class='text-blue-300 hover:text-blue-200 transition ease-in-out' href='https://seascape.app'><u>seascape</u></a> (ucsd cape eval analysis)" %}
+                {% endhomeItem %}
+            </li>
+
+            <li>
+                {% homeItem "jun 2020", "project", "<a class='text-blue-300 hover:text-blue-200 transition ease-in-out' href='https://wushu.ucsd.edu'><u>ucsd wushu</u></a> website" %}
+                {% endhomeItem %}
+            </li>
+
+            <li>
+                {% homeItem "jun 2020", "project", "<a class='text-blue-300 hover:text-blue-200 transition ease-in-out' href='https://defundsfpdnow.com'><u>defund sfpd now</u></a> website" %}
+                {% endhomeItem %}
+            </li>
+        </ul>
+    </div>
 </div>
