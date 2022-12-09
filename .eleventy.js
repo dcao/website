@@ -1,6 +1,7 @@
 module.exports = config => {
     config.addPassthroughCopy('css');
     config.addPassthroughCopy('img');
+    config.addPassthroughCopy('static');
 
     config.addPairedShortcode("homeItem", function(rest, time, typ, item) {
         let typeColor;
