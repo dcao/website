@@ -17,15 +17,15 @@ layout: base.njk
     </div>
 
     <div class="px-3 pt-4 text-slate-300">
-        <p class="mb-6">it's my website! still very much under construction, please mind the mess :))</p>
-
-        <h1 class="font-bold text-xl mb-2">everything i've done</h1>
-
         <ul class="lowercase">
             {% homeItem "jan 2023", "paper", "babble: Learning Better Abstractions with E-Graphs and Anti-Unification" %}
                 <p><strong>popl 2023</strong></p>
                 <p><strong>David Cao*</strong>, Rose Kunkel*, Chandrakana Nandi, Max Willsey, Zachary Tatlock, Nadia Polikarpova</p>
                 <p class="text-xs">*equal contribution</p>
+            {% endhomeItem %}
+
+            {% homeItem "jan 2023", "award", "outstanding undergraduate researcher finalist" %}
+                <p>computing research association</p>
             {% endhomeItem %}
 
             {% homeItem "jun 2022", "paper", "Type-Directed Program Synthesis for RESTful APIs" %}
@@ -40,7 +40,7 @@ layout: base.njk
             {% homeItem "2022", "project", "<a class='text-blue-300 hover:text-blue-200 transition ease-in-out' href='https://www.spgatucsf.org/'><u>ucsf science policy group</u></a> website" %}
             {% endhomeItem %}
 
-            {% homeItem "jun 2021", "award", "undergraduate excellence in research, honorable mention" %}
+            {% homeItem "jun 2021", "award", "undergraduate excellence in research honorable mention" %}
                 <p>ucsd cse</p>
             {% endhomeItem %}
 
