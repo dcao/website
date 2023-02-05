@@ -692,12 +692,12 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mt-auto {
@@ -980,6 +980,11 @@ video {
   border-color: rgb(51 65 85 / var(--tw-border-opacity));
 }
 
+.border-slate-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(100 116 139 / var(--tw-border-opacity));
+}
+
 .bg-slate-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(51 65 85 / var(--tw-bg-opacity));
@@ -1249,6 +1254,10 @@ video {
 
 .text-slate-300\/90 {
   color: rgb(203 213 225 / 0.9);
+}
+
+.text-teal-200\/80 {
+  color: rgb(153 246 228 / 0.8);
 }
 
 .text-pink-300\/80 {
