@@ -829,24 +829,9 @@ video {
           user-select: auto;
 }
 
-.columns-md {
-  -moz-columns: 28rem;
-       columns: 28rem;
-}
-
 .columns-sm {
   -moz-columns: 24rem;
        columns: 24rem;
-}
-
-.columns-xs {
-  -moz-columns: 20rem;
-       columns: 20rem;
-}
-
-.columns-2xs {
-  -moz-columns: 18rem;
-       columns: 18rem;
 }
 
 .grid-flow-dense {
@@ -1433,10 +1418,6 @@ video {
     margin-bottom: 0px;
   }
 
-  .sm\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1449,10 +1430,6 @@ video {
 @media (min-width: 768px) {
   .md\:w-48 {
     width: 12rem;
-  }
-
-  .md\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
