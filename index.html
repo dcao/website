@@ -5,59 +5,70 @@ layout: base.njk
 <style>
 </style>
 
-<div class="font-sans bg-slate-700 min-h-screen">
-    <div class="bg-slate-800 text-slate-200 px-3 pt-4 pb-4 flex">
-        <img class="w-32 md:w-48 border-4 border-slate-900" src="img/me.png" alt="a picture of me, david cao!">
-        <div class="pl-3">
-            <h1 class="text-2xl font-bold mb-1">david minh-duy cao</h1>
-            <p class="uppercase tracking-widest text-sm">computer science & ethnic studies, uc san diego</p>
-            <p class="mb-3">he/him</p>
-            <p class="font-mono">david@cao.sh</p>
+<div class="font-sans bg-slate-900 min-h-screen">
+    <div class="bg-slate-800 text-slate-300 pt-4 pb-4">
+        <div class="w-full max-w-3xl mx-auto px-3 flex flex-col items-center sm:flex-row sm:items-start">
+            <div class="flex-grow flex flex-col items-center sm:items-start">
+                <h1 class="text-2xl font-bold mb-1">david minh-duy cao</h1>
+                <p class="uppercase text-center tracking-widest text-sm">computer science & ethnic studies</p>
+                <p class="uppercase tracking-widest text-sm">uc san diego</p>
+                <p class="mb-3">he/him</p>
+                <p class="font-mono">david@cao.sh</p>
+            </div>
+            <img class="w-48 border-4 border-slate-600 mt-4 sm:mt-0" src="img/me.png" alt="a picture of me, david cao!">
         </div>
     </div>
 
-    <div class="px-3 pt-4 text-slate-300">
-        <ul class="lowercase">
-            {% homeItem "jan 2023", "paper", "babble: Learning Better Abstractions with E-Graphs and Anti-Unification" %}
-                <p><strong>popl 2023</strong></p>
-                <p><strong>David Cao*</strong>, Rose Kunkel*, Chandrakana Nandi, Max Willsey, Zachary Tatlock, Nadia Polikarpova</p>
-                <p class="text-xs">*equal contribution</p>
-            {% endhomeItem %}
+    <div class="bg-slate-700 text-slate-300">
+        <div class="w-full max-w-3xl mx-auto px-3 py-3 flex items-center flex-col sm:flex-row">
+            <span class="text-slate-300/60 uppercase tracking-widest text-xs pr-2">show me:</span>
+            <div class="pt-3 sm:pt-0 flex items-center justify-center flex-wrap">
+                <a class="px-2 py-1 rounded bg-teal-400/20 medium transition hover:bg-teal-400/40 hover:text-slate-200 mr-1 mt-2 sm:mt-0" href="#research">Research</a>
+                <a class="px-2 py-1 rounded bg-teal-400/20 medium transition hover:bg-teal-400/40 hover:text-slate-200 mr-1 mt-2 sm:mt-0" href="#service">Service</a>
+                <a class="px-2 py-1 rounded bg-orange-400/20 medium transition hover:bg-orange-400/40 hover:text-slate-200 mr-1 whitespace-nowrap mt-2 sm:mt-0" href="/av">Photo/Video Portfolio &#8599;</a>
+                <a class="px-2 py-1 rounded bg-teal-400/20 medium transition hover:bg-teal-400/40 hover:text-slate-200 mr-1 mt-2 sm:mt-0" href="#projects">Projects</a>
+            </div>
+        </div>
+    </div>
 
-            {% homeItem "jan 2023", "award", "outstanding undergraduate researcher finalist" %}
-                <p>computing research association</p>
-            {% endhomeItem %}
+    <div class="px-3 pt-6 text-slate-300/75 max-w-3xl mx-auto">
+        <p class="text-lg text-slate-300">
+            heyo! I'm David, a fourth year undergrad at UC San Diego interested in the intersection of PL, HCI, and social justice.
+        </p>
 
-            {% homeItem "jun 2022", "paper", "Type-Directed Program Synthesis for RESTful APIs" %}
-                <p><strong>pldi 2022</strong></p>
-                <p>Zheng Guo, <strong>David Cao</strong>, Davin Tjong, Jean Yang, Cole Schlesinger, Nadia Polikarpova</p>
-            {% endhomeItem %}
+        <h2 class="text-xl mt-10 mb-3 font-semibold text-slate-300" id="research">Research</h2>
+        <div class="rounded border border-purple-300/40 p-3 mb-2">
+            <p class="uppercase text-sm tracking-wider font-medium text-purple-200/70">Principles of Programming Languages (POPL) 2023</p>
+            <h2 class="font-bold text-lg mb-1 mt-1 text-slate-300">babble: Learning Better Abstractions with E-Graphs and Anti-Unification</h2>
+            <p class="mb-3 text-sm"><strong>David Cao*</strong>, Rose Kunkel*, Chandrakana Nandi, Max Willsey, Zachary Tatlock, Nadia Polikarpova</p>
+            <p class="text-slate-300/90">Humans are really good at <em>library learning</em>: finding common patterns in code and extracting them into a library of common abstractions. This problem has a bunch of use cases across FPGA design, program synthesis, and modeling human perception. So how can we get a computer to do this?</p>
+            <p class="mt-1 mb-6 text-slate-300/90">Building off of prior work in library learning and e-graphs, we contribute new algorithms for proposing candidate abstractions and choosing the best set. We improve on the prior state-of-the-art in compression and speed by several orders of magnitude!</p>
 
-            {% homeItem "jan 2022—present", "position", "campus diversity engagement coordinator" %}
-                <p>ucsd spaces</p>
-            {% endhomeItem %}
+            <a class="transition rounded px-2 py-1 bg-purple-400/20 hover:bg-purple-400/40 hover:text-slate-200" href="https://dl.acm.org/doi/10.1145/3571207">Paper</a>
+            <a class="transition rounded px-2 py-1 bg-purple-400/20 hover:bg-purple-400/40 hover:text-slate-200" href="/static/babble popl.key">Slides (.key)</a>
+            <a class="transition rounded px-2 py-1 bg-purple-400/20 hover:bg-purple-400/40 hover:text-slate-200" href="https://github.com/dcao/babble">Code (Github)</a>
+        </div>
+        
+        <div class="rounded border border-purple-300/40 p-3 mb-2">
+            <p class="uppercase text-sm tracking-wider font-medium text-purple-200/70">Programming Language Design and Implementation (PLDI) 2022 </p>
+            <h2 class="font-bold text-lg mb-1 mt-1 text-slate-300">Type-Directed Program Synthesis for RESTful APIs</h2>
+            <p class="mb-3 text-sm">Zheng Guo, <strong>David Cao</strong>, Davin Tjong, Jean Yang, Cole Schlesinger, Nadia Polikarpova</p>
+            <p class="text-slate-300/90 mb-6">Interacting with REST APIs can often be extremely unwieldy; APIs can have hundreds of methods, and may or may not be documented. We propose a system that can synthesize programs that call into REST APIs.</p>
 
-            {% homeItem "2022", "project", "<a class='text-blue-300 hover:text-blue-200 transition ease-in-out' href='https://www.spgatucsf.org/'><u>ucsf science policy group</u></a> website" %}
-            {% endhomeItem %}
+            <a class="transition rounded px-2 py-1 bg-purple-400/20 hover:bg-purple-400/40 hover:text-slate-200" href="https://dl.acm.org/doi/10.1145/3519939.3523450">Paper</a>
+        </div>
 
-            {% homeItem "jun 2021", "award", "undergraduate excellence in research honorable mention" %}
-                <p>ucsd cse</p>
-            {% endhomeItem %}
+        <div class="rounded border border-purple-300/40 p-3 mb-2">
+            <p class="uppercase text-sm tracking-wider font-medium text-purple-200/70">POPL 2021 • Student Research Competition, 2nd Prize</p>
+            <h2 class="font-bold text-lg mb-1 mt-1 text-slate-300">Automated Dependent Resource Analysis</h2>
+            <p class="mb-3 text-sm"><strong>David Cao</strong>, advised by Tristan Knoth and Nadia Polikarpova</p>
+            <p class="text-slate-300/90 mb-6">When programming, it's useful to know the resource use of a program (in undergrad we take whole courses on this!). We contribute a system that can automatically infer resource bounds that can depend on the inputs of a program.</p>
 
-            {% homeItem "jan 2021", "src", "automated dependent resource analysis" %}
-                <p><strong>popl 2021</strong> src (2nd prize)</p>
-                <p><strong>david cao</strong>, tristan knoth, nadia polikarpova</p>
-            {% endhomeItem %}
+            <a class="transition rounded px-2 py-1 bg-purple-400/20 hover:bg-purple-400/40 hover:text-slate-200" href="/static/popl_21_src.pdf">Abstract</a>
+            <a class="transition rounded px-2 py-1 bg-purple-400/20 hover:bg-purple-400/40 hover:text-slate-200" href="https://vimeo.com/503234893">Virtual poster (video)</a>
+        </div>
 
-            {% homeItem "sep 2020", "project", "<a class='text-blue-300 hover:text-blue-200 transition ease-in-out' href='https://seascape.app'><u>seascape</u></a> (ucsd cape eval analysis)" %}
-            {% endhomeItem %}
-
-            {% homeItem "jun 2020", "project", "<a class='text-blue-300 hover:text-blue-200 transition ease-in-out' href='https://wushu.ucsd.edu'><u>ucsd wushu</u></a> website" %}
-            {% endhomeItem %}
-
-            {% homeItem "jun 2020", "project", "<a class='text-blue-300 hover:text-blue-200 transition ease-in-out' href='https://defundsfpdnow.com'><u>defund sfpd now</u></a> website" %}
-            {% endhomeItem %}
-
+        <ul>
             <!-- this is just here so tailwind can recognize these classes -->
             <div class="hidden lowercase font-bold flex flex-col sm:flex-row mb-3 sm:mb-0">
                 <p class="text-gray-400 whitespace-nowrap pr-1 align-top">${time} <span class="text-lime-400 text-purple-400 text-teal-400 text-amber-400 text-gray-400">${typ}</span></p>
@@ -67,5 +78,92 @@ layout: base.njk
                 </div>
             </div>
         </ul>
+
+        <h3 class="text-sm tracking-wider uppercase text-slate-200/80 font-bold mt-8 mb-3">Awards</h3>
+        <div>
+            <div class="flex flex-col sm:flex-row mb-1">
+                <p class="w-full sm:w-1/6">January 2023</p>
+                <div class="w-5/6 text-slate-300">
+                    <p>Outstanding Undergraduate Researcher Finalist</p>
+                    <p class="text-sm text-slate-300/90">Computing Research Association</p>
+                </div>
+            </div>
+            <div class="flex flex-col sm:flex-row">
+                <p class="w-full sm:w-1/6">June 2021</p>
+                <div class="w-full sm:w-5/6 text-slate-300">
+                    <p>Undergraduate Excellence in Research Honorable Mention</p>
+                    <p class="text-sm text-slate-300/90">UCSD CSE</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="text-xl mb-3 mt-10 font-semibold text-slate-300" id="service">Service</h2>
+        <div class="rounded border border-lime-300/40 p-3 mb-2">
+            <p class="uppercase text-sm tracking-wider font-medium text-lime-200/70">January 2022–Present</p>
+            <h2 class="font-bold text-lg mb-1 mt-1 text-slate-300">Campus Diversity Engagement Coordinator</h2>
+            <p class="mb-3 text-sm">SPACES at UC San Diego</p>
+            <p class="text-slate-300/90 mb-6">
+                SPACES is one of the last student-run, student-led college resource centers in the country, aimed at improving marginalized folks in San Diego's access to and retention in higher education.
+                I've helped give <em>Alternative Tours & Panels</em> to hundreds of local high school and college students, which examine the ungarnished history of student activism and organizing here at UCSD.
+            </p>
+
+            <a class="transition rounded px-2 py-1 bg-lime-400/20 hover:bg-lime-400/40 hover:text-slate-200" href="https://spaces.ucsd.edu/">SPACES Website</a>
+        </div>
+
+        <h2 class="text-xl mb-3 mt-10 font-semibold text-slate-300" id="av">Photography & Videography</h2>
+        <!-- gray bg -->
+        <!-- marquee with scrolling images and screenshot from video -->
+        <!-- https://play.tailwindcss.com/VJvK9YXBoB?layout=horizontal -->
+    </div>
+
+    <div class="bg-neutral-800 text-neutral-300/80 py-4">
+        <div class="relative flex overflow-x-hidden">
+            <div class="flex shrink-0 animate-marquee">
+                <img class="h-60 border-4 mr-2 border-neutral-500" src="/img/home1.png">
+                <img class="h-60 border-4 mr-2 border-neutral-500" src="/img/home2.png">
+                <img class="h-60 border-4 mr-2 border-neutral-500" src="/img/DSCF2680_s.JPG">
+                <img class="h-60 border-4 mr-2 border-neutral-500" src="/img/DSCF0072.jpg">
+                <img class="h-60 border-4 mr-2 border-neutral-500" src="/img/DSCF0095_s.jpeg">
+                <img class="h-60 border-4 mr-2 border-neutral-500" src="/img/home3.png">
+                <img class="h-60 border-4 mr-2 border-neutral-500" src="/img/home1.png">
+                <img class="h-60 border-4 mr-2 border-neutral-500" src="/img/home2.png">
+                <img class="h-60 border-4 mr-2 border-neutral-500" src="/img/DSCF2680_s.JPG">
+                <img class="h-60 border-4 mr-2 border-neutral-500" src="/img/DSCF0072.jpg">
+                <img class="h-60 border-4 mr-2 border-neutral-500" src="/img/DSCF0095_s.jpeg">
+                <img class="h-60 border-4 mr-2 border-neutral-500" src="/img/home3.png">
+            </div>
+        </div>
+        <div class="mx-auto max-w-3xl px-3 mt-3">
+            <p>
+                I do photography and videography on the side too. I've had several years of macro & portraiture photography experience,
+                and I've started recording concept videos and live events for dance teams.
+            </p>
+
+            <a class="mt-4 transition duration-100 bg-teal-700 hover:bg-teal-600 text-slate-300 hover:text-white py-3 px-4 text-lg inline-block font-semibold flex rounded border-b-4 border-teal-900" href="/av"><span class="flex-grow">see full photography/videography portfolio!</span>&#8594;</a>
+        </div>
+    </div>
+
+
+    <div class="px-3 pb-6 text-slate-300/75 max-w-3xl mx-auto">
+        <h2 class="text-xl mb-3 mt-10 font-semibold text-slate-300" id="projects">Projects</h2>
+        <div class="columns-2xs">
+            <div class="rounded border border-purple-300/40 p-3 mb-2">
+                <p class="uppercase text-sm tracking-wider font-medium text-purple-200/70">2022</p>
+                <h2 class="font-bold mb-1 mt-1 text-slate-300"><a class='text-blue-300 hover:text-blue-200 transition ease-in-out' href='https://www.spgatucsf.org/'><u>UCSF Science Policy Group Website</u></a></h2>
+            </div>
+            <div class="rounded border border-purple-300/40 p-3 mb-2">
+                <p class="uppercase text-sm tracking-wider font-medium text-purple-200/70">September 2020</p>
+                <h2 class="font-bold mb-1 mt-1 text-slate-300"><a class='text-blue-300 hover:text-blue-200 transition ease-in-out' href='https://seascape.app'><u>seascape</u></a> (ucsd cape eval analysis)</h2>
+            </div>
+            <div class="rounded border border-purple-300/40 p-3 mb-2">
+                <p class="uppercase text-sm tracking-wider font-medium text-purple-200/70">June 2020</p>
+                <h2 class="font-bold mb-1 mt-1 text-slate-300"><a class='text-blue-300 hover:text-blue-200 transition ease-in-out' href='https://wushu.ucsd.edu'><u>ucsd wushu</u></a> website</h2>
+            </div>
+            <div class="rounded border border-purple-300/40 p-3 mb-2">
+                <p class="uppercase text-sm tracking-wider font-medium text-purple-200/70">June 2020</p>
+                <h2 class="font-bold mb-1 mt-1 text-slate-300"><a class='text-blue-300 hover:text-blue-200 transition ease-in-out' href='https://defundsfpdnow.com'><u>defund sfpd now</u></a> website</h2>
+            </div>
+        </div>
     </div>
 </div>
+
