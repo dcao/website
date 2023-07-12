@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+	font-family: "Space Grotesk";
+	src: url(/static/space-grotesk.ttf) format("truetype-variations");
+	font-style: normal;
+}
