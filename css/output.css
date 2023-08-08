@@ -968,16 +968,12 @@ video {
   justify-content: space-evenly;
 }
 
-.gap-6 {
-  gap: 1.5rem;
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-2 {
   gap: 0.5rem;
-}
-
-.gap-4 {
-  gap: 1rem;
 }
 
 .gap-x-4 {
@@ -1105,16 +1101,6 @@ video {
   border-color: rgb(100 116 139 / var(--tw-border-opacity));
 }
 
-.border-slate-400 {
-  --tw-border-opacity: 1;
-  border-color: rgb(148 163 184 / var(--tw-border-opacity));
-}
-
-.border-brown-400 {
-  --tw-border-opacity: 1;
-  border-color: rgb(210 186 176 / var(--tw-border-opacity));
-}
-
 .border-slate-600 {
   --tw-border-opacity: 1;
   border-color: rgb(71 85 105 / var(--tw-border-opacity));
@@ -1136,6 +1122,11 @@ video {
 .border-teal-900 {
   --tw-border-opacity: 1;
   border-color: rgb(19 78 74 / var(--tw-border-opacity));
+}
+
+.border-brown-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(210 186 176 / var(--tw-border-opacity));
 }
 
 .bg-transparent {
@@ -1353,6 +1344,10 @@ video {
   font-family: "Space Grotesk";
 }
 
+.font-serif {
+  font-family: "PP Editorial New";
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1388,9 +1383,8 @@ video {
   line-height: 1;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.font-extralight {
+  font-weight: 200;
 }
 
 .font-bold {
@@ -1407,10 +1401,6 @@ video {
 
 .font-thin {
   font-weight: 100;
-}
-
-.font-extralight {
-  font-weight: 200;
 }
 
 .uppercase {
@@ -1558,6 +1548,25 @@ video {
           text-decoration-line: underline;
 }
 
+.decoration-brown-600 {
+  -webkit-text-decoration-color: #a18072;
+          text-decoration-color: #a18072;
+}
+
+.decoration-brown-500 {
+  -webkit-text-decoration-color: #bfa094;
+          text-decoration-color: #bfa094;
+}
+
+.decoration-dotted {
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+}
+
+.decoration-4 {
+  text-decoration-thickness: 4px;
+}
+
 .mix-blend-multiply {
   mix-blend-mode: multiply;
 }
@@ -1695,6 +1704,24 @@ video {
   font-style: normal;
 }
 
+@font-face {
+  font-family: "PP Editorial New";
+
+  src: url(/static/editorial-new-ultralight-italic.ttf) format("truetype");
+
+  font-style: italic;
+
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "PP Editorial New";
+
+  src: url(/static/editorial-new-variable.ttf) format("truetype-variations");
+
+  font-style: normal;
+}
+
 .hover\:border-solid:hover {
   border-style: solid;
 }
@@ -1702,11 +1729,6 @@ video {
 .hover\:border-white:hover {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.hover\:border-slate-800:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(30 41 59 / var(--tw-border-opacity));
 }
 
 .hover\:border-brown-500:hover {
@@ -1765,6 +1787,16 @@ video {
           text-decoration-line: underline;
 }
 
+.hover\:decoration-brown-800:hover {
+  -webkit-text-decoration-color: #846358;
+          text-decoration-color: #846358;
+}
+
+.hover\:decoration-solid:hover {
+  -webkit-text-decoration-style: solid;
+          text-decoration-style: solid;
+}
+
 @media (min-width: 640px) {
   .sm\:mt-0 {
     margin-top: 0px;
@@ -1821,6 +1853,11 @@ video {
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
+
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1840,26 +1877,9 @@ video {
     justify-content: flex-end;
   }
 
-  .md\:justify-center {
-    justify-content: center;
-  }
-
-  .md\:p-0 {
-    padding: 0px;
-  }
-
   .md\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
-  }
-
-  .md\:pr-16 {
-    padding-right: 4rem;
-  }
-
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 
   .md\:text-4xl {
@@ -1867,16 +1887,9 @@ video {
     line-height: 2.5rem;
   }
 
-  .md\:leading-tight {
-    line-height: 1.25;
-  }
-
-  .md\:leading-\[3\.25rem\] {
-    line-height: 3.25rem;
-  }
-
-  .md\:leading-\[3\.35rem\] {
-    line-height: 3.35rem;
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
@@ -1885,13 +1898,9 @@ video {
     padding-right: 4rem;
   }
 
-  .lg\:text-5xl {
-    font-size: 3rem;
+  .lg\:text-6xl {
+    font-size: 3.75rem;
     line-height: 1;
-  }
-
-  .lg\:leading-\[3\.35rem\] {
-    line-height: 3.35rem;
   }
 
   .lg\:hover\:bg-blue-500:hover {

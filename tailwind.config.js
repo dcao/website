@@ -30,6 +30,7 @@ module.exports = {
         },
         fontFamily: {
             'space': ['"Space Grotesk"'],
+            'serif': ['"PP Editorial New"'],
         },
     },
     plugins: [],
