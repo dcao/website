@@ -1,7 +1,13 @@
+const { DateTime } = require("luxon");
+
 module.exports = config => {
     config.addPassthroughCopy('css');
     config.addPassthroughCopy('img');
     config.addPassthroughCopy('static');
+
+    config.addFilter("readableDate", (dateObj) => {
+        return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+    });
 
     config.addPairedShortcode("homeItem", function(rest, time, typ, item) {
         let typeColor;

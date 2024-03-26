@@ -1,5 +1,6 @@
 ---
 title: david cao
+date: Last Modified
 ---
 
 <!doctype html>
@@ -10,9 +11,42 @@ title: david cao
         <title>{{ title }}</title>
         <link rel="stylesheet" href="/css/output.css" type="text/css"/>
     </head>
-    <body>
-        <div id="content">
-            {{ content | safe }}
+    <body class="bg-keynote-100">
+        <header class="fixed h-screen w-64 py-12 px-8 text-lg flex flex-col items-start gap-y-24 shrink-0">
+            <div>
+                <a class="text-center align-middle" href="/">
+                    <span class="font-medium text-md underline underline-offset-4 decoration-2 decoration-dotted text-keynote-400 hover:decoration-solid transition align-middle">
+                        david minh-duy cao
+                    </span>
+                </a>
+            </div>
+
+            <nav class="flex flex-col items-start flex-grow text-keynote-700">
+                <a class="underline underline-offset-4 decoration-2 decoration-dotted hover:decoration-solid transition" href="/research/">research</a>
+                <a class="underline underline-offset-4 decoration-2 decoration-dotted hover:decoration-solid transition" href="/av/">creative</a>
+                <a class="underline underline-offset-4 decoration-2 decoration-dotted hover:decoration-solid transition" href="/static/cv.pdf">cv ↗</a>
+                <a class="underline underline-offset-4 decoration-2 decoration-dotted hover:decoration-solid transition" href="mailto:david@cao.sh">contact ↗</a>
+            </nav>
+
+            <p class="text-sm text-keynote-300">
+                This new version of my website is heavily under construction.
+                If you see something missing, feel free to look at
+                the <a class="underline underline-offset-4 decoration-2 decoration-dotted hover:decoration-solid transition" href="/legacy">legacy version</a> of this site.
+
+                <br />
+                <br />
+
+                Last modified <strong>{{ page.date | readableDate }}</strong>.
+            </p>
+        </header>
+
+        <div class="flex h-screen font-plex">
+            <div class="mr-8 w-64 shrink-0">
+                <!-- Purposefully empty to align with sidebar -->
+            </div>
+            <main id="content" class="w-3/4 grow">
+                {{ content | safe }}
+            </main>
         </div>
     </body>
 </html>

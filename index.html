@@ -3,61 +3,58 @@ layout: base.njk
 ---
 
 <style>
-    .bruh .b {
-        opacity: 0%;
-    }
+.landing-image:hover .tooltip {
+    display: block;
+}
 
-    .bruh:hover .a {
-        opacity: 25%;
-    }
 
-    .bruh:hover .b {
-        opacity: 100%;
-    }
+.tooltip {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+}
 </style>
 
-<header class="z-50 text-white mix-blend-difference font-space fixed top-0 bg-transparent px-2 sm:px-6 py-8 w-full flex flex-col sm:flex-row sm:justify-between">
-    <!-- <a class="bruh" href="/"><span class="transition-all a">david minh-duy</span> cao<span class="transition-all b">.sh</span></a> -->
-    <a class="text-center align-middle" href="/">
-        <span class="text-3xl align-middle pr-2">🐄</span>
-        <span class="text-md border-b-2 border-slate-500 border-dotted hover:border-solid hover:border-white transition align-middle">
-            david<span class="">@</span>cao.sh
-        </span>
-    </a>
-    <div class="tracking-wide text-md flex flex-col justify-center">
-        <ul class="flex flex-row gap-x-4 justify-center">
-            <a class="border-b-2 border-slate-500 border-dotted hover:border-solid hover:border-white transition" href="/research/">research</a>
-            <a class="border-b-2 border-slate-500 border-dotted hover:border-solid hover:border-white transition" href="/av/">creative</a>
-            <a class="border-b-2 border-slate-500 border-dotted hover:border-solid hover:border-white transition" href="/static/cv.pdf">cv <sup>↗</sup></a>
-            <a class="border-b-2 border-slate-500 border-dotted hover:border-solid hover:border-white transition" href="https://github.com/dcao">github <sup>↗</sup></a>
-        </ul>
-    </div>
-</header>
-<main class="font-serif font-extralight">
-    <div class="flex flex-col bg-cream h-screen overflow-hidden">
-        <div class="flex-grow grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-4 h-full">
-            <div class="flex justify-center align-center overflow-hidden">
-                <img class="object-cover md:min-h-full min-w-full flex-shrink-0 mix-blend-multiply" src="/img/landing2.png" />
-            </div>
-            <div class="flex flex-col p-4 text-3xl sm:text-4xl md:px-0 md:text-5xl md:justify-end lg:text-6xl lg:pr-16">
-                <p class="text-brown-500">
-                    david minh-duy cao<br/><i>he/him</i>
-                </p>
-                <p class="mt-2">
-                    david cao is an incoming phd student at uc berkeley, advised by
-                    <a class="underline decoration-dotted decoration-4 decoration-brown-600 hover:decoration-solid hover:decoration-brown-800 transition" href="https://schasins.com/">sarah e. chasins</a>, aiming to work at the intersection of computing and social justice.
-                </p>
+<div class="min-h-screen w-full relative overflow-hidden">
+    <!-- We use green for this font color so that the difference works out correctly -->
+    <h1 class="relative pt-3 font-plex text-6xl max-w-4xl z-40 mix-blend-difference">
+        <p class="font-serif text-7xl text-green-200">david minh-duy cao</p>
+        <p class="font-light text-emerald-200/75">
+            is a first-year PhD student at UC Berkeley, advised by
+            <a class="underline underline-offset-4 decoration-4 decoration-dotted hover:decoration-solid transition" href="https://schasins.com">Sarah Chasins↗</a>,
+            where he works on <a class="underline underline-offset-4 decoration-4 decoration-dotted hover:decoration-solid transition" href="/research">computing tools for social justice and self-determination.</a>
+            He is also an aspiring <a class="underline underline-offset-4 decoration-4 decoration-dotted hover:decoration-solid transition" href="/av" href="/creative">photographer, videographer, and creative.</a>
+        </p>
+    </h1>
 
-                <p class="mt-2 text-brown-500">
-                    this page is under construction. my previous website is available <a href="/legacy" class="underline decoration-dotted decoration-4 decoration-brown-500 hover:decoration-solid hover:decoration-brown-800 transition">here</a>.
-                </p>
-            </div>
+    <!-- Images -->
+    <div class="">
+        <div class="landing-image">
+            <img class="absolute bottom-0 w-96 z-10" src="/img/IMG_0007.jpg" alt="a picture of me circa november 2023!">
+            <span class="tooltip font-serif ml-[-18rem] w-64 px-2 py-1 bg-keynote-800 text-keynote-300">a picture of me circa november 2023!</span>
+        </div>
+
+        <a href="/av" class="landing-image">
+            <img class="absolute bottom-[12rem] left-[18rem] w-[32rem] z-10" src="/img/home1.png" alt="a picture of me circa november 2023!">
+            <span class="tooltip font-serif ml-[-18rem] w-64 px-2 py-1 bg-keynote-800 text-keynote-300">an excerpt of a video i filmed for sleepless collective, a collegiate dance team.</span>
+        </div>
+
+        <a href="/av" class="landing-image">
+            <img class="absolute bottom-[1rem] left-[42rem] w-[32rem] z-0" src="/img/home3.png" alt="a picture of me circa november 2023!">
+            <span class="tooltip font-serif ml-[-18rem] w-64 px-2 py-1 bg-keynote-800 text-keynote-300">an excerpt from footage of homegrown, a collegiate freestyle dance battle series hosted at uc san diego.</span>
         </div>
     </div>
-    <!--
-        <hr />
-        <div class="bg-cream h-screen px-6 py-32 sm:py-24">
-            <h1 class="text-lg">Photo & Video</h1>
-        </div>
-    -->
-</main>
+</div>
+
+<script>
+var tooltip = document.querySelectorAll('.tooltip');
+
+document.addEventListener('mousemove', fn, false);
+
+function fn(e) {
+    for (var i=tooltip.length; i--;) {
+        tooltip[i].style.left = e.pageX + 'px';
+        tooltip[i].style.top = e.pageY + 'px';
+    }
+}
+</script>
