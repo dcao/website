@@ -1,0 +1,17 @@
+---
+layout: base.njk
+---
+
+<style>
+</style>
+
+<div class="py-12">
+    <header class="font-serif font-extralight text-6xl mr-4 pb-10">
+        <h1 class="text-keynote-700">{{ title }} <span class="text-keynote-400">{{ date | readableDate("LLL yyyy") }}</span></h1>
+        <h1></h1>
+    </header>
+
+    <div>
+        {{ content | safe }}
+    </div>
+</div>

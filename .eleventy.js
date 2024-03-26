@@ -1,12 +1,14 @@
 const { DateTime } = require("luxon");
+const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 
 module.exports = config => {
     config.addPassthroughCopy('css');
     config.addPassthroughCopy('img');
     config.addPassthroughCopy('static');
 
-    config.addFilter("readableDate", (dateObj) => {
-        return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+    config.addFilter("readableDate", (dateObj, format, zone) => {
+        // Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
+        return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "LLL dd, yyyy");
     });
 
     config.addPairedShortcode("homeItem", function(rest, time, typ, item) {
@@ -40,6 +42,27 @@ module.exports = config => {
                 </div>
             </div>
         `
+    });
+
+    config.addPlugin(eleventyImageTransformPlugin, {
+        // which file extensions to process
+        // extensions: "html,md,njk",
+        extensions: "html",
+
+        // Add any other Image utility options here:
+
+        // optional, output image formats
+        // formats: ["webp", "jpeg"],
+        // formats: ["auto"],
+
+        // optional, output image widths
+        // widths: ["auto"],
+
+        // optional, attributes assigned on <img> override these values.
+        defaultAttributes: {
+            loading: "lazy",
+            decoding: "async"
+        }
     });
 
     return {
