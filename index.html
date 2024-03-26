@@ -3,7 +3,7 @@ layout: base.njk
 ---
 
 <style>
-.landing-image:hover .tooltip {
+.tooltip-cont:hover .tooltip {
     display: block;
 }
 
@@ -18,29 +18,30 @@ layout: base.njk
 <div class="min-h-screen w-full overflow-hidden relative">
     <!-- We use green for this font color so that the difference works out correctly -->
     <h1 class="pt-3 font-plex text-6xl max-w-4xl z-40">
-        <p class="font-serif text-7xl text-keynote-800">david minh-duy cao</p>
+        <p class="font-serif font-light text-7xl text-keynote-800 tooltip-cont">
+            david minh-duy cao
+            <span class="tooltip text-base font-serif ml-[-18rem] w-64 px-2 py-1 bg-keynote-800 text-keynote-300">in professional contexts, please lowercase my name!</span>
+        </p>
         <p class="font-light text-keynote-600">
-            is a first-year PhD student at UC Berkeley, advised by
-            <a class="underline underline-offset-4 decoration-4 decoration-dotted hover:decoration-solid transition" href="https://schasins.com">Sarah Chasins↗</a>,
-            where he works on <a class="underline underline-offset-4 decoration-4 decoration-dotted hover:decoration-solid transition" href="/research">computing tools for social justice and self-determination.</a>
+            is a first-year PhD student at UC Berkeley, where he works on <a class="underline underline-offset-4 decoration-4 decoration-dotted hover:decoration-solid transition" href="/research">computing tools for social justice and self-determination.</a>
             He is also an aspiring <a class="underline underline-offset-4 decoration-4 decoration-dotted hover:decoration-solid transition" href="/av" href="/creative">photographer, videographer, and creative.</a>
         </p>
     </h1>
 
     <!-- Images -->
     <div class="pt-36">
-        <div class="landing-image">
+        <div class="tooltip-cont">
             <!-- Don't absolute position to establish height of the page -->
             <img class="bottom-0 w-96 z-10" src="/img/IMG_0007.jpg" alt="a picture of me circa november 2023!">
             <span class="tooltip font-serif ml-[-18rem] w-64 px-2 py-1 bg-keynote-800 text-keynote-300">a picture of me circa november 2023!</span>
         </div>
 
-        <a href="/av" class="landing-image">
+        <a href="/av" class="tooltip-cont">
             <img class="absolute bottom-[12rem] left-[18rem] w-[32rem] z-10" src="/img/home1.png" alt="a picture of me circa november 2023!">
             <span class="tooltip font-serif ml-[-18rem] w-64 px-2 py-1 bg-keynote-800 text-keynote-300">an excerpt of a video i filmed for sleepless collective, a collegiate dance team.</span>
         </a>
 
-        <a href="/av" class="landing-image">
+        <a href="/av" class="tooltip-cont">
             <img class="absolute bottom-[1rem] left-[42rem] w-[32rem] z-20" src="/img/home3.png" alt="a picture of me circa november 2023!">
             <span class="tooltip font-serif ml-[-18rem] w-64 px-2 py-1 bg-keynote-800 text-keynote-300">an excerpt from footage of homegrown, a collegiate freestyle dance battle series hosted at uc san diego.</span>
         </a>
