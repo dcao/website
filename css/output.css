@@ -717,6 +717,10 @@ video {
   left: 24rem;
 }
 
+.bottom-\[0\] {
+  bottom: 0;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -735,6 +739,10 @@ video {
 
 .z-10 {
   z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
 }
 
 .order-last {
@@ -1491,6 +1499,18 @@ video {
 
 .pr-12 {
   padding-right: 3rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.pt-36 {
+  padding-top: 9rem;
 }
 
 .text-center {
