@@ -56,7 +56,7 @@ module.exports = config => {
         // formats: ["auto"],
 
         // optional, output image widths
-        // widths: ["auto"],
+        widths: ["auto"],
 
         // optional, attributes assigned on <img> override these values.
         defaultAttributes: {

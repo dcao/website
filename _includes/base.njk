@@ -11,7 +11,7 @@ date: Last Modified
         <link rel="stylesheet" href="/css/output.css" type="text/css"/>
     </head>
     <body class="bg-keynote-100">
-        <header class="font-plex fixed h-screen w-64 py-12 px-8 text-lg flex flex-col items-start gap-y-24 shrink-0">
+        <header class="font-plex md:fixed md:h-screen md:w-64 md:py-12 py-8 md:px-8 px-6 text-lg flex flex-col items-start md:gap-y-24">
             <div>
                 <a class="text-center align-middle" href="/">
                     <span class="font-medium text-md underline underline-offset-4 decoration-2 decoration-dotted text-keynote-400 hover:decoration-solid transition align-middle">
@@ -27,7 +27,7 @@ date: Last Modified
                 <a class="underline underline-offset-4 decoration-2 decoration-dotted hover:decoration-solid transition" href="mailto:david@cao.sh">contact ↗</a>
             </nav>
 
-            <p class="text-sm text-keynote-300">
+            <p class="hidden md:block text-sm text-keynote-300">
                 This new version of my website is heavily under construction.
                 If you see something missing, feel free to look at
                 the <a class="underline underline-offset-4 decoration-2 decoration-dotted hover:decoration-solid transition" href="/legacy">legacy version</a> of this site.
@@ -39,11 +39,11 @@ date: Last Modified
             </p>
         </header>
 
-        <div class="flex h-screen font-plex">
-            <div class="mr-8 w-64 shrink-0">
+        <div class="flex min-h-screen font-plex">
+            <div class="hidden md:block mr-8 w-64 shrink-0">
                 <!-- Purposefully empty to align with sidebar -->
             </div>
-            <main id="content" class="w-3/4 grow">
+            <main id="content" class="mx-6 md:mx-0 w-3/4 grow">
                 {{ content | safe }}
             </main>
         </div>
