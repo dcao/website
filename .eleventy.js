@@ -44,6 +44,11 @@ module.exports = config => {
         `
     });
 
+    config.setFrontMatterParsingOptions({
+        description: true,
+        category: true,
+    });
+
     config.addPlugin(eleventyImageTransformPlugin, {
         // which file extensions to process
         // extensions: "html,md,njk",
