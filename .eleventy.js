@@ -47,6 +47,7 @@ module.exports = config => {
     config.setFrontMatterParsingOptions({
         description: true,
         category: true,
+        end: true,
     });
 
     config.addPlugin(eleventyImageTransformPlugin, {

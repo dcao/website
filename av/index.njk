@@ -16,11 +16,11 @@ title: creative
                         {% if post.data.cover %}
                             <img class="hover:filter hover:brightness-50 transition" alt="{{ post.data.alt or "" }}" src="{{ post.data.cover }}">
                             <p class="font-serif font-extralight text-keynote-100 p-4 absolute top-0 left-0">
-                                {{ post.data.title }} <span class="text-keynote-300">{{ post.date | readableDate("LLL yyyy") }}</span>
+                                {{ post.data.title }}
                             </p>
                         {% else %}
                             <p class="font-serif font-extralight text-keynote-100 p-4 pb-32 bg-keynote-800 hover:bg-keynote-900 transition">
-                                {{ post.data.title }} <span class="text-keynote-300">{{ post.date | readableDate("LLL yyyy") }}</span>
+                                {{ post.data.title }}
                             </p>
                         {% endif %}
                     </a>

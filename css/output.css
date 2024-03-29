@@ -637,22 +637,6 @@ video {
   left: 42rem;
 }
 
-.bottom-1\/4 {
-  bottom: 25%;
-}
-
-.left-1\/4 {
-  left: 25%;
-}
-
-.bottom-\[5\%\] {
-  bottom: 5%;
-}
-
-.left-1\/2 {
-  left: 50%;
-}
-
 .top-0 {
   top: 0px;
 }
@@ -869,12 +853,6 @@ video {
   aspect-ratio: 1 / 1;
 }
 
-.h-fit {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
@@ -885,10 +863,6 @@ video {
 
 .w-64 {
   width: 16rem;
-}
-
-.w-96 {
-  width: 24rem;
 }
 
 .w-\[32rem\] {
@@ -907,24 +881,12 @@ video {
   width: 75%;
 }
 
-.w-1\/3 {
-  width: 33.333333%;
-}
-
-.w-2\/5 {
-  width: 40%;
-}
-
 .max-w-4xl {
   max-width: 56rem;
 }
 
 .max-w-3xl {
   max-width: 48rem;
-}
-
-.max-w-2xl {
-  max-width: 42rem;
 }
 
 .max-w-prose {
@@ -1393,12 +1355,12 @@ video {
   padding-bottom: 2.5rem;
 }
 
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
-
 .pb-32 {
   padding-bottom: 8rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
 .text-center {
@@ -1623,6 +1585,11 @@ video {
   color: rgb(136 119 161 / var(--tw-text-opacity));
 }
 
+.text-keynote-100 {
+  --tw-text-opacity: 1;
+  color: rgb(250 241 255 / var(--tw-text-opacity));
+}
+
 .text-slate-500 {
   --tw-text-opacity: 1;
   color: rgb(100 116 139 / var(--tw-text-opacity));
@@ -1656,11 +1623,6 @@ video {
 .text-neutral-100 {
   --tw-text-opacity: 1;
   color: rgb(245 245 245 / var(--tw-text-opacity));
-}
-
-.text-keynote-100 {
-  --tw-text-opacity: 1;
-  color: rgb(250 241 255 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1983,6 +1945,11 @@ video {
   background-color: rgb(163 230 53 / 0.4);
 }
 
+.hover\:bg-keynote-900:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(25 0 69 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-teal-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(13 148 136 / var(--tw-bg-opacity));
@@ -1991,11 +1958,6 @@ video {
 .hover\:bg-slate-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(71 85 105 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-keynote-900:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(25 0 69 / var(--tw-bg-opacity));
 }
 
 .hover\:text-slate-200:hover {
@@ -2080,16 +2042,16 @@ video {
     margin-right: 0px;
   }
 
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
   .md\:ml-\[-18rem\] {
     margin-left: -18rem;
   }
 
   .md\:mr-8 {
     margin-right: 2rem;
-  }
-
-  .md\:mt-0 {
-    margin-top: 0px;
   }
 
   .md\:block {
@@ -2100,12 +2062,12 @@ video {
     height: 100vh;
   }
 
-  .md\:w-64 {
-    width: 16rem;
-  }
-
   .md\:w-96 {
     width: 24rem;
+  }
+
+  .md\:w-64 {
+    width: 16rem;
   }
 
   .md\:gap-y-24 {
