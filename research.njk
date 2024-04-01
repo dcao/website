@@ -1,0 +1,110 @@
+---
+layout: base.njk
+title: research
+---
+
+<div class="py-12">
+    <h1 class="font-serif font-extralight text-6xl pb-8 text-keynote-800">Research</h1>
+    <div class="text-2xl max-w-3xl text-keynote-600 pb-16">
+        <p>
+            I am currently a first-year PhD student in the Computer Science program, advised by Prof. 
+            <a class="underline underline-offset-4 decoration-2 decoration-dotted hover:decoration-solid transition" href="https://schasins.com">Sarah E. Chasins↗</a>
+            as a part of
+            <a class="underline underline-offset-4 decoration-2 decoration-dotted hover:decoration-solid transition" href="https://plait-lab.org">PLAIT Lab↗</a>.
+        </p>
+        <p class="pt-3">
+            My research seeks to offer concrete interventions at the intersection of computing and social justice. How can we build computing and programming tools that <span class="underline decoration-wavy">support marginalized communities' visions of self-determination, thriving, and joy?</span>
+        </p>
+    </div>
+
+    <div class="max-w-3xl pb-8">
+        <p class="font-bold text-2xl text-keynote-700 pb-1">Recent news</p>
+        <ul class="table border-spacing-x-4 border-spacing-y-3 ml-[-1rem] text-keynote-700 text-lg">
+            <li class="table-row">
+                <time class="table-cell font-italic text-keynote-400 whitespace-nowrap">Sept. 2023</time>
+                <p class="table-cell">
+                    I became a fellow of the
+                    <a class="underline underline-offset-4 decoration-2 decoration-dotted hover:decoration-solid transition font-medium" href="https://bids.berkeley.edu/computational-research-equity-legal-system-training-program-crels">Computational Research for Equity in the Legal System (CRELS) ↗</a>
+                    training program.
+                </p>
+            </li>
+            <li class="table-row">
+                <time class="table-cell font-italic text-keynote-400 whitespace-nowrap">Aug. 2023</time>
+                <p class="table-cell">
+                    I began as a Computer Science PhD student at UC Berkeley, supported under the <span class="font-medium">Chancellor's Fellowship</span>.
+                </p>
+            </li>
+            <li class="table-row">
+                <time class="table-cell font-italic text-keynote-400 whitespace-nowrap">Jan. 2023</time>
+                <p class="table-cell">
+                    I received the
+                    <a class="underline underline-offset-4 decoration-2 decoration-dotted hover:decoration-solid transition font-medium" href="https://cra.org/about/awards/outstanding-undergraduate-researcher-award/#2023">Outstanding Undergraduate Researcher Finalist ↗</a>
+                    award from the Computing Research Association.
+                </p>
+            </li>
+            <li class="table-row">
+                <time class="table-cell font-italic text-keynote-400 whitespace-nowrap">Jan. 2023</time>
+                <p class="table-cell">
+                    I presented my work on <span class="font-serif">babble</span> at POPL 2023.
+                </p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="mr-8">
+        <p class="font-bold text-2xl text-keynote-700 pb-4">Past projects</p>
+        <div class="flex flex-col gap-2 lg:gap-24 lg:flex-row text-lg mb-8">
+            <div class="lg:w-2/5 shrink-0">
+                <p class="text-keynote-700 font-medium pb-1"><span class="font-serif">babble</span>: Learning Better Abstractions with E-Graphs and Anti-Unification</p>
+                <div class="text-keynote-700 gap-2 pb-3">
+                    <a class="underline underline-offset-4 decoration-2 decoration-dotted hover:decoration-solid transition whitespace-nowrap" href="https://dl.acm.org/doi/10.1145/3571207">Paper↗</a>
+                    <a class="underline underline-offset-4 decoration-2 decoration-dotted hover:decoration-solid transition whitespace-nowrap" href="/static/babble popl.key">Slides (.key)↗</a>
+                    <a class="underline underline-offset-4 decoration-2 decoration-dotted hover:decoration-solid transition whitespace-nowrap" href="https://github.com/dcao/babble">Code (Github)↗</a>
+                </div>
+                <p class="text-keynote-500 text-base pb-1"><strong>David Cao*</strong>, Rose Kunkel*, Chandrakana Nandi, Max Willsey, Zachary Tatlock, Nadia Polikarpova</p>
+                <p class="text-keynote-500 text-base">Published at <span class="font-medium">POPL 2023</span></p>
+            </div>
+            <div class="text-keynote-700 shrink">
+                <p class="mb-1">Humans are really good at library learning: finding common patterns in code and extracting them into a library of common abstractions. This problem has a bunch of use cases across FPGA design, program synthesis, and modeling human perception. So how can we get a computer to do this?</p>
+                <p>Building off of prior work in library learning and e-graphs, we contribute new algorithms for proposing candidate abstractions and choosing the best set. We improve on the prior state-of-the-art in compression and speed by several orders of magnitude!</p>
+            </div>
+        </div>
+
+        <div class="flex flex-col gap-2 lg:gap-24 lg:flex-row text-lg mb-8">
+            <div class="lg:w-2/5 shrink-0">
+                <p class="text-keynote-700 font-medium pb-1">Type-Directed Program Synthesis for RESTful APIs</p>
+                <div class="text-keynote-700 gap-2 pb-3">
+                    <a class="underline underline-offset-4 decoration-2 decoration-dotted hover:decoration-solid transition whitespace-nowrap" href="https://dl.acm.org/doi/10.1145/3519939.3523450">Paper↗</a>
+                </div>
+                <p class="text-keynote-500 text-base pb-1">Zheng Guo, <strong>David Cao</strong>, Davin Tjong, Jean Yang, Cole Schlesinger, Nadia Polikarpova</p>
+                <p class="text-keynote-500 text-base">Published at <span class="font-medium">PLDI 2022</span></p>
+            </div>
+            <div class="text-keynote-700 shrink">
+                <p>Interacting with REST APIs can often be extremely unwieldy; APIs can have hundreds of methods, and may or may not be documented. We propose a system that can synthesize programs that call into REST APIs.</p>
+            </div>
+        </div>
+
+        <div class="flex flex-col gap-2 lg:gap-24 lg:flex-row text-lg mb-8">
+            <div class="lg:w-2/5 shrink-0">
+                <p class="text-keynote-700 font-medium pb-1">Automated Dependent Resource Analysis</p>
+                <div class="text-keynote-700 gap-2 pb-3">
+                    <a class="underline underline-offset-4 decoration-2 decoration-dotted hover:decoration-solid transition whitespace-nowrap" href="/static/popl_21_src.pdf">Abstract↗</a>
+                    <a class="underline underline-offset-4 decoration-2 decoration-dotted hover:decoration-solid transition whitespace-nowrap" href="https://vimeo.com/503234893">Virtual poster↗</a>
+                </div>
+                <p class="text-keynote-500 text-base pb-1"><strong>David Cao</strong>, advised by Tristan Knoth and Nadia Polikarpova</p>
+                <p class="text-keynote-500 text-base">Submitted to <span class="font-medium">POPL 2021 SRC</span> (2nd Prize)</p>
+            </div>
+            <div class="text-keynote-700 shrink">
+                <p>Interacting with REST APIs can often be extremely unwieldy; APIs can have hundreds of methods, and may or may not be documented. We propose a system that can synthesize programs that call into REST APIs.</p>
+            </div>
+        </div>
+
+        <!--
+        <p class="text-lg text-keynote-400 pb-4">
+            Please see the
+            <a class="underline underline-offset-4 decoration-2 decoration-dotted hover:decoration-solid transition" href="/legacy">old version of my website</a>
+            for my past research projects. This section will be updated soon!
+        </p>
+        -->
+    </div>
+</div>
