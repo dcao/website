@@ -765,12 +765,16 @@ video {
   margin-left: -1rem;
 }
 
-.mr-4 {
-  margin-right: 1rem;
-}
-
 .mr-8 {
   margin-right: 2rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
 }
 
 .mt-5 {
@@ -787,14 +791,6 @@ video {
 
 .mb-auto {
   margin-bottom: auto;
-}
-
-.mr-24 {
-  margin-right: 6rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
 }
 
 .block {
@@ -889,14 +885,6 @@ video {
   width: 75%;
 }
 
-.w-1\/4 {
-  width: 25%;
-}
-
-.w-3\/5 {
-  width: 60%;
-}
-
 .max-w-4xl {
   max-width: 56rem;
 }
@@ -911,10 +899,6 @@ video {
 
 .max-w-none {
   max-width: none;
-}
-
-.max-w-5xl {
-  max-width: 64rem;
 }
 
 .shrink-0 {
@@ -1053,31 +1037,12 @@ video {
   justify-content: space-evenly;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
 .gap-2 {
   gap: 0.5rem;
 }
 
-.gap-1 {
-  gap: 0.25rem;
-}
-
-.gap-x-24 {
-  -moz-column-gap: 6rem;
-       column-gap: 6rem;
-}
-
-.gap-x-48 {
-  -moz-column-gap: 12rem;
-       column-gap: 12rem;
-}
-
-.gap-x-36 {
-  -moz-column-gap: 9rem;
-       column-gap: 9rem;
+.gap-4 {
+  gap: 1rem;
 }
 
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1394,6 +1359,10 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1404,14 +1373,6 @@ video {
 
 .pb-5 {
   padding-bottom: 1.25rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
-}
-
-.pb-3 {
-  padding-bottom: 0.75rem;
 }
 
 .text-center {
@@ -2105,10 +2066,6 @@ video {
     margin-right: 2rem;
   }
 
-  .md\:mr-24 {
-    margin-right: 6rem;
-  }
-
   .md\:block {
     display: block;
   }
@@ -2123,26 +2080,6 @@ video {
 
   .md\:w-64 {
     width: 16rem;
-  }
-
-  .md\:w-2\/5 {
-    width: 40%;
-  }
-
-  .md\:w-3\/5 {
-    width: 60%;
-  }
-
-  .md\:flex-row {
-    flex-direction: row;
-  }
-
-  .md\:flex-col {
-    flex-direction: column;
-  }
-
-  .md\:gap-24 {
-    gap: 6rem;
   }
 
   .md\:gap-y-24 {
@@ -2175,16 +2112,8 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:mr-24 {
-    margin-right: 6rem;
-  }
-
   .lg\:w-2\/5 {
     width: 40%;
-  }
-
-  .lg\:w-3\/5 {
-    width: 60%;
   }
 
   .lg\:flex-row {
