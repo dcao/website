@@ -588,6 +588,10 @@ video {
   }
 }
 
+.static {
+  position: static;
+}
+
 .fixed {
   position: fixed;
 }
@@ -714,8 +718,16 @@ video {
   margin-top: 2rem;
 }
 
+.block {
+  display: block;
+}
+
 .inline-block {
   display: inline-block;
+}
+
+.inline {
+  display: inline;
 }
 
 .flex {
@@ -1347,6 +1359,11 @@ video {
 .text-teal-400 {
   --tw-text-opacity: 1;
   color: rgb(45 212 191 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity, 1));
 }
 
 .underline {
