@@ -152,7 +152,7 @@ layout: base-new.njk
         });
         const data = await response.json();
 
-        listening.innerText = `Listening to <span class="text-keynote-600">${data.trackName} by ${data.artist}</span>`;
+        listening.innerHTML = `Listening to <span class="text-keynote-600">${data.trackName}</span> by <span class="text-keynote-600">${data.artist}</span>`;
         // listening.href = data.url;
     };
 
