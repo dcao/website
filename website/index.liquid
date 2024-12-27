@@ -10,7 +10,7 @@ layout: base-new.njk
         <p id="last-fm">&#8195;</p>
     </div>
 
-    <p class="font-xanh text-lg lg:col-span-7 xl:w-3/4 text-keynote-700">
+    <p class="font-xanh text-lg lg:col-span-7 max-w-prose text-keynote-700">
     David is a PhD student in Computer Science at UC Berkeley, advised by
     <a class="underline hover:text-keynote-400" href="https://schasins.com">Sarah E. Chasins</a>.
     He's interested in the critical intersection of <em>computing, archival, futurity, and joy</em>.
@@ -26,7 +26,7 @@ layout: base-new.njk
 
         {% for post in collections.blog reversed %}
             <div class="grid grid-cols-1 lg:grid-cols-13 lg:gap-4">
-                <p class="lg:col-start-1 lg:col-span-6 lg:text-right text-keynote-400">{{ post.data.date | date: "%Y-%m-%d" }}</p>
+                <p class="lg:col-start-1 lg:col-span-6 lg:text-right text-keynote-400">{{ post.data.date | utcDate }}</p>
                 <div class="lg:col-start-7 lg:col-span-5">
                     <a href="{{ post.url }}" class=" underline hover:text-keynote-400">
                         {{ post.data.title }}

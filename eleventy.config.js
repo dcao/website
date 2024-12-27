@@ -9,9 +9,16 @@ export default async function(config) {
     config.addPassthroughCopy('website/img');
     config.addPassthroughCopy('website/static');
 
+    // Replace my em-dashes please
+    config.amendLibrary("md", (mdLib) => mdLib.set({ typographer: true }));
+
     config.addFilter("readableDate", (dateObj, format, zone) => {
         // Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
         return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "LLL dd, yyyy");
+    });
+
+    config.addFilter("utcDate", function(date) {
+        return date.toISOString().slice(0, 10)
     });
 
     config.addPairedShortcode("homeItem", function(rest, time, typ, item) {
