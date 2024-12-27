@@ -35,37 +35,40 @@ main {
         color: theme(colors.keynote.500);
     }
 
-    h1::before {
-        display: inline;
-        float: left;
-        position: relative;
-        width: 5vw;
-        margin-left: -6.25vw;
-        text-align: right;
 
-        content: '•';
-    }
+    @media (min-width: theme(screens.lg)) {
+        h1::before {
+            display: inline;
+            float: left;
+            position: relative;
+            width: 5vw;
+            margin-left: -6.25vw;
+            text-align: right;
 
-    h2::before {
-        display: inline;
-        float: left;
-        position: relative;
-        width: 5vw;
-        margin-left: -6.25vw;
-        text-align: right;
+            content: '•';
+        }
 
-        content: '••';
-    }
+        h2::before {
+            display: inline;
+            float: left;
+            position: relative;
+            width: 5vw;
+            margin-left: -6.25vw;
+            text-align: right;
 
-    h3::before {
-        display: inline;
-        float: left;
-        position: relative;
-        width: 5vw;
-        margin-left: -6.25vw;
-        text-align: right;
+            content: '••';
+        }
 
-        content: '•••';
+        h3::before {
+            display: inline;
+            float: left;
+            position: relative;
+            width: 5vw;
+            margin-left: -6.25vw;
+            text-align: right;
+
+            content: '•••';
+        }
     }
 
     aside, .aside {

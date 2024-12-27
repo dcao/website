@@ -1413,32 +1413,36 @@ main {
     margin-bottom: 0.35em;
     color: #8877a1;
   }
-  h1::before {
-    display: inline;
-    float: left;
-    position: relative;
-    width: 5vw;
-    margin-left: -6.25vw;
-    text-align: right;
-    content: '•';
-  }
-  h2::before {
-    display: inline;
-    float: left;
-    position: relative;
-    width: 5vw;
-    margin-left: -6.25vw;
-    text-align: right;
-    content: '••';
-  }
-  h3::before {
-    display: inline;
-    float: left;
-    position: relative;
-    width: 5vw;
-    margin-left: -6.25vw;
-    text-align: right;
-    content: '•••';
+  @media (min-width: 1024px) {
+    h1::before {
+      display: inline;
+      float: left;
+      position: relative;
+      width: 5vw;
+      margin-left: -6.25vw;
+      text-align: right;
+      content: '•';
+    }
+
+    h2::before {
+      display: inline;
+      float: left;
+      position: relative;
+      width: 5vw;
+      margin-left: -6.25vw;
+      text-align: right;
+      content: '••';
+    }
+
+    h3::before {
+      display: inline;
+      float: left;
+      position: relative;
+      width: 5vw;
+      margin-left: -6.25vw;
+      text-align: right;
+      content: '•••';
+    }
   }
   aside, .aside {
     font-size: 0.8em;
@@ -1862,11 +1866,5 @@ main {
 
   .lg\:text-right {
     text-align: right;
-  }
-}
-
-@media (min-width: 1280px) {
-  .xl\:w-3\/4 {
-    width: 75%;
   }
 }
