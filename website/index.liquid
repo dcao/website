@@ -1,97 +1,160 @@
 ---
-bareTitle: david cao
+bareTitle: David Cao
 layout: base-new.njk
 ---
 
-<div class="font-plex m-4 text-keynote-600">
-    <div class="fixed p-4 top-0 left-0 w-screen grid gap-4 grid-cols-6 mix-blend-difference text-keynote-300">
-        <div class="col-start-2 col-span-3 w-3/4">
-            <p>
-            David Minh-Duy Cao
-            </p>
-        </div>
-
-        <div class="flex flex-row gap-2">
-            <a class="underline hover:text-keynote-600" href="/static/cv.pdf">cv</a>
-            <a class="underline hover:text-keynote-600" href="mailto:david@cao.sh">david@cao.sh</a>
-        </div>
+<div class="grid gap-2 grid-cols-1 gap-8 lg:gap-4 lg:grid-cols-13 mt-12 lg:mt-16 mb-20">
+    <div class="lg:col-span-6 text-keynote-400">
+        <!-- em-width space -->
+        <p id="now">&#8195;</p>
+        <p id="last-fm">Listening to ...</p>
     </div>
 
-    <div class="grid gap-4 grid-cols-6 mt-16 mb-16">
-        <div class="col-start-2 col-span-3 w-3/4 text-keynote-700">
-            <p>
-            David is a PhD student in Computer Science at UC Berkeley, advised by
-            <a class="underline hover:text-keynote-400" href="https://schasins.com">Sarah E. Chasins</a>.
-            He works on making computing an accomplice to the work of social justice,
-            and is interested in the critical intersection of
-            <em>computing, archival, futurity, and joy</em>.
-            Previously, he was a Computer Science and Ethnic Studies student at UCSD.
-            </p>
+    <p class="font-xanh text-lg lg:col-span-7 xl:w-3/4 text-keynote-700">
+    David is a PhD student in Computer Science at UC Berkeley, advised by
+    <a class="underline hover:text-keynote-400" href="https://schasins.com">Sarah E. Chasins</a>.
+    He's interested in the critical intersection of <em>computing, archival, futurity, and joy</em>.
+    Previously, he was a Computer Science and Ethnic Studies student at UCSD.
+    </p>
+</div>
+
+<div class="flex flex-col gap-20 lg:gap-16">
+    <div class="flex flex-col gap-4 lg:gap-2">
+        <div class="grid lg:grid-cols-13 gap-4">
+            <p class="text-keynote-300 mix-blend-difference sticky lg:col-start-7">Blog</p>
         </div>
 
-        <div>
-            <div class="w-3/4">
-                <img src="/img/me.jpg" alt="A picture of me!" />
+        {% for post in collections.blog reversed %}
+            <div class="grid grid-cols-1 lg:grid-cols-13 lg:gap-4">
+                <p class="lg:col-start-1 lg:col-span-6 lg:text-right text-keynote-400">{{ post.data.date | date: "%Y-%m-%d" }}</p>
+                <div class="lg:col-start-7 lg:col-span-5">
+                    <a href="{{ post.url }}" class=" underline hover:text-keynote-400">
+                        {{ post.data.title }}
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="flex flex-col gap-4 lg:gap-2">
+        <div class="grid grid-cols-13 gap-4">
+            <p class="text-keynote-300 mix-blend-difference sticky lg:col-start-7">& Work</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-13 lg:gap-4">
+            <p class="lg:col-start-1 lg:col-span-6 lg:text-right text-keynote-400">Ongoing</p>
+            <div class="lg:col-start-7 col-span-8 lg:col-span-5">
+                <a href="https://eecs-funding.cao.sh" class=" underline hover:text-keynote-400">
+                    The EECS Graduate Funding Handbook.
+                </a>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-13 lg:gap-4">
+            <p class="lg:col-start-1 lg:col-span-6 lg:text-right text-keynote-400">2024</p>
+            <div class="lg:col-start-7 col-span-8 lg:col-span-5">
+                <a href="https://pl-notes.cao.sh" class=" underline hover:text-keynote-400">David's PL Notes.</a>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-13 lg:gap-4">
+            <p class="lg:col-start-1 lg:col-span-6 lg:text-right text-keynote-400">2023</p>
+            <div class="lg:col-start-7 col-span-8 lg:col-span-5">
+                Became fellow of the <a class="underline hover:text-keynote-400" href="https://bids.berkeley.edu/computational-research-equity-legal-system-training-program-crels">Computational Research for Equity in the Legal System</a> program.
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-13 lg:gap-4">
+            <p class="lg:col-start-1 lg:col-span-6 lg:text-right text-keynote-400">2023</p>
+            <div class="lg:col-start-7 col-span-8 lg:col-span-5">
+                Began PhD at UC Berkeley as a Chancellor's Fellow.
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-13 lg:gap-4">
+            <p class="lg:col-start-1 lg:col-span-6 lg:text-right text-keynote-400">2023</p>
+            <div class="lg:col-start-7 col-span-8 lg:col-span-5">
+                <a class="underline hover:text-keynote-400" href="https://dl-acm-org.libproxy.berkeley.edu/doi/abs/10.1145/3571207">babble</a>.
+                Published and presented at POPL 2023.
+                (<a class="underline hover:text-keynote-400" href="https://github.com/dcao/babble">code</a>, <a class="underline hover:text-keynote-400" href="https://github.com/dcao/babble">slides</a>)
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-13 lg:gap-4">
+            <p class="lg:col-start-1 lg:col-span-6 lg:text-right text-keynote-400">2023</p>
+            <div class="lg:col-start-7 col-span-8 lg:col-span-5">
+                Finalist for the <a class="underline hover:text-keynote-400" href="https://cra.org/about/awards/outstanding-undergraduate-researcher-award/#2023">Outstanding Computing Researcher</a> award.
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-13 lg:gap-4">
+            <p class="lg:col-start-1 lg:col-span-6 lg:text-right text-keynote-400">2022</p>
+            <div class="lg:col-start-7 col-span-8 lg:col-span-5">
+                <a class="underline hover:text-keynote-400" href="https://dl-acm-org.libproxy.berkeley.edu/doi/10.1145/3519939.3523450">Type-directed program synthesis for RESTful APIs</a>. Published at PLDI 2022.
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-13 lg:gap-4">
+            <p class="lg:col-start-1 lg:col-span-6 lg:text-right text-keynote-400">2022</p>
+            <div class="lg:col-start-7 col-span-8 lg:col-span-5">
+                <a class="underline hover:text-keynote-400" href="https://cao.sh/static/popl_21_src.pdf">Automated Dependent Resource Analysis</a> (<a class="underline hover:text-keynote-400" href="https://vimeo.com/503234893">virtual poster</a>). 2nd Prize at POPL 2021 SRC.
             </div>
         </div>
     </div>
 
-
-    <div class="grid gap-2 grid-cols-6 mb-16">
-        <div></div>
-        <p class="text-keynote-300 mix-blend-difference sticky col-span-5">Work</p>
-
-        <p class="text-keynote-400">Ongoing</p>
-        <a class="col-span-5 underline hover:text-keynote-400" href="https://eecs-funding.cao.sh">
-            The EECS Graduate Funding Handbook.
-        </a>
-
-        <p class="text-keynote-400">2024-09-01</p>
-        <a class="col-span-5 underline hover:text-keynote-400" href="https://pl-notes.cao.sh">David's PL Notes.</a>
-
-        <p class="text-keynote-400">2024-08-01</p>
-        <p class="col-span-5">
-        Became fellow of the <a class="underline hover:text-keynote-400" href="https://bids.berkeley.edu/computational-research-equity-legal-system-training-program-crels">Computational Research for Equity in the Legal System</a> program.
-        </p>
-
-        <p class="text-keynote-400">2023-08-15</p>
-        <p class="col-span-5">
-        Began PhD at UC Berkeley as a Chancellor's Fellow.
-        </p>
-
-        <p class="text-keynote-400">2023-01-15</p>
-        <p class="col-span-5">
-        <a class="underline hover:text-keynote-400" href="https://dl-acm-org.libproxy.berkeley.edu/doi/abs/10.1145/3571207">babble</a>.
-        Published and presented at POPL 2023.
-        (<a class="underline hover:text-keynote-400" href="https://github.com/dcao/babble">code</a>, <a class="underline hover:text-keynote-400" href="https://github.com/dcao/babble">slides</a>)
-        </p>
-
-
-        <p class="text-keynote-400">2023-01-01</p>
-        <p class="col-span-5">
-        Finalist for the <a class="underline hover:text-keynote-400" href="https://cra.org/about/awards/outstanding-undergraduate-researcher-award/#2023">Outstanding Computing Researcher</a> award.
-        </p>
-
-        <p class="text-keynote-400">2022-06-09</p>
-        <p class="col-span-5">
-        <a class="underline hover:text-keynote-400" href="https://dl-acm-org.libproxy.berkeley.edu/doi/10.1145/3519939.3523450">Type-directed program synthesis for RESTful APIs</a>. Published at PLDI 2022.
-        </p>
-
-        <p class="text-keynote-400">2022-01-21</p>
-        <p class="col-span-5">
-        <a class="underline hover:text-keynote-400" href="https://cao.sh/static/popl_21_src.pdf">Automated Dependent Resource Analysis</a> (<a class="underline hover:text-keynote-400" href="https://vimeo.com/503234893">virtual poster</a>). 2nd Prize at POPL 2021 SRC.
-        </p>
-    </div>
-
-    <div class="grid gap-2 grid-cols-6 mb-16">
-        <div></div>
-        <p class="text-keynote-300 mix-blend-difference sticky col-span-5">& Play</p>
+    <div class="flex flex-col gap-4 lg:gap-2">
+        <div class="grid grid-cols-13 gap-4">
+            <p class="text-keynote-300 mix-blend-difference sticky lg:col-start-7">& Play</p>
+        </div>
 
         {% for post in collections.av reversed %}
-            <p class="text-keynote-400">{{ post.data.date | date: "%Y-%m-%d" }}</p>
-            <a href="{{ post.url }}" class="col-span-5 underline hover:text-keynote-400">
-                {{ post.data.title }}
-            </a>
+            <div class="grid grid-cols-1 lg:grid-cols-13 lg:gap-4">
+                <p class="lg:col-start-1 lg:col-span-6 lg:text-right text-keynote-400">{{ post.data.date | date: "%Y-%m-%d" }}</p>
+                <div class="lg:col-start-7 col-span-8 lg:col-span-5">
+                    <a href="{{ post.url }}" class=" underline hover:text-keynote-400">
+                        {{ post.data.title }}
+                    </a>
+                </div>
+            </div>
         {% endfor %}
     </div>
 </div>
+
+<script>
+    // create a function to update the date and time
+    function updateDateTime() {
+        // create a new `Date` object
+        const now = new Date();
+
+        // get the current date and time as a string
+        const fmt = Intl.DateTimeFormat('en-US', {
+            timeZone: 'America/Los_Angeles',
+            hour: "numeric",
+            minute: "numeric",
+            second: "numeric",
+            hourCycle: "h12",
+        });
+        const currentDateTime = fmt.format(now);
+
+        // update the `textContent` property of the `span` element with the `id` of `datetime`
+        document.querySelector('#now').textContent = `It is ${fmt.format(now)} in Berkeley, CA`
+    }
+
+    // call the `updateDateTime` function every second
+    setInterval(updateDateTime, 1000);
+    updateDateTime();
+
+    // last.fm widget stuff
+    const loadData = async () => {
+        const listening = document.getElementById("last-fm");
+        const response = await fetch(`/.netlify/functions/lastplayed`, {
+            method: "GET",
+        });
+        const data = await response.json();
+
+        listening.innerText = `Listening to <span class="text-keynote-700">${data.trackName}</span> by ${data.artist}`;
+        // listening.href = data.url;
+    };
+
+    loadData();
+</script>

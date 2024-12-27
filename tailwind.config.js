@@ -3,6 +3,9 @@ export default {
     content: ["./website/**/*.{html,md,11ty.js,liquid,njk,hbs,mustache,ejs,haml,pug}"],
     theme: {
         extend: {
+            gridTemplateColumns: {
+                '13': 'repeat(13, minmax(0, 1fr))',
+            },
             animation: {
                 marquee: 'marquee 60s linear infinite',
             },
@@ -43,6 +46,7 @@ export default {
             'space': ['"Space Grotesk"'],
             'plex': ['"IBM Plex Sans"'],
             'serif': ['"PP Editorial New"'],
+            'xanh': ['"Xanh Mono"'],
         },
     },
     plugins: [],

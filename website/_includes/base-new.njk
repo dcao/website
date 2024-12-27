@@ -7,10 +7,26 @@ date: Last Modified
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{{ bareTitle or (title ~ " • david cao") }}</title>
+        <title>{{ bareTitle or (title ~ " • David Cao") }}</title>
         <link rel="stylesheet" href="/css/output.css" type="text/css"/>
     </head>
     <body class="bg-keynote-100">
-        {{ content | safe }}
+        <div class="font-plex m-4 text-keynote-600">
+            <div class="fixed p-4 top-0 left-0 w-screen grid gap-4 grid-cols-13 mix-blend-difference text-keynote-300">
+                <div class="col-span-9 lg:col-span-6">
+                    <p>
+                    David Minh-Duy Cao
+                    </p>
+                </div>
+
+                <div class="col-span-4 justify-end lg:justify-start flex flex-row gap-2">
+                    <a class="underline hover:text-keynote-600" href="/">Home</a>
+                    <a class="underline hover:text-keynote-600" href="/static/cv.pdf">CV</a>
+                    <a class="underline hover:text-keynote-600" href="mailto:david@cao.sh">Contact</a>
+                </div>
+            </div>
+
+            {{ content | safe }}
+        </div>
     </body>
 </html>

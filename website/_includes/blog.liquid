@@ -1,0 +1,29 @@
+---
+layout: base-new.njk
+---
+
+<style>
+main h1 {
+    font-size: 1em;
+}
+
+main p {
+    margin-bottom: 0.5em;
+}
+</style>
+
+<div class="mt-32">
+    <div class="grid gap-2 grid-cols-1 gap-8 lg:gap-4 lg:grid-cols-13">
+        <p class="text-keynote-500 font-xanh text-3xl lg:col-start-7 lg:col-span-6">{{ date | date: "%Y-%m-%d" }}</p>
+    </div>
+
+    <div class="grid gap-2 grid-cols-1 gap-8 lg:gap-4 lg:grid-cols-13">
+        <p class="font-xanh text-3xl lg:col-start-7 lg:col-span-6">{{ title }}</p>
+    </div>
+
+    <div class="grid gap-2 grid-cols-1 gap-8 lg:gap-4 lg:grid-cols-13 mt-12">
+        <main class="text-black text-lg lg:col-start-7 lg:col-span-6 max-w-prose">
+            {{ content }}
+        </main>
+    </div>
+</div>
