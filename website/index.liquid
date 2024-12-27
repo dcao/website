@@ -147,12 +147,12 @@ layout: base-new.njk
     // last.fm widget stuff
     const loadData = async () => {
         const listening = document.getElementById("last-fm");
-        const response = await fetch(`/.netlify/functions/lastplayed`, {
+        const response = await fetch(`/.netlify/functions/last-fm`, {
             method: "GET",
         });
         const data = await response.json();
 
-        listening.innerText = `Listening to <span class="text-keynote-700">${data.trackName}</span> by ${data.artist}`;
+        listening.innerText = `Listening to <span class="text-keynote-600">${data.trackName} by ${data.artist}</span>`;
         // listening.href = data.url;
     };
 
