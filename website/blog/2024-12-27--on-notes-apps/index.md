@@ -1,9 +1,16 @@
 ---
 title: On notes apps
-date: 2025-01-01
+date: 2024-12-27
 wip: true
 ---
 <!-- vim: set tw=72 wrapmargin=0 formatoptions+=t -->
+
+<aside>
+    <img src="./ss1.png" alt="A picture of my current notes system." />
+    <p class="mt-2 lg:mr-[1.15vw]">
+        A picture of my notes and tasks about this website!
+    </p>
+</aside>
 
 My early 20s have been a lot.<sup><em>[citation needed]</em></sup>
 Adjusting to moving back to the Bay, building a support network and
@@ -18,157 +25,48 @@ mundane, everyday violences of white supremacy, capitalism, and
 colonialism is a lot. Existing is fucking *hard*.
 
 In these trying times, my silly little notes apps are how I keep myself
-sane :^)
+sane. If I have a bunch of big overwhelming projects I need to work
+on, breaking them down into small, manageable, actionable tasks helps
+keep me grounded. If I have a bunch of thoughts and feelings swimming
+around in my head, writing them down somewhere gives me peace of mind
+knowing that there's somewhere I can reference them and I don't have to
+spend more brain energy keeping it in my own head.
 
-I care a lot about notes and todo list apps. I get overwhelmed and
-overstimulated *real* easily, and I need a way of keeping all my ducks
-in a row, of keeping track of all the things happening within and around
-me.
+I like to imagine my notes system like *a box*. Without a notes system,
+my obligations and thoughts feel infinite and overwhelming. But if I can
+put them all into a box, if I know exactly what I need to do and when I
+need to do it, everything feels more in control. I have a finite list of
+things to do I can point to, and there's nothing outside the box to do.
+I got this. *Everything will be okay.*
 
-<aside>
-    <img src="./ss1.png" alt="A picture of my current notes system." />
-    <p class="mt-2 lg:mr-[1.15vw]">
-        A picture of my notes and tasks about this website!
-    </p>
-</aside>
+I care a lot about knowledge management systems: notes apps, todo lists,
+and everything in between. And I'm gonna spend the rest of this article
+talking about my thoughts and opinions about them.
 
-- I often have tasks I need to get done, whether for work (class
-  assignments, research tasks, prep for meetings) or in my personal life
-  (errands I have to run, things I need to do for my hobbies, random
-  one-off tasks people ask me to do).
-  - It's very easy for me to feel overwhelmed by the amount of work I
-    have to do---that there are an infinite amount of things I need to
-    do, and an infinite amount of things I need to do *that I don't know
-    about*.
-  - Keeping track of these tasks and when they need to be finished by
-    helps calm my anxiety around all the things I need to do---it helps
-    to see that my list of todos is finite, that everything I need to do
-    can be listed out in one place, and isn't never-ending or infinite.
-  - These big tasks often involve lots of little tasks I need to take
-    care of too. If I have a task for "finding a therapist," that might
-    involve researching lists of therapists, contacting therapists
-    individually and scheduling times to meet, keeping track of who I
-    have and haven't replied to for each therapist, and so on. 
-  - Being able to break down big tasks into reasonable, bite-sized
-    chunks helps make me feel less daunted by the scale of the tasks
-    ahead of me.
-- Because I'm so scatterbrained, I'm also a chronic sufferer of Oh God I
-  Double Booked Myself Syndrome, and I need a way of keeping track of
-  all events and commitments.
-  - Between blocking out time for spending time with friends, hobbies,
-    and work meetings I'm (not) obligated to show up at, if I don't know
-    when I'm busy and when I'm not, I just get this constant low-grade
-    anxiety about if I'm accidentally scheduling over someone else's
-    time, and then I have to go out and resolve it and ... it's just a
-    mess :,)
-  - I also find that on a day-to-day, I work better when I'm able to do
-    detailed timeblocking for myself---allocating specific time for
-    working on specific tasks, rather than just having a general todo
-    list for "things I need to do at some point at some day." This also
-    requires knowing when I'll have time and when I'll be engaged in
-    some commitment.
-  - So I also need to be able to keep track of calendar events I
-    guess...
-- And I find notetaking super important too!
-  - Sometimes these are notes I take in an academic context, either on a
-    class or some other [readings that I happen to be
-    doing](https://pl-notes.cao.sh)
-  - Sometimes these are short, one-off journals---when a thought appears
-    in my head or I'm trying to process some feeling, and I want to
-    capture exactly how I'm articulating those feelings to myself in
-    that moment.
-  - But other times, these journals are much longer.
-- And I want to be able to connect all these different parts of my life
-  together too!
-  - A particular project---say, this website, might be both a personal
-    and a research-related endeavor, and should be reachable from both
-    those contexts
-  - A lot of my journals have to do with (and should be able to
-    reference) the other parts of my life that I have notes and todos on
-  - Concepts from different academic disciplines may share resonances
-    with one another, and I want to be able to explicitly note that!
-    - It's giving ✨interdisciplinary✨
-  - These concepts might even have resonances with my own personal life
-    (this is more common with the humanities side of things).
+# Caveats
 
-In general, I think it's super interesting looking into the kinds of
-ways folks make sense of their thoughts and their lives. The systems are
-deeply personal things---folks are putting their deepest and darkest
-secrets in the Apple Notes app as we speak. The systems folks use to
-take notes, to keep track of things to do---these are a reification of
-how they see the world!
+Before we keep moving, I have some caveats I want to touch on first.
 
-# The perfect notes system
+## It's not you, it's me
 
-For me, I need some kind of *external brain*, a way to
-externalize all the thinking and stress and obligations and emotional
-processing involved in life into some kind of outside thing, so that
-I can both make space for processing and productivity, while also being
-present while I'm living my life.
+Notes apps are deeply personal things. Folks are putting their deepest
+and darkest secrets in the Apple Notes app as we speak. The systems
+folks use to take notes, to keep track of things to do---these are a
+reification of how they see the world!
 
-In short, I want a system that can do *everything*. 
+All of my thoughts below---including how I deal with and conceptualize
+my anxiety and stress---is just for me. Maybe none of this works for
+you, and that's okay! However you conceptualize and manage stress and
+anxiety and overwhelming stuff in your own life, whatever works for you
+is totally valid! If you think the way I talk about "the box" is dumb
+and doesn't match what you think of it---that's cool! Everyone's brain
+works a lil differently, and the way that works for you is the way that
+works for you.
 
-I want an *infinite outliner* that lets me hierarchically structure
-information and break down tasks and ideas into manageable, anxiety-free
-chunks: a system that lets me see the overall structure of my second
-brain for easy access---to let me see the big picture---but also lets me
-dive into details wherever I'd like, at a moment's notice. But I also
-want a non-linear, non-hierarchical, *interlinked knowledge base*, a
-personal wiki with wiki-style backlinks which I can use to build a
-deeply linked knowledge graph, a complex and flexible system that can
-mirror the complex, non-hierarchical, fluid structure of my brain. I
-want to be able to identify resonances within the multitudes I
-contain---my relationships, my hobbies, my academic studies, my
-work---because these things all relate to one-another! I'm a complex
-person that contains multitudes, and I want my notes system to be able
-to hold all that and help me deepen that.
-
-In other words, I want a notes system as simple, effortless, freeform,
-and post-it like as Apple Notes or Google Keep; yet as structured and
-rigid as a real-life Bullet Journal.
-
-I also want a single source of truth that can hold my notes, along with
-tasks and events associated with each of those notes. I want to be able
-to add a quick personal task at a moment's notice, time block for the
-day or pencil in hangout time in the future, or break down and plan out
-research tasks and meeting notes, and their associated due dates, right
-from within the notes about that research.
-
-And these things are inseparable---if I want notes and tasks all
-interacting with one another, they need to all be in the same place. I
-want a world-class todo list and a world-class calendar inside my
-world-class notes app.
-
-I want an app that's downright fun to use, one that makes me *want* to
-journal and manage my tasks, to use the app more and get more of my life
-in check. I want an app that's beautiful to use and look at, and an app
-that makes my notes and tasks look beautiful too, whether in-app or
-exported in any number of formats, like PDFs or webpages. I want an app
-that's lightweight, fast, and responsive, one that can deal with massive
-files with ease. There should be no latency from thought to note.
-
-Part of no latency means having this system with me at all times,
-wherever I go. I want this whole system on my phone. No friction. No
-compromises. I want my full note-taking system accessible through my phone.
-
-And I need total control and customization of this system. Notes systems
-are deeply personal things---they are an extension of yourself, how you
-think and how you see the world. I want my notes system to reflect me at
-every level, from the way notes are organized and structured, all the
-way down to the individual keyboard shortcuts that make the system
-easier for me to use. I want a [home-cooked
-tool](https://www.robinsloan.com/notes/home-cooked-app/), one that I
-know inside and out because *I've customized it to my precise needs, to
-my own brain*. I want to be able to make the system behave exactly as I
-want it. Just as the note-taking system shapes me, I want to shape the
-note-taking system.
-
-And lastly, I want my notes to be able to outlast the system itself.
-I want my notes to be *durable*, to be able to keep archives of my
-memories, my thoughts, my feelings. My digital archives should be like a
-photo book or a physical diary, something I can safeguard and look back
-on, even if it's not something I'm explicitly thinking about in the
-moment.
+If there's one takeaway I want you to have from this article, it's this:
+everyone's brain is different, and people's knowledge management should
+fit their brains. Find a system that works for you and your brain in a
+particular context! Don't be afraid to adapt to your current vibes.
 
 ## This is not an endorsement of capitalism
 
@@ -240,27 +138,99 @@ Academics and students on TikTok talking about how they use these tools,
 proclaiming that this "one simple trick" got them all A's in their
 classes.
 
-## Joyful tools
+---
 
 I want to be very clear. I am not interested in valorizing productivity,
 and I sure as hell don't want to *optimize* or *maximize* anything.
 
 I don't want my tools to let me do more work. I want my tools to bring
-*joy* into my life! These are tools for facilitating
-time for me to bring more joy in my life---doing things I enjoy and
-spending time with folks I love. These are tools for finding space for
-joy and leisure in the midst of the bullshit that is productivity
-culture and capitalism.
+*joy* into my life. These are tools for facilitating doing things I
+enjoy and spending time with folks I love, for finding space for joy and
+leisure in the midst of the bullshit that is productivity culture and
+capitalism.
 
-The other part of that is that it should be a *joy to use the tool
-itself*. It should feel *good* to take notes, to list out everything I
-have to do and check it off one-by-one. It's hard to want to use the
-system to get my life together, unless using the system *is itself*
-motivating.
+# My requirements
+
+So what do I need a notes app to do?
+
+- I often have tasks I need to get done, whether for work (class
+  assignments, research tasks, prep for meetings) or in my personal life
+  (errands I have to run, things I need to do for my hobbies, random
+  one-off tasks people ask me to do).
+  - It's very easy for me to feel overwhelmed by the amount of work I
+    have to do---that there are an infinite amount of things I need to
+    do, and an infinite amount of things I need to do *that I don't know
+    about*.
+  - Keeping track of these tasks and when they need to be finished by
+    helps calm my anxiety around all the things I need to do---it helps
+    to see that my list of todos is finite, that everything I need to do
+    can be listed out in one place, and isn't never-ending or infinite.
+  - These big tasks often involve lots of little tasks I need to take
+    care of too. If I have a task for "finding a therapist," that might
+    involve researching lists of therapists, contacting therapists
+    individually and scheduling times to meet, keeping track of who I
+    have and haven't replied to for each therapist, and so on. 
+  - Being able to break down big tasks into reasonable, bite-sized
+    chunks helps make me feel less daunted by the scale of the tasks
+    ahead of me.
+- Because I'm so scatterbrained, I'm also a chronic sufferer of Oh God I
+  Double Booked Myself Syndrome, and I need a way of keeping track of
+  all events and commitments.
+  - Between blocking out time for spending time with friends, hobbies,
+    and work meetings I'm (not) obligated to show up at, if I don't know
+    when I'm busy and when I'm not, I just get this constant low-grade
+    anxiety about if I'm accidentally scheduling over someone else's
+    time, and then I have to go out and resolve it and ... it's just a
+    mess :,)
+  - I also find that on a day-to-day, I work better when I'm able to do
+    detailed timeblocking for myself---allocating specific time for
+    working on specific tasks, rather than just having a general todo
+    list for "things I need to do at some point at some day." This also
+    requires knowing when I'll have time and when I'll be engaged in
+    some commitment.
+  - So I also need to be able to keep track of calendar events I
+    guess...
+- And I find notetaking super important too!
+  - Sometimes these are notes I take in an academic context, either on a
+    class or some other [readings that I happen to be
+    doing](https://pl-notes.cao.sh)
+  - Sometimes these are short, one-off journals---when a thought appears
+    in my head or I'm trying to process some feeling, and I want to
+    capture exactly how I'm articulating those feelings to myself in
+    that moment.
+  - But other times, these journals are much longer.
+- And I want to be able to connect all these different parts of my life
+  together too!
+  - A particular project---say, this website, might be both a personal
+    and a research-related endeavor, and should be reachable from both
+    those contexts
+  - A lot of my journals have to do with (and should be able to
+    reference) the other parts of my life that I have notes and todos on
+  - Concepts from different academic disciplines may share resonances
+    with one another, and I want to be able to explicitly note that!
+    - It's giving ✨interdisciplinary✨
+  - These concepts might even have resonances with my own personal life
+    (this is more common with the humanities side of things).
+
+These requirements imply conflicting designs. I want an *infinite
+outliner* to hierarchically structure and organize my notes and tasks,
+but I also want *freeform Wikipedia-style linking* to make connections
+and identify resonances across notes and tasks. The app needs to be able
+to do everything---notes, tasks, and calendar events. And it needs to be
+fast and work everywhere, so that I can use it regardless of when or
+where I have a thought.
+
+# Joyful tools
+
+Most importantly, it should be a *joy to use the tool itself*. It should
+feel *good* to take notes, to list out everything I have to do and check
+it off one-by-one. It's hard to want to use the system to get my life
+together, unless using the system *is itself* motivating.
 
 Good means a lot of little things. It means the tool should be fast and
-responsive. I shouldn't need stable WiFi to use it. It should look
-reasonably pretty, and it should produce reasonably pretty notes.
+responsive. Editing notes should be quick and precise. I shouldn't need
+stable WiFi to use it. It should look reasonably pretty, and it should
+produce reasonably pretty notes.
 
 The most important part of "good," though, is that if the system doesn't
 do something I want it to do, *I can fix it myself.* Keyboard shortcut
@@ -279,8 +249,10 @@ the Notion developers. You have no access to the underlying system, its
 code, or your data.
 
 Tools for "productivity" adhere to the rhetorics of capital. Joyful
-tools eschew these rhetorics and demand *materially* different
-systems---systems that are introspectable and personal.
+tools demand that we not only eschew these rhetorics, but imagine
+*materially* different systems---systems that are introspectable and
+personal.
+
 
 <!--
 # A tour of the options
