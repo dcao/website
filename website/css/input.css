@@ -3,6 +3,35 @@
 @tailwind utilities;
 
 main {
+    counter-reset: heading;
+
+    ul,
+    ol {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 0.35em;
+        margin-block-end: 0.5em;
+        padding-inline-start: 1em;
+    }
+
+    & > :not(ul, ol) + ul, & > :not(ul, ol) + li {
+        margin-block-start: 1em;
+    }
+
+    ol {
+        list-style-type: decimal;
+    }
+    li {
+        display: list-item;
+        text-align: match-parent;
+    }
+
+    ::marker {
+        unicode-bidi: isolate;
+        font-variant-numeric: tabular-nums;
+        text-transform: none;
+    }
+
     a {
         text-decoration: underline;
 
@@ -17,6 +46,7 @@ main {
         margin-bottom: 1em;
 
         color: theme(colors.keynote.700);
+        counter-reset: subheading;
     }
 
     h2 {
@@ -25,6 +55,7 @@ main {
         margin-bottom: 0.75em;
 
         color: theme(colors.keynote.600);
+        counter-reset: subsubheading;
     }
 
     h3 { 
@@ -35,39 +66,35 @@ main {
         color: theme(colors.keynote.500);
     }
 
+    h1::before {
+        counter-increment: heading;
+        content: counter(heading);
+    }
 
-    @media (min-width: theme(screens.lg)) {
-        h1::before {
+    h2::before {
+        counter-increment: subheading;
+        content: counter(heading) "." counter(subheading);
+    }
+
+    h3::before {
+        counter-increment: subsubheading;
+        content: counter(heading) "." counter(subheading) "." counter(subsubheading);
+    }
+
+
+    h1::before, h2::before, h3::before {
+        font-size: 0.9em;
+        line-height: 1.5;
+        margin-right: 2vw;
+
+        @media (min-width: theme(screens.lg)) {
             display: inline;
             float: left;
             position: relative;
             width: 5vw;
             margin-left: -6.25vw;
+            margin-right: 0;
             text-align: right;
-
-            content: '•';
-        }
-
-        h2::before {
-            display: inline;
-            float: left;
-            position: relative;
-            width: 5vw;
-            margin-left: -6.25vw;
-            text-align: right;
-
-            content: '••';
-        }
-
-        h3::before {
-            display: inline;
-            float: left;
-            position: relative;
-            width: 5vw;
-            margin-left: -6.25vw;
-            text-align: right;
-
-            content: '•••';
         }
     }
 
@@ -81,8 +108,8 @@ main {
             display: inline;
             float: left;
             position: relative;
-            width: 20vw;
-            margin-left: -21.25vw;
+            width: 22vw;
+            margin-left: -23.25vw;
             text-align: right;
 
         }
@@ -90,13 +117,20 @@ main {
         @media (max-width: theme(screens.lg)) {
             display: block;
             float: none;
-            margin: 3% 2.5% 3% 2.5%;
+            margin: 5% 4% 5% 4%;
             width: 80%;
         } 
     }
 
     p {
-        margin-bottom: 0.5em;
+        margin-bottom: 0.75em;
+        hyphens: auto;
+    }
+
+    hr {
+        border-color: theme(colors.keynote.300);
+        margin-top: 1.75em;
+        margin-bottom: 1.75em;
     }
 }
 

@@ -9,6 +9,13 @@ export default async function(config) {
     config.addPassthroughCopy('website/img');
     config.addPassthroughCopy('website/static');
 
+    // Drafts
+    config.addPreprocessor("drafts", "*", (data, _content) => {
+        if (data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
+            return false;
+        }
+    });
+
     // Replace my em-dashes please
     config.amendLibrary("md", (mdLib) => mdLib.set({ typographer: true }));
 

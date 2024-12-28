@@ -12,7 +12,18 @@ layout: base-new.njk
     </div>
 
     <div class="grid gap-2 grid-cols-1 gap-8 lg:gap-4 lg:grid-cols-13 mt-12">
-        <main class="text-gray-700 text-lg lg:col-start-7 lg:col-span-6 max-w-prose">
+        {% if draft %}
+            <p class="p-2 bg-red-300 text-red-700 lg:col-start-7 lg:col-span-6 rounded max-w-prose">
+                This is a draft. This page shouldn't be published on the
+                live version of this site.
+            </p>
+        {% endif %}
+        {% if wip %}
+            <p class="p-2 bg-orange-300 text-orange-700 lg:col-start-7 lg:col-span-6 rounded max-w-prose">
+            This article is a <em>work in progress</em>.
+            </p>
+        {% endif %}
+        <main class="text-gray-600 text-lg lg:col-start-7 lg:col-span-6 max-w-prose">
             {{ content }}
         </main>
     </div>
