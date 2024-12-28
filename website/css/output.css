@@ -714,6 +714,14 @@ video {
   margin-top: 2rem;
 }
 
+.ml-\[-27\.5vw\] {
+  margin-left: -27.5vw;
+}
+
+.ml-\[-27\.25vw\] {
+  margin-left: -27.25vw;
+}
+
 .block {
   display: block;
 }
@@ -784,6 +792,10 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-\[26vw\] {
+  width: 26vw;
 }
 
 .max-w-3xl {
@@ -1898,12 +1910,28 @@ main {
     margin-top: 4rem;
   }
 
+  .lg\:mr-\[1\.25vw\] {
+    margin-right: 1.25vw;
+  }
+
+  .lg\:mr-\[1\.35vw\] {
+    margin-right: 1.35vw;
+  }
+
+  .lg\:ml-\[-27\.25vw\] {
+    margin-left: -27.25vw;
+  }
+
   .lg\:block {
     display: block;
   }
 
   .lg\:w-2\/5 {
     width: 40%;
+  }
+
+  .lg\:w-\[26vw\] {
+    width: 26vw;
   }
 
   .lg\:grid-cols-13 {

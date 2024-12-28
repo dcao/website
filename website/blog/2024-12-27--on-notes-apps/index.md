@@ -5,9 +5,9 @@ wip: true
 ---
 <!-- vim: set tw=72 wrapmargin=0 formatoptions+=t -->
 
-<aside>
+<aside class="lg:w-[26vw] lg:ml-[-27.25vw]">
     <img src="./ss1.png" alt="A picture of my current notes system." />
-    <p class="mt-2 lg:mr-[1.15vw]">
+    <p class="mt-2 lg:mr-[1.35vw]">
         A picture of my notes and tasks about this website!
     </p>
 </aside>
@@ -66,7 +66,10 @@ works for you.
 If there's one takeaway I want you to have from this article, it's this:
 everyone's brain is different, and people's knowledge management should
 fit their brains. Find a system that works for you and your brain in a
-particular context! Don't be afraid to adapt to your current vibes.
+particular context! And don't be afraid to adapt it to your current
+vibes. No notes app will fit your brain perfectly---you'll have to play
+around and see which apps are amenable to being molded to work with your
+brain!
 
 ## This is not an endorsement of capitalism
 
@@ -151,7 +154,14 @@ capitalism.
 
 # My requirements
 
-So what do I need a notes app to do?
+At a high level, a notes system should exist to get thoughts out of my
+head and into somewhere tangible so I can stop thinking about it. Many
+of my notes tend to be *fleeting*. My notes go through constant churn,
+and I don't like having a huge mass of notes lying around cause it
+stressed me out---it feels like brain cruft. For the most part, the
+notes I look at on a daily basis---the ones that record most of my todos
+and tasks---should have a minimum of cruft, and show what's immediate
+and actionable.
 
 - I often have tasks I need to get done, whether for work (class
   assignments, research tasks, prep for meetings) or in my personal life
