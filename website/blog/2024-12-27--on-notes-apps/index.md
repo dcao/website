@@ -13,16 +13,35 @@ wip: true
 </aside>
 
 My early 20s have been a lot.<sup><em>[citation needed]</em></sup>
-Adjusting to moving back to the Bay, building a support network and
-finding my folks here, navigating maintaining long-distance friendships,
-figuring out questions around my identity and all of its
-dimensions---cultural, work, and otherwise... it's a lot to navigate,
-and it can feel very overwhelming at times.
+Moving back to the Bay has required me to recontextualize this space I
+grew up in and be very active in not just reverting back to me as a child
+growing up here.
+Building a new support network here and finding my communities has been
+its own rewarding (but sometimes scary) process.
+Navigating how to maintain my existing now-long-distance friendships has
+also been its own challenge.
+And figuring out questions about all of my different identities---connections
+to my cultural background, the politics and vibes of my
+research work---has been a lot too.
 
-On top of that, this late-stage capitalism shit sucks ass, and
-finding space for joy and leisure while bearing (witness to) the
-mundane, everyday violences of white supremacy, capitalism, and
-colonialism is a lot. Existing is fucking *hard*.
+These large-scale concerns create a deluge of little things I need to
+keep track of in the day-to-day. I have class deadlines on ~~Canvas~~
+bCourses I need to keep track of, self-directed research projects that I
+need to schedule and pace myself on, meetings I have to block out time
+for, errands I have to run, friends both prospective and well-known
+whose texts I've left on delivered for days and need to reply to,
+important emails I don't even know exist that I need to triage, hobbies
+and outside passions I need to make time for, *and* internal thoughts on
+all of this that I need to journal and process.
+
+On top of that, late-stage capitalism fucking sucks, and finding space
+for joy and leisure while bearing (witness to) the everyday violences of
+white supremacy, capitalism, and colonialism is a lot. I gotta do all
+this while my tax dollars fund genocide, climate catastrophe marches on
+unabated, and while tech companies seem to not give a shit because *the
+singularity* or whatever is more important to them.
+
+Needless to say, I get overwhelmed sometimes.
 
 In these trying times, my silly little notes apps are how I keep myself
 sane. If I have a bunch of big overwhelming projects I need to work
@@ -123,8 +142,8 @@ insofar as they enable you to do more work or make creative output [more
 dependable and reproducible](https://www.linkingyourthinking.com/), as
 if we are all Henry Ford looking to assembly line our brains into order.
 I am no longer a person trying to live an introspective, fulfilling, and
-restful life. I'm a [*knowledge worker*](https://logseq.com/). We *all*
-are, apparently.
+restful life. I'm a [*knowledge worker*](https://logseq.com/),
+apparently.
 
 These apps are full of the same Silicon Valley bullshit that has become
 inescapable in the rest of our lives. All this info is stuck in whatever
