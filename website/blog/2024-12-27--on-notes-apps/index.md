@@ -78,8 +78,9 @@ This blog post is a little bit of everything:
   about notes apps so much (and why I think you should care too!);
 - It's a *guide* to the various kinds of apps, interventions, and
   systems out there;
-- It's a *showcase* of my personal notes system, and the cool things it
-  lets me do.
+- It's a *showcase* of my personal notes system---the philosophy and
+  style of how I organize my notes, and the cool things my system lets
+  me do.
 
 # CYA
 
@@ -195,16 +196,20 @@ capitalism.
 
 # What works for my brain
 
-Primarily, my personal notes system should let me get thoughts out of my
-head and into somewhere tangible so I can stop thinking about it. Time
-spent thinking about tasks I might(?) have to do or notes I need to
-remember is time spent not being present. The faster I can get things
-out of my head and into the system, the better.
+A notes system consists of notes that are stored in some place (e.g., an
+app on your computer or phone or pieces of paper in a box somewhere) and
+have some kind of organizational structure imposed on them.
 
-Secondarily, my notes system should let me organize all of these
-thoughts in a structured way, letting me keep track of what I have to do
-and all of the resources I need to do these things. It should be a kind
-of *second brain* that can help do some thinking for me.
+The goal of my personal notes system is to move thoughts out of my head
+and into somewhere tangible so I can stop thinking about it. Time spent
+thinking about tasks I might(?) have to do or notes I need to remember
+is time spent not being present. The faster I can get things out of my
+head and into the system, the better.
+
+My notes system should let me organize all of these thoughts in a
+structured way, letting me keep track of what I have to do and all of
+the resources I need to do these things. It should be a kind of *second
+brain* that can help do some thinking for me.
 
 To satisfy these use cases, I need a notes system that is __fast,
 flexible, and fun__.
@@ -332,21 +337,98 @@ personal.
 
 <!-- personal as opposed to wanting to scale for everyone? -->
 
-# Options for tools
+# Honorable mentions
 
 So if you're trying to find your own box---a system that you can call
 home---how might you go about this? What options are available to you?
 
-I've gone through a bunch of these tools myself, and boy do I have
+I've gone through a bunch of these tools and systems myself, and boy do I have
 strong thoughts and opinions about them!
 
-## Pen & paper
+## Pen and paper
 
-The most obvious starting place is pen & paper!
+The simplest, and arguably the most flexible of the available options,
+is to just write things down! There's no app or subscription you need,
+no fancy equipment or setup required, and it's very easy to make or
+choose your own system for organizing notes and todos. Just get a
+notebook or planner and write things down :^)
 
-Bullet journaling falls in this category, and it's a notable example of
-a practice of note-taking that enjoys it for its own sake. There are
-lots of examples online of beautiful 
+Pen and paper (or other handwritten media like whiteboards) offer a kind
+of tactility and immediacy that is difficult to replicate in other
+mediums;
+<span class="aside">
+Technically there are things like iPads and reMarkable tablets that let
+you imitate handwriting, but the feeling of pen on paper is inimicable
+imo.
+</span>
+it's very difficult to replicate the feeling of pen on paper and the
+flexibility of being able to write wherever and however you want. Pen
+and paper is also conducive to doodling---good for my constantly
+distracted-ass brain---and there are studies that have shown that notes
+taken through handwriting are more likely to actually create connections
+in your brain and all that.
+<span class="aside">
+I found
+<a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1219945/full">this article</a>
+on Google that says this; there are plenty more available I'm sure!!
+</span>
+
+The downside of pen and paper is that it lacks flexibility in other
+ways. Referring to past information can be difficult---it requires you
+to physically find where that information is. Modifying
+information---rescheduling an event, updating a handwritten note,
+etc.---can be more challenging as well.
+<span class="aside">
+Challenges with information retrieval and updating definitely aren't
+insurmountable with traditional pen and paper, they just require extra
+attention to how you record and organize info.
+You can use pencils or markers to allow for small incremental fixes to
+notes.
+Libraries use thorough labeling taxonomies and digitized information
+retrieval systems to organize resources.
+And systems like the original
+<a href="https://zettelkasten.de/introduction/">Zettelkasten system</a>
+solve both the information retrieval and updating notes issues by
+focusing on producing lots of small "atomic" notes, rather than having
+big long note documents.
+</span>
+For instance, I used to have a paper planner in high school where I
+would write in when different assignments were due and what I had
+scheduled on any particular day, which was super helpful for figuring
+out what work I needed to work on next. (It also felt very good crossing
+off homework assignments when I finished them!) However, if I had too much work
+for one day, or an assignment deadline changed, and I happened to use
+pen instead of pencil, I was shit out of luck.
+
+For me personally, I still incorporate handwritten resources into my
+overall notes system in a few places. When I need to quickly brainstorm,
+I gravitate towards using a pen and paper notebook that I carry around
+with me wherever I go. During my most recent research push, I and my
+advisor listed out our remaining tasks for the week by writing it out on
+a whiteboard each week, which gave us clarity on what was finished and
+what needed working on. And I used to use post-it notes to set my
+intentions and focuses for a particular week.
+
+There are also many other notable organizational systems that rely on
+pen and paper. *Bullet journaling* began as a highly structured system
+for folks who had tired out of using digital apps and wanted to quickly
+record tasks, but has become its own subcommunity of folks interested in
+both the organizational and aesthetic aspects of bullet journaling.
+There are tons of examples online of incredible, beautiful bullet
+journals, created by folks who find the process itself of crafting a
+bullet journal joyful and therapeutic.
+<span class="aside">
+I briefly tried to get into bullet journaling, but immediately got
+annoyed that I couldn't get the bullets to line up perfectly straight.
+I'm not built for the bujo life.
+</span>
+The aforementioned [*Zettelkasten
+system*](https://zettelkasten.de/introduction/) revolves around a
+*slipbox* of small flashcards, each of which contains a small piece of
+information---an *atomic note*. By building up a large library of these
+flashcards, and maintaining a highly ordered and regular labeling system
+for each flashcard, you can build a library of handwritten notes that
+reference other notes, kind of like your own personal Wikipedia!
 
 ## The appetizers: Apple Notes, Google Keep, OneNote
 
