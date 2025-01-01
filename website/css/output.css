@@ -1418,6 +1418,13 @@ video {
 
 main {
   counter-reset: heading;
+  pre {
+    padding: 1.25em;
+    background-color: rgb(220 209 230 / 25%);
+    border-radius: 0.25rem;
+    font-size: 0.8em;
+    margin-bottom: 0.75em;
+  }
   ul,
     ol {
     display: block;
@@ -1890,14 +1897,6 @@ main {
     grid-column-start: 7;
   }
 
-  .lg\:ml-\[-27\.25vw\] {
-    margin-left: -27.25vw;
-  }
-
-  .lg\:mr-\[1\.35vw\] {
-    margin-right: 1.35vw;
-  }
-
   .lg\:mt-16 {
     margin-top: 4rem;
   }
@@ -1908,10 +1907,6 @@ main {
 
   .lg\:w-2\/5 {
     width: 40%;
-  }
-
-  .lg\:w-\[26vw\] {
-    width: 26vw;
   }
 
   .lg\:grid-cols-13 {

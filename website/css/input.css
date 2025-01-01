@@ -5,6 +5,15 @@
 main {
     counter-reset: heading;
 
+    pre {
+        padding: 1.25em;
+        background-color: theme(colors.keynote.200 / 50%);
+        border-radius: 0.25rem;
+        font-size: 0.8em;
+        margin-top: 0.25em;
+        margin-bottom: 1em;
+    }
+
     ul,
     ol {
         display: block;
