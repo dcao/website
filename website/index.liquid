@@ -3,16 +3,17 @@ bareTitle: David Cao
 layout: base-new.njk
 ---
 
+<!--
+<div class="absolute bottom-2 left-2 lg:block w-1/4">
+    <img src="/img/me.jpg" alt="A picture of me!" />
+</div>
+-->
+
 <div class="grid gap-2 grid-cols-1 gap-8 lg:gap-4 lg:grid-cols-13 mt-12 lg:mt-16 mb-20">
     <div class="lg:col-span-6 text-keynote-400">
         <!-- em-width space -->
         <p id="now">&#8195;</p>
         <p id="last-fm">&#8195;</p>
-        <!--
-        <div class="hidden lg:block w-1/4">
-            <img src="/img/me.jpg" alt="A picture of me!" />
-        </div>
-        -->
     </div>
 
     <p class="font-xanh text-lg lg:col-span-7 max-w-prose text-keynote-700">
@@ -28,6 +29,22 @@ layout: base-new.njk
         <div class="grid lg:grid-cols-13 gap-4">
             <p class="text-keynote-300 mix-blend-difference sticky lg:col-start-7">Blog</p>
         </div>
+
+  
+        <form
+          action="https://buttondown.com/api/emails/embed-subscribe/dcao"
+          method="post"
+          target="popupwindow"
+          onsubmit="window.open('https://buttondown.com/dcao', 'popupwindow')"
+          class="embeddable-buttondown-form"
+        >
+            <div class="grid grid-cols-1 lg:grid-cols-13 lg:gap-x-4">
+                <div class="lg:col-start-7 lg:col-span-5 flex flex-row">
+                    <input type="email" placeholder="enter your email to subscribe to the blog newsletter" name="email" id="bd-email" class="focus:outline focus:outline-2 focus:outline-keynote-800 bg-keynote-200 placeholder:text-keynote-400 flex-grow p-2 border border-keynote-800 text-xs/6 xl:text-base" />
+                    <input type="submit" class="cursor-pointer px-2 bg-keynote-800 hover:bg-keynote-600 text-keynote-100" value="Subscribe" />
+                </div>
+            </div>
+        </form>
 
         {% for post in collections.blog reversed %}
             <div class="grid grid-cols-1 lg:grid-cols-13 lg:gap-4">

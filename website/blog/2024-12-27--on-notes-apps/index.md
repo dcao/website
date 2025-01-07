@@ -564,7 +564,7 @@ The system I have today has
 
 ## PDF export
 
-## Syncing with google calendar
+## Getting the rest of the world to know what's happening
 
 ## Zotero and citar
 
