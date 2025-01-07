@@ -533,26 +533,7 @@ personal.
 
 # My system: org-mode
 
-The process of building my own notes system was a case of trial and
-error. I spent years looking into different apps, seeing what I liked
-and what I didn't like, and letting the different systems I used *change
-me*. My experiences with pen-and-paper planners shaped how I view
-assignment scheduling. It was through using the infinite outliners like
-WorkFlowy where I learned that hierarchy scratched my brain in the right
-way. And using Obsidian was pivotal to practicing and incorporating
-non-hierarchical information organization in my life.
-
-But which of these systems do I use? To answer that, we have to
-introduce a new notes app, a new character to the David Notetaking
-Cinematic Universe, one who made their first appearance at the very
-start of this story.
-
-<!-- back in 2016, I stumbled across ... -->
-
-To be clear, this is a system I've refined and built over *years*. I
-first started trying to use org-mode in 2016 or 17. I used it in anger
-properly during 2019-20, I returned to it twice briefly in 2022, and I
-have 
+This system is realized through a system called *org-mode*.
 
 <!--
 
