@@ -45,9 +45,9 @@ On top of that, late-stage capitalism fucking sucks, and finding space
 for joy and leisure while bearing (witness to) the everyday violences of
 white supremacy, capitalism, and colonialism is a lot. My tax dollars
 fund genocide, climate catastrophe marches on unabated, and tech
-companies are too busy chasing *the singularity* or whatever
-to give a shit, yet I still gotta Lock In because I have a bCourses
-assignment due at 11:59.
+companies are too busy building themselves fake AI friends because they
+don't have any real ones, yet I still gotta Lock In because I have a
+bCourses assignment due at 11:59.
 
 Needless to say, I get overwhelmed sometimes.
 
