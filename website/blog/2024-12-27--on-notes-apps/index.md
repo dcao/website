@@ -22,15 +22,18 @@ draft: true
 </aside>
 
 My early 20s have been a lot.<sup><em>[citation needed]</em></sup>
-Moving back to the Bay---where I grew up---has required me to
-recontextualize this space grew up in and be very active in not just
-reverting back to me as a child growing up here. Building a new support
-network here and finding my communities has been its own rewarding (but
-sometimes scary) process. Navigating how to maintain my existing
-now-long-distance friendships has also been its own challenge. And
-figuring out questions about all of my different
-identities---connections to my cultural background, the politics and
-vibes of my research work---has been a lot too.
+
+I grew up in the Bay, and so coming back here for my PhD has brought out
+my inner child in ways I'm continuing to grapple with and process.
+Preventing myself from just becoming me in high school is a daily
+challenge. On top of that, building a new support network and finding my
+communities here has been incredibly rewarding, but also scary and
+anxiety-inducing at times---what if folks don't like me or get a bad
+impression of me? This is while I've also been navigating how to
+maintain my existing now-long-distance friendships and grow them beyond
+catching up once every quarter. And realizing self-actualization in this
+space---reconnecting with my cultural background and interrogating the
+politics and vibes of my research work---has been a lot too.
 
 These large-scale concerns create a deluge of little things I need to
 keep track of in the day-to-day. I have class deadlines on ~~Canvas~~
@@ -196,200 +199,14 @@ capitalism.
 
 <!-- notes apps as critical resistance -->
 
-# Trial and error
+# What works for my brain
 
 A notes system consists of notes that are stored in some place (e.g., an
 app on your computer or phone or pieces of paper in a box somewhere) and
-have some kind of organizational structure imposed on them.
-
-In the quest to find my own perfect notes system, I've gone through a
-bunch of different apps and systems and media of the years. I started
-with Evernote as a child in 2015-ish, and since then I've moved from app
-to app, trying to fit my life into the systems and worldviews each of
-these tools prescribes.
-
-Building your perfect notes system is a *process*. Introducing a tool
-into your life and changing your brain chemistry to fit the tool while
-wrangling the tool to fit your brain can take *months*, and can require
-you to switch to and away from the same tool multiple times.
-Incorporating a tool into your life is a back-and-forth *conversation*:
-you shape the tool to your needs, and the tool shapes how you think and
-see the world.
-
-I won't lie: it was a long process going through these tools. And boy,
-do I have strong thoughts and feelings about all of them.
-
-## Pen and paper
-
-Beyond Evernote, my first experiences with productivity systems was with
-*pen-and-paper planners*. My high school would give us a free planner at
-the start of every school year, and I would use my planner to record
-when assignments were due to prioritize what to work on and when to work
-on it.
-
-Pen and paper is arguably the simplest, and arguably most flexible,
-of the available options. There's no app or subscription you need, no
-fancy equipment or setup required, and it's very easy to make or choose
-your own system for organizing notes and todos. Just get a notebook or
-planner and write things down :^)
-
-Pen and paper (or other handwritten media like whiteboards) offer a kind
-of tactility and immediacy that is difficult to replicate in other
-mediums;
-<span class="aside">
-Technically there are things like iPads and reMarkable tablets that let
-you imitate handwriting, but the feeling of pen on actual paper is hard
-to beat imo.
-</span>
-it's very difficult to replicate the feeling of pen on paper and the
-flexibility of being able to write wherever and however you want.
-The viscerality of crossing out assignments on those high school
-pen-and-paper planners was inimitable.
-Paper is also conducive to doodling---good for my constantly
-distracted-ass brain---and there are studies that have shown that notes
-taken through handwriting are more likely to actually create connections
-in your brain and all that.
-<span class="aside">
-I found
-<a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1219945/full">this article</a>
-on Google that says this; there are plenty more available I'm sure!!
-</span>
-
-The downside of pen and paper is that it lacks flexibility in other
-ways. Referring to past information can be difficult---it requires you
-to physically find where that information is. Modifying
-information---rescheduling an event, updating a handwritten note,
-etc.---can be more challenging as well.
-<span class="aside">
-Challenges with information retrieval and updating definitely aren't
-insurmountable with traditional pen and paper, they just require extra
-attention to how you record and organize info.
-You can use pencils or markers to allow for small incremental fixes to
-notes.
-Libraries use thorough labeling taxonomies and digitized information
-retrieval systems to organize resources.
-And systems like the original
-<a href="https://zettelkasten.de/introduction/">Zettelkasten system</a>
-solve both the information retrieval and updating notes issues by
-focusing on producing lots of small "atomic" notes, rather than having
-big long note documents.
-</span>
-With my paper planners, for instance, if I had too much work for one
-day, or an assignment deadline changed, and I happened to use pen
-instead of pencil, I was shit out of luck.
-
-<div class="mb-6 mt-8 flex flex-row gap-2">
-    <div class="basis-full">
-        <img src="post_it.jpeg" alt="
-            An image of a post-it note on which I've done some intention-setting
-            for that week. The note reads:
-            focus (week of 11/21)
-            - work: passion proj. grad apps con't
-            - hw: PA due (CSE 151B)
-            - ppl: sophia (visiting), florence, sophie, iris, ...?
-            recenter. no more anxiety!
-        " />
-    </div>
-    <div class="basis-full">
-        <img src="whiteboard.jpeg" alt="
-            An image of a whiteboard showing tasks for a current
-            research project.
-        was draft" />
-    </div>
-    <div class="basis-full">
-        <img src="notebook.jpeg" alt="
-            An image of a notebook featuring some draft 
-        " />
-    </div>
-</div>
-
-For me personally, I still incorporate handwritten resources into my
-overall notes system in a few places. When I need to quickly brainstorm,
-I gravitate towards using a pen and paper notebook that I carry around
-with me wherever I go. During my most recent research push, I and my
-advisor listed out our remaining tasks for the week by writing it out on
-a whiteboard each week, which gave us clarity on what was finished and
-what needed working on. And I used to use post-it notes to set my
-intentions and focuses for a particular week.
-
-There are also many other notable organizational systems that rely on
-pen and paper. *Bullet journaling* began as a highly structured system
-for folks who had tired out of using digital apps and wanted to quickly
-record tasks, but has become its own subcommunity of folks interested in
-both the organizational and aesthetic aspects of bullet journaling.
-There are tons of examples online of incredible, beautiful bullet
-journals, created by folks who find the process itself of crafting a
-bullet journal joyful and therapeutic.
-<span class="aside">
-I briefly tried to get into bullet journaling, but immediately got
-annoyed that I couldn't get the bullets to line up perfectly straight.
-I'm not built for the bujo life.
-</span>
-The aforementioned [*Zettelkasten
-system*](https://zettelkasten.de/introduction/) revolves around a
-*slipbox* of small flashcards, each of which contains a small piece of
-information---an *atomic note*. By building up a large library of these
-flashcards, and maintaining a highly ordered and regular labeling system
-for each flashcard, you can build a library of handwritten notes that
-reference other notes, kind of like your own personal Wikipedia!
-
-## Infinite outliners: Workflowy, Logseq, Roam
-
-<!-- one of my seminal moments was discovering workflowy -->
-
-<!-- today, logseq, roam, tana combining aspects of all -->
-
-## Personal wikis: TiddlyWiki, Obsidian
-
-<!-- vimwiki -->
-
-## Honorable mentions
-
-This is only the beginning of the available apps out there. There are so
-many to choose from, each fitting a different kind of person who
-conceptualizes the world in a different kind of way. Some honorable
-mentions for other apps I've used or seen:
-
-- **The basics** (Notes.app, Google Keep, OneNote): probably the most
-  used notes app out there (besides pen and paper, if you can consider
-  that an "app"), these are included on our devices by default but are
-  very convenient (there's a reason everyone's deepest and darkest
-  secrets are in the Notes app) and surprisingly featureful! Apple Notes
-  in particular has recently added the ability to link to other notes,
-  which gives you a personal wiki-like experience on top of a very
-  convenient tool.
-- **Todo list apps** (Todoist, Microsoft To-do, Apple Reminders): these
-  are standard full-featured todo list applications, and often come with
-  integrations with calendar apps to allow seeing your events and todos
-  side-by-side.
-- **Fancy and quirky todo list apps** (OmniFocus, Things, Craft): these
-  can be summarized as _Todo List Premium(tm)_. They come with some
-  extra bells and whistles, they look nicer, and they tend to cost more
-  money. The first two are also Apple ecosystem only.
-- **Calendars** (Google Calendar, Calendar.app, Motion): the standard.
-  Has high interop with other "productivity" tools like Zoom and the
-  like. Newer options like Motion offer auto-scheduling features that
-  timeblock todos, tasks, and meetings for you.
-- **Mind-mapping** (XMind, TheBrain, Obsidian Canvas): for
-  visual thinkers. *Mind-mapping* tools let you hierarchically organize
-  info in 2D space, letting you draw connections between ideas.
-  Generally used for brainstorming.
-- **Notion dupes** (Notion, Capacities): self-explanatory. Notion in
-  particular can be a very powerful and customizable tool, allowing for
-  lots of aesthetic personalization and custom functionality, but still
-  has limits on customizability, is generally slow, and requires WiFi.
-- **Journaling specific apps** (Day One, Twitter or Bluesky or
-  Mastodon): for journaling in particular, there are obviously lots of
-  journaling apps (generally for phones), but my personal underrated
-  fave is creating an account on one of the microblogging platforms and
-  making it private. You get to subtweet without facing the consequences
-  of subtweeting---what better way to process than that‽
-- **Minimal apps** (Notational Velocity, TaskPaper, todo.txt): these are
-  minimal apps that let you do notes or todo lists in a super minimal
-  way, basically just writing down plain text files. Useful if you've
-  declared bankruptcy on your notes system
-
-# What works for my brain
+have some kind of organizational structure imposed on them. I've spent
+years iterating on my own knowledge management system, switching between
+various apps, trying things out, and building a taxonomy for my
+knowledge that fits my brain. 
 
 Through this process, I've been able to narrow down exactly what I look
 for in my notes systems.
@@ -409,6 +226,25 @@ To satisfy these use cases, I need a notes system that is __fast,
 flexible, and fun__.
 
 ## Fast
+
+My first organizational tool was a weekly agenda, given to me for free
+by my high school. I used it to record deadlines for assignments and
+schedule events and work sessions, and it was pivotal in allowing me to
+survive Fremont, California.
+
+The reason this agenda was so useful to me was that it was so damn
+convenient to record information in it. If a deadline popped into my
+head, my agenda could be out and recording that info in seconds. I could
+keep the agenda on me at all times and be able to record and reference
+these deadlines whenever, wherever. And handwritten resources are still
+a key part of my system today---I use notebooks and whiteboards as
+drafting spaces for quickly listing down tasks for the day or drafting
+out ideas:
+
+<div class="flex mb-4 flex-row gap-2">
+<img src="notebook.jpeg" alt="" />
+<img src="whiteboard.jpeg" alt="" />
+</div>
 
 A notes system should be *fast* to both read *and* write information:
 
@@ -434,26 +270,66 @@ start doubting whether I want to use the system. Once I start doubting
 if I want to use the system, it ceases to be useful; I can't offload my
 brain into it anymore.
 
+With the agenda, while it was certainly fast to jot down and retrieve
+information, editing existing information often proved to be cumbersome,
+requiring erasing and moving around of different handwritten entries.
+This is a critique I have in general of handwriting-based systems like
+[bullet journaling](https://bulletjournal.com/), though of course, your
+mileage may vary.
 
 ## Flexible
 
-When I say a notes app should be *flexible*, I mean flexibility in two
+As I started exploring the world of digital knowledge management tools,
+I found that lots of tools were very good at one specific kind of task:
+
+- *todo list apps* like Todoist and Apple Reminders are very good at
+  recording one-off tasks like errands and homework assignments;
+- *calendar apps* like Google Calendar are good for blocking out your
+  schedule and juggling meetings and events;
+- *note-taking apps* like OneNote, Evernote, and the Notes app let you
+  do just that: take notes!
+
+However, I don't know about y'all, but I don't separate my brain in this
+kind of way. My tasks include notes, my notes include calendar events,
+and my calendar events have tasks; and to be honest, I don't really
+distinguish between these things in my head. A meeting for a research
+project might have notes on the meeting I want to record, subtasks I
+need to delegate, and other follow-up meetings I need to timeblock
+around. A reminder to schedule a hangout with a friend will turn into a
+scheduled, timeblocked event with associated notes on what we're doing
+and where we're going. These aren't things I would want in different
+places!
+
+Thus, one aspect of flexibility is that *a notes app shouldn't just be a
+notes app*; it should be a todo list app and a calendar app too.
+
+Now, any notes system will encourage you to organize your notes in a
+particular way. This is true from the simplest of systems---a blank
+sheet of paper encourages freeform doodling and sketching---to the most
+complex digitized information management machines. Each of these systems
+contains within them a way of seeing and organizing the world. And as I
+explored different notes apps, I found that different ways of organizing
+information---different ways of seeing the world---scratched my brain in
 different ways.
 
-First, a notes app shouldn't just be a notes app. My tasks often include
-notes---for instance, a task to finish a school assignment might include
-the drafts of that assignment itself. And calendar events like meetings
-are themselves a kind of task---they might have subtasks, I may need to
-timeblock meetings relative to other tasks, and they might have
-associated notes. Thus, a notes app shouldn't just be a notes app; it
-should be a todo list app and a calendar app too.
+One of my core memories was learning about an app called
+[*WorkFlowy*](https://workflowy.com/). This app's special sauce was that
+it was an *infinite outliner*: it let you create outlines as deep and
+nested as you wanted, and let you zoom in and out of bullet points to
+focus in on particular parts of your notes:
 
-Second, a notes system should afford multiple ways of structuring
-information. My "I need everything to be structured and organized" self
-prefers *hierarchical structure and outlining*; it lets me (1) break
-down big tasks, projects, and ideas into smaller ones; (2) list tasks
-and notes under different larger goals, so I can see my progress towards
-them; and (3) find information easier:
+<video controls autoplay loop muted class="w-full mb-4">
+    <source src="./workflowy-2.mp4">
+</video> 
+
+This genuinely changed my brain chemistry. The idea of having
+everything---a note, a task, whatever---be a bullet point, and being
+able to arbitrarily nested these bullet points within each other, spoke
+to the "computer science is my passion" part of my brain, the left brain
+in me that demanded to impose order onto the world around me. I was able
+to break down big tasks and projects into manageable chunks, categorize
+my tasks and notes under larger goals, and build a graspable taxonomy of
+my information:
 
 ```
 - Research
@@ -532,9 +408,34 @@ personal.
 <!-- personal as opposed to wanting to scale for everyone? -->
 
 
-# My system: org-mode
+# What I use
 
-This system is realized through a system called *org-mode*.
+I'd like to present my system to you---what I use to organize myself,
+how I structure my notes and tasks, and the additions I've made to adapt
+my system to my brain.
+
+## org-mode
+
+The app I use to store my notes and todos is called *org-mode*.
+*org-mode* is technically a feature of a larger program called *Emacs*,
+which some folks use as a text editor for doing programming in, similar
+to Visual Studio Code.
+
+To be honest, I have no idea how to describe at a high level what
+org-mode does, so I'll just show you instead.
+
+## How I organize my notes
+
+An org-mode note is just a file on my laptop. The two most important
+files in my notes system are:
+
+- `inbox.org`, where I record random one-off tasks and events, and
+- `focus.org`, where I record tasks and notes for the core parts of my
+  life that I care about---research, hobbies, mental health, etc.
+
+Let's start with `inbox.org`.
+
+
 
 <!--
 
@@ -551,3 +452,7 @@ The system I have today has
 ## Zotero and citar
 
 -->
+
+# What should you use
+
+org-mode is a pretty esoteric system. It takes a lot
