@@ -1,5 +1,7 @@
 import { DateTime } from "luxon";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import anchor from "markdown-it-anchor";
+import toc from "eleventy-plugin-toc";
 
 export default async function(config) {
     // All of the files for the website will be in the `website/` folder.
@@ -9,6 +11,10 @@ export default async function(config) {
     config.addPassthroughCopy('website/img');
     config.addPassthroughCopy('website/static');
 
+    // Add all videos
+    // https://github.com/11ty/eleventy/issues/2461
+    config.addPassthroughCopy("{,!(_site)/**/}*.mp4");
+
     // Drafts
     config.addPreprocessor("drafts", "*", (data, _content) => {
         if (data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
@@ -17,7 +23,12 @@ export default async function(config) {
     });
 
     // Replace my em-dashes please
-    config.amendLibrary("md", (mdLib) => mdLib.set({ typographer: true }));
+    config.amendLibrary("md", (mdLib) => mdLib.set({ typographer: true }).use(anchor, {
+        permalink: anchor.permalink.headerLink()
+    }));
+    config.addPlugin(toc, {
+        tags: ['h1', 'h2', 'h3'],
+    });
 
     config.addFilter("readableDate", (dateObj, format, zone) => {
         // Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
@@ -52,13 +63,13 @@ export default async function(config) {
 
         return `
             <div class="lowercase flex flex-col sm:flex-row mb-3 sm:mb-0">
-                <p class="text-gray-400 whitespace-nowrap pr-1 align-top">${time} <span class="${typeColor}">${typ}</span></p>
-                <div>
-                    <p class="${weight}">${item}</p>
-                    <div class="text-sm text-gray-400">${rest}</div>
-                </div>
+            <p class="text-gray-400 whitespace-nowrap pr-1 align-top">${time} <span class="${typeColor}">${typ}</span></p>
+            <div>
+            <p class="${weight}">${item}</p>
+            <div class="text-sm text-gray-400">${rest}</div>
             </div>
-        `
+            </div>
+            `
     });
 
     config.setFrontMatterParsingOptions({

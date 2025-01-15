@@ -50,8 +50,8 @@ for joy and leisure while bearing (witness to) the everyday violences of
 white supremacy, capitalism, and colonialism is a lot. My tax dollars
 fund genocide, climate catastrophe marches on unabated, and tech
 companies are too busy building themselves fake AI friends because they
-don't have any real ones, yet I still gotta Lock In because I have a
-bCourses assignment due at 11:59.
+don't have any real ones, yet I still gotta Lock In because I have an
+assignment due at 11:59.
 
 Needless to say, I get overwhelmed sometimes.
 
@@ -144,20 +144,12 @@ tend to be particularly common with (1) tools marketed for business use,
 and/or (2) tools backed by VC funding. Go figure!
 </p>
 
-<p>
-There are certainly diversions from this kind of rhetoric.
-For example, the use of the term <a href="https://maggieappleton.com/garden-history">"digital garden"</a>
-to refer to personal wikis and knowledge bases is interesting. What
-epistemic work is done when we analogize collecting knowledge to tending
-to a garden&mdash;a personal practice and art that can be enjoyed for its
-own sake? What does this <em>do</em>?
-</p>
-
-<p>
-There are also exceptions to the "notes apps are services that lock away
-your data for mysterious AI bullshit" rule;
-<a href="https://obsidian.md">Obsidian</a> is the most obvious example, which we'll
-get to soon ;)
+<p> There are certainly diversions from this kind of rhetoric. For
+example, the use of the term <a href="https://maggieappleton.com/garden-history">"digital garden"</a> to
+refer to personal wikis and knowledge bases emphasizes the practice of
+knowledge organization as a kind of self-care, like tending to a
+garden&mdash;a personal practice and art that can be enjoyed for its own
+sake.
 </p>
 </aside>
 
@@ -192,10 +184,9 @@ I want to be very clear. I am not interested in valorizing productivity,
 and I sure as hell don't want to *optimize* or *maximize* anything.
 
 I don't want my tools to let me do more work. I want my tools to bring
-*joy* into my life. These are tools for facilitating doing things I
-enjoy and spending time with folks I love, for finding space for joy and
-leisure in the midst of the bullshit that is productivity culture and
-capitalism.
+*joy* into my life. These are tools to let me do things I enjoy and
+spend time with folks I love---making space for joy and leisure in the
+midst of the bullshit that is productivity culture and capitalism.
 
 <!-- notes apps as critical resistance -->
 
@@ -303,20 +294,18 @@ places!
 Thus, one aspect of flexibility is that *a notes app shouldn't just be a
 notes app*; it should be a todo list app and a calendar app too.
 
-Now, any notes system will encourage you to organize your notes in a
-particular way. This is true from the simplest of systems---a blank
-sheet of paper encourages freeform doodling and sketching---to the most
-complex digitized information management machines. Each of these systems
-contains within them a way of seeing and organizing the world. And as I
-explored different notes apps, I found that different ways of organizing
-information---different ways of seeing the world---scratched my brain in
-different ways.
+On top of that, different notes systems encourage you to organize your
+thoughts in particular ways. For example, one of the first notes apps I
+tried was an app called [*WorkFlowy*](https://workflowy.com/). This
+app's special sauce was that it was an *infinite outliner*: it let you
+create outlines as deep and nested as you wanted, and let you zoom in
+and out of bullet points to focus in on particular parts of your notes:
 
-One of my core memories was learning about an app called
-[*WorkFlowy*](https://workflowy.com/). This app's special sauce was that
-it was an *infinite outliner*: it let you create outlines as deep and
-nested as you wanted, and let you zoom in and out of bullet points to
-focus in on particular parts of your notes:
+<aside>
+I originally got into this app because in high school we would be made
+to write <em>Cornell Notes</em>, which are very heavy on outlining structure.
+Lore!
+</aside>
 
 <video controls autoplay loop muted class="w-full mb-4">
     <source src="./workflowy-2.mp4">
@@ -345,20 +334,23 @@ my information:
         - ...
 ```
 
-<!--
-TODO: rewrite this section.
-      talk about "ooh im interdisciplinary/have poor work life balance,
-      and thus the parts of my life blend together
--->
+However, I don't want *all* of my notes to be structured this way! While
+my left-brain "everything must be organized" self enjoys this kind of
+organizing very much, my right-brain "i'm quirky and scatterbrained and
+✨interdisciplinary✨ and everything is connected" self doesn't really!
+Many of the things in my life can't really be siloed away into one
+category like this; [TODO add stuff here].
 
-On the other hand, not all information can be strictly hierarchically
-organized, and my "ooh I'm scatterbrained and creative and
-✨interdisciplinary✨" brain wants to be able to *link related
-information together* outside of any hierarchical ordering. For example,
-intersectionality comes up in a lot of different humanities contexts,
-and I want to be able to reference this concept from all of my different
-notes, and also be able to see where this concept is referenced across
-all of my notes.
+This side of me is drawn to apps like
+[*Obsidian*](https://obsidian.md/), which are structured like a personal
+Wikipedia---you structure your notes by creating *links* between
+different notes, and you can see which notes have linked to other notes.
+
+[TODO obsidian video].
+
+This is the second aspect of flexibility: to be able to structure my
+notes to have *both* strict and rigid hierarchies *and* looser
+interlinked taxonomies.
 
 ## Fun
 
@@ -410,19 +402,65 @@ personal.
 
 # What I use
 
-I'd like to present my system to you---what I use to organize myself,
-how I structure my notes and tasks, and the additions I've made to adapt
-my system to my brain.
+Finding the notes system that works for you is a deeply personal
+process, and it's a process that takes lots of introspection and lots of
+time. For me, when I was in my trying-different-things-out era, I would
+put all of my notes and todos into an app for a week or so and see how I
+felt, seeing what parts of the system spoke to me and what parts felt
+bothersome or burdensome. Sometimes this process can take months or even
+*years*---with Obsidian, I tried switching over to it 3 or 4 different
+times, each time learning more about what I did and didn't like, and how
+I could adapt the tool to suit my needs.
+
+Using one of these apps is a conversation. When you switch to a system,
+you are asking the tool to change for you, to fit how you process the
+world and organize your perception of it. And in turn, the tool asks you
+to change for it, subtly encouraging you to see the world through the
+lens it provides. Outliners like WorkFlowy encourage you to impose
+structure and hierarchy onto the world, while other apps like the Apple
+Notes app encourage you to take the chaos of the world as it is.
 
 ## org-mode
 
-The app I use to store my notes and todos is called *org-mode*.
-*org-mode* is technically a feature of a larger program called *Emacs*,
-which some folks use as a text editor for doing programming in, similar
-to Visual Studio Code.
+My system is a little quirky. All of my notes are stored as text files
+on my computer. Each of these text files (think of them like Word
+documents basically) corresponds to a note. Each of these notes is
+written in an outline format that looks like this:
 
-To be honest, I have no idea how to describe at a high level what
-org-mode does, so I'll just show you instead.
+```org
+* Heading 1
+** Heading 2
+Some text for heading 2 goes here
+
+** Heading 3
+Whatever other text
+```
+
+To edit these files, I use an application called
+[*org-mode*](https://orgmode.org/). *org-mode* was originally created in
+2003 as a feature of a larger program called *Emacs*, which is a code
+editor similar to Visual Studio Code.
+
+This is an incredibly barebones setup, and yet it is this simplicity
+that is the sauce of the system. These notes are regular degular text
+files, meaning it is straightforward to build different tools that
+programmatically interact with and view these files in different ways.
+Not only does *org-mode* itself have a metric fuckton of different
+features and keyboard shortcuts for interacting with these notes, but
+*org-mode* and *Emacs* are themselves incredibly programmable and
+extensible, meaning I and other folks can write additional layers of
+functionality on top of this.
+
+As a disclaimer, I will say that this system is extremely quirky and
+pretty rough to get into. I was first interested in this system in 2016,
+and it took years of learning programming and banging my head against
+the software to be able to switch to it when I entered UCSD in 2019. I
+then gave up on it around 2021 because updates had broke the system, and
+I took me *another* 3 years to get back into it again.
+
+The reward is a system that so vast and sprawling in its capacity that
+it's difficult to describe without seeing examples. So let's see some
+examples :^)
 
 ## How I organize my notes
 
@@ -435,7 +473,59 @@ files in my notes system are:
 
 Let's start with `inbox.org`.
 
+## Syncing with Google Calendar
 
+One issue I've run into in the past is that folks will try to look at my
+Google Calendar to check my availability, even though I don't use Google
+Calendar to keep track of when I'm free.
+
+<aside>
+    <div class="w-3/4 lg:ml-auto">
+    <img src="org-gcal.png" alt="
+        An image showing the interface of my org-to-google-calendar
+        syncing tool.
+    " />
+    </div>
+    <p class="mt-4">
+        The interface for my org-to-google-calendar syncing tool,
+        showing how many events were synced and how long it took.
+        I use <a
+        href="https://github.com/swiftbar/SwiftBar">SwiftBar</a> to
+        display my program's output in the task bar.
+    </p>
+    <p>
+        The code for this is available <a
+        href="https://github.com/dcao/org-tools/tree/main/cal-sync">here</a>.
+    </p>
+</aside>
+
+One benefit of `org-mode` is that all of my notes files are stored on my
+laptop, and the notes are formatted in a way that is very easy for
+computers to look at and process. Because of this, I was able to *write
+a custom program* that goes through all of my notes, checks for tasks
+and events that are coming up, and then automatically add them to my
+Google Calendar, so that it stays up to date with my own `org-mode`
+notes. This way, people can look at my schedule on Google Calendar and
+see when I'm actually available, and I still get to use my quirky little
+setup!
+
+This capacity to programmatically access and manipulate my notes is
+incredibly powerful. It lets me automate many logistical things that
+would be *incredibly painful* to do in an online app like Notion:
+
+- Bulk moving or renaming many different notes or tasks all at once
+
+Crucially, it also lets me add my own custom functionality and behavior
+onto the notes app. Having Google Calendar syncing is normally a paid
+feature offered by online task management services; I get to have it for
+free, and I don't need to wait for some random developer to implement it
+for me. I can do it myself!
+
+## Publishing my notes
+
+Folks often want to view parts of my notes for various
+readings---sometimes I have individual notes I want to share with
+friends or whatever, and for my PhD work I want to have my 
 
 <!--
 
@@ -447,7 +537,9 @@ The system I have today has
 
 ## PDF export
 
-## Getting the rest of the world to know what's happening
+## Google Calendar: Getting the rest of the world to know what's happening
+
+## Website export
 
 ## Zotero and citar
 

@@ -14,8 +14,8 @@ layout: base-new.njk
     <div class="grid gap-2 grid-cols-1 gap-8 lg:gap-4 lg:grid-cols-13 mt-12">
         {% if draft %}
             <p class="p-2 bg-red-300 text-red-700 lg:col-start-7 lg:col-span-6 rounded max-w-prose">
-                This is a draft. This page shouldn't be published on the
-                live version of this site.
+            This is a draft. This page shouldn't be published on the
+            live version of this site.
             </p>
         {% endif %}
         {% if wip %}
@@ -23,6 +23,14 @@ layout: base-new.njk
             This article is a <em>work in progress</em>.
             </p>
         {% endif %}
+
+        <div class="sticky hidden w-[20vw] lg:flex flex-col top-16 lg:col-span-2 self-start">
+            <h1 class="text-gray-600 mb-2">Table of contents</h1>
+            <div class="text-keynote-500 hover:[&_a]:text-keynote-800 [&_ol_ol]:ml-2 [&_a]:mb-2 [&_ol]:mb-1">
+                {{ content | toc }}
+            </div>
+        </div>
+
         <main class="text-gray-600 text-lg lg:col-start-7 lg:col-span-6 max-w-prose">
             {{ content }}
         </main>
