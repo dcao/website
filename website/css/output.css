@@ -624,6 +624,14 @@ video {
   top: 4rem;
 }
 
+.top-20 {
+  top: 5rem;
+}
+
+.top-24 {
+  top: 6rem;
+}
+
 .col-span-4 {
   grid-column: span 4 / span 4;
 }
@@ -726,6 +734,14 @@ video {
   margin-top: 2rem;
 }
 
+.mr-16 {
+  margin-right: 4rem;
+}
+
+.mr-32 {
+  margin-right: 8rem;
+}
+
 .block {
   display: block;
 }
@@ -800,6 +816,10 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .max-w-3xl {
@@ -1183,6 +1203,14 @@ video {
   padding-top: 1.5rem;
 }
 
+.pr-4 {
+  padding-right: 1rem;
+}
+
+.pr-8 {
+  padding-right: 2rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1441,6 +1469,14 @@ video {
 
 .underline-offset-4 {
   text-underline-offset: 4px;
+}
+
+.opacity-25 {
+  opacity: 0.25;
+}
+
+.opacity-35 {
+  opacity: 0.35;
 }
 
 .mix-blend-difference {
@@ -1863,6 +1899,10 @@ main {
   text-decoration-style: solid;
 }
 
+.hover\:opacity-100:hover {
+  opacity: 1;
+}
+
 .hover\:brightness-50:hover {
   --tw-brightness: brightness(.5);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -1978,6 +2018,10 @@ main {
 
   .lg\:col-span-7 {
     grid-column: span 7 / span 7;
+  }
+
+  .lg\:col-span-1 {
+    grid-column: span 1 / span 1;
   }
 
   .lg\:col-start-1 {
