@@ -10,7 +10,7 @@ draft: true
         An image showing many different things that are overwhelming me: class work, research obligations, and the state of the world.
         Text inside reads: 'i'm overwhelmed.'
     " />
-    <p class="mt-4">
+    <p class="mt-2">
         This blog post began as a presentation I gave in fall 2022 at
         <a href="https://spaces.ucsd.edu/">SPACES</a>,
         the student-led resource center I worked at while at UCSD.
@@ -492,7 +492,7 @@ My notes folder contains the following sub-folders:
 All of my other notes go in my main notes folder.
 -->
 
-## Recording tasks
+## Task management
 
 The starting point for my notes setup is a file called `inbox.org`. This
 is where I put one-off tasks that don't really belong anywhere else.
@@ -544,26 +544,35 @@ upcoming tasks, big events that are coming up that I should plan around,
 and at the top, the "whiteboard," which is a list of tasks or projects I
 want to focus on next this week.
 
-The extensibility of the tool extends all the way to the smallest of
-details. For instance, in the whiteboard view, every task is preceded by
-a number in a circle. This represents the priority of the task, which I
-indicate by attaching a `w@_` tag to the task, where `_` represents the
-priority in question. This is custom programmed behavior that I added
-myself!
+This agenda also shows a glimpse into org-mode's extensibility. In the
+whiteboard view, every task is preceded by a number in a circle. This
+represents the priority of the task, which I indicate by attaching a
+`w@_` tag to the task, where `_` represents the priority in question.
+This is custom programmed behavior that I added myself!
 
 Sometimes, this list format isn't enough though, and I want to see a
-Google Calendar-style view of when I'm free. I'm a visual learner! For
-that, there's a package called *org-timeblock*:
+Google Calendar-style view of when I'm free. I'm a visual learner or
+whateva ✨
+
+<aside>
+This functionality is provided by a package called
+<a href="https://github.com/ichernyshovvv/org-timeblock">org-timeblock.</a>
+</aside>
 
 <img src="timeblock.png" class="mb-4" alt="org-timeblock" />
 
+## Organizing information
 
-## Keeping track of projects hierarchically
+One of my requirements I listed was flexibility, and org-mode allows me
+to organize info along hierarchical and non-hierarchical means.
 
-My most important note is `focus.org`, which contains notes and tasks
-for all of the different areas of interest in my life: professional
-(i.e., research), hobbies (e.g., martial arts, dance), and general areas
-of interest (e.g., mental health). 
+### Hierarchical organization
+
+org-mode's natural strength lies in its capacity for hierarchical
+organization. For instance, my most important note is `focus.org`, which
+contains notes and tasks for all of the different areas of interest in
+my life: professional (i.e., research), hobbies (e.g., martial arts,
+dance), and general areas of interest (e.g., mental health). 
 
 The capacity to hierarchically break down each of these super broad
 areas into specific goals, projects, and eventually meetings and tasks
@@ -581,129 +590,243 @@ research notes but I think those are lowkey confidential rn lmao
     <source src="./focus-wushu.mp4">
 </video> 
 
+My school notes are structured in a similarly hierarchical fashion.
+Classes are broken down into sections for lectures, readings, and
+assignments. For instance, here were my notes for one of my Ethnic
+Studies courses at UCSD:
+
+<img src="./school.png" alt="The outline for ETHN 100A" class="mb-4" />
+
+Tasks/events and notes are all interspersed with each other. A lecture
+is a `TODO` item scheduled to occur at a particular time, but it also
+contains additional notes for each lecture. Assignments are both tasks
+that have a deadline as well as notes containing info on the assignment
+and different drafts and ideas for the assignment.
+
 org-mode has a robust set of tools for manipulating and viewing
 hierarchical outlines. This includes the simple collapsing we've seen in
 the previous section, but also some additional extras:
 
-- *narrowing* to a specific outline tree and hiding everything else in a
-  file
-- folding and unfolding *a whole file's outline*, and not just
-  individual outline items
-- adding new outline items and shuffling outline items around---e.g.,
-  moving an outline item before or after another item or making an item
-  a child of another
+- *[narrowing](https://orgmode.org/manual/Structure-Editing.html)* to a
+  specific outline tree and hiding everything else in a file;
+- [folding and
+  unfolding](https://orgmode.org/manual/Visibility-Cycling.html) *a
+  whole file's outline*, and not just individual outline items;
+- and adding new outline items and shuffling outline items
+  around---e.g., moving an outline item before or after another item or
+  making an item a child of another.
 
-Of course, all of these functions can have keys bound to them, as I
-have, for very fast manipulation of my notes. :^)
+### But also fuck hierarchy
 
-<!-- TODO: school? -->
-<!-- General organizational strategy: folders, the date • thing -->
-
-## Okay but also fuck hierarchy
-
-Alright, now we're getting to the fun stuff. I promised a system that
-can handle both hierarchy and the opposite of hierarchy, and I'll show
-you how we get there with an example.
-
-Pretend you're me for a sec. pov: you are david, and your bestie just
-told you about a brand new cafe they just learned about. You want to
-record this information down really quickly, but you're not sure where
-this information is supposed to go in the moment---you're in the middle
-of conversation!---so you quickly make a new note to write this down:
-
-<!--
-TODO: anonymize
-<aside>
-For the technically-inclined: the node-open window is actually
-<em>org-node</em>, not org-roam. This is mostly an implementation
-detail; org-node is wayyyy more performant than org-roam, but org-roam
-is the more commonly known package, and it makes my story simpler to
-tell if I just pretend this is all org-roam.
-</aside>
-
-<video controls loop muted class="w-full mb-4">
-    <source src="./roam-1.mp4">
-</video> 
--->
-
-Some notes:
-
-- To locate existing notes and create new ones, I use a package called
-  *org-roam*, which allows me to attach unique identifiers to files and
-  outline items in files. I can then quickly jump to these files/outline
-  items using this menu, or create a new note if it doesn't exist
-  already.
-- org-roam interoperates with *org-capture*, a feature of org-mode that
-  allows for creating notes that follow custom user-defined templates. I
-  personally have three templates: one for regular notes, one for
-  journals, and one for literate notes (which we'll get to later)
+While org-mode's natural strength is in hierarchical outlining, over the
+years folks have contributed their own customizations to make org-mode a
+world-class non-hierarchical note-taking app as well.
+<span class="aside">
+I use the <a href="https://www.orgroam.com/">org-roam</a>
+and <a href="https://github.com/meedstrom/org-node">org-node</a>
+packages,
+with the latter in particular providing additional high-performance
+functionality to augment the former.
+</span>
+As an example, during summer 2024 I spent much of my time preparing for
+a big oral exam for my PhD that required me to basically do a lit review
+of existing programming language research. The syllabus for this exam
+requires knowledge of a number of different concepts, with multiple
+options suggested for relevant readings (along with a recommendation
+that we find our own readings to augment our understanding).
 
 <aside>
-org-roam is named after <a href="https://roamresearch.com/">Roam</a>, an
-outlining note-taking tool that popularized the use of <em>backlinks</em>
-in notes apps!
+    <div class="">
+    <img src="./reading-note.png" alt="
+        An image showing the interface of my org-to-google-calendar
+        syncing tool.
+    " />
+    </div>
+    <p class="mt-2">
+        An example of one of my reading notes.
+        Note the link to the note on <code>parsing</code>.
+    </p>
 </aside>
 
-Later on, you remember that you have a "Berkeley spot list" note where
-this information should go, and so you use the *refile* functionality in
-org-mode to move this note with a quick keyboard shortcut:
+Thus, as a starting point, I first began by creating individual notes
+for each reading I did. Every week, I had a particular set of readings
+scheduled for myself, and so I'd take detailed notes on each of these
+readings.
 
-<video controls loop muted class="w-full mb-4">
-    <source src="./roam-2.mp4">
-</video> 
+Each reading can mention one or more relevant concepts, multiple
+readings can provide different perspectives on a particular concept, and
+understanding one concept can require reading into another. To
+synthesize all this info, I also created notes for the concepts
+themselves, which contains a synthesis of the different info I gleaned
+from different readings that mentioned this concept. My notes system
+facilitated this synthesis by providing information on which other notes
+linked to or mentioned this concept, allowing me to resurface these
+relevant readings. For instance, here are the different notes that link
+to my notes on parsing:
 
-Now, let's say some time passes. You visit the cafe, and it's great! You
-start journaling about the experience and you want to make sure the note
-about the cafe is connected to your current journal. While writing, you
-create a link to the note for the cafe:
+<img src="./backlinks.png" alt="
+    An image showing the interface of my org-to-google-calendar
+    syncing tool.
+" />
 
-<!--
-TODO: anonymize
-<video controls loop muted class="w-full mb-4">
-    <source src="./roam-3.mp4">
-</video> 
--->
+Finally, as I approached my test date, I wrote *study guides* which
+summarized the readings and concepts covered for each week. Because by
+this point, I had done all of the readings already, I was able to
+reference and synthesize reading and concept notes from future weeks of
+study together in these reviews.
 
-- In org-roam, any item with a unique identifier can be linked to. This
-  means we can link to either files or outline items in files! This is a
-  super powerful feature which gives us the best of both
-  worlds---hierarchical organization and arbitrary note linking!
-- Unrelatedly, my journal template files away all journal notes into a
-  folder called `calendar/`, to keep my notes folder organized.
+The packages I use for non-hierarchical linking in org-mode come with a
+number of functions for doing all this, and I've added a number of
+shortcuts for quickly linking to and opening notes.
 
-Finally, to see where else you've mentioned this cafe before, you go to
-the note for the cafe and open the *backlinks* buffer, which shows where
-this note has been linked to across all your other notes:
-
-<video controls muted class="w-full mb-4">
-    <source src="./roam-4.mp4">
-</video> 
-
-This system allows me to build a kind of personal Wikipedia, where
-concepts and journals and notes are all connected together. My research
-meeting notes and course lecture notes reference notes I have on
-particular topics like "intersectionality" or "queer assemblages," which
-themselves connect to notes on books and articles I've read on these
-topics, and to journals where these concepts come up in my own lived
-experience. Even though I do a bunch of different things, I don't live
-my life in separate little siloes. I bring all of me to every space I
-inhabit.
-
-*everything is connected. ✨*
+Collecting and synthesizing all of this information would have been
+incredibly difficult in a strictly-hierarchical setting. There is no
+clear correspondence between readings, concepts, and study guides, and
+they all reference each other in complex ways. But this org-mode setup
+allows me to be able to hold and synthesize all of this knowledge, to
+provide different views into the knowledge I've accumulated.
 
 <aside>
-A graph representation of my notes, where the dots represent individual
-files or outline items, and lines between dots are notes that are
-linked together.
+    <div class="w-3/4 lg:ml-auto">
+    <img src="./roam-graph.png" alt="
+        A graph of my notes, where linked notes are connected together
+    " />
+    </div>
+    <p class="mt-2">
+        A graph representation of my notes, where the dots represent individual
+        files or outline items, and lines between dots are notes that are
+        linked together.
+    </p>
 </aside>
 
-![A graph of my notes, where linked notes are connected together](roam-graph.png)
+And this holds true across all of my notes. In lecture notes and
+readings for coursework, I often find myself referencing and returning
+to particular concepts that are emphasized in the class. And in my
+personal journals and notes, I often reference these concepts as well as
+I process them for myself.
+
+And the fact that org-mode allows for both hierarchical and
+non-hierchical ways of organizing information allows for some unique
+functionality. For instance, I have a note for keeping track of cute
+restaurants, cafes, and spots in the Bay. Within this note, I have
+outline items for each individual spot. With my system, linkable notes
+can be *either files or outline items*. Thus, I can reference and link
+to individual cafes or restaurants, while also being able to see all of
+these cafes and restaurants in one place.
+
+## Navigating and capturing notes quickly
+
+org-mode is by far the fastest system I've used for capturing and
+navigating information. Because org-mode is built on top of a code
+editor, there are tons of facilities for editing and jumping around
+large files.
+<span class="aside">
+For the computationally-inclined, I use <a
+href="https://github.com/emacs-evil/evil">evil mode</a>
+in Emacs to get Vim keybindings, along with
+<a href="https://github.com/Somelauw/evil-org-mode">
+evil-org-mode</a> for evil/org integration. It makes editing org-mode documents incredibly
+fast.
+</span>
+I've also added commands and keyboard shortcuts for quickly opening
+notes, creating notes that follow particular templates, and moving parts of notes into other notes.
+
+<!-- TODO: capture -->
+<!-- TODO: refile -->
+
+### Using org-mode on the go
+
+<!-- TODO: mobile -->
+
+## Pruning un-needed notes
+
+One other potential source of overwhelm for me is *having too many
+notes.* If I open my notes for a project and immediately see 200
+different tasks I've already finished, I'm immediately lost in the
+sauce. In the past, this has resulted in me repeatedly switching apps or
+starting over with a new folder of notes after every quarter or year.
+And in general, I'm personally obsessed with "fresh starts"---clearing
+out my notes feels like the emotional equivalent of cutting and
+re-dyeing my hair, a symbolic gesture that *the vibes have changed*. To
+facilitate this in a principled manner, I've developed a system for
+*archiving* old notes.
+
+My notes as a whole tend to fall into two different buckets:
+
+1. *Ephemeral* notes are one-off scratch notes. These include meeting
+   notes, brainstorms and worklogs where I track what I worked on for a
+   project in a particular day, personal journals, and just random
+   thoughts I have day-to-day. *I take ephemeral notes to forget*; they
+   let me get lignering thoughts out of head and into somewhere, so that
+   I feel like I can refer to them if I need to.
+
+   I denote ephemeral notes by including a date somewhere in the name of
+   the note, e.g., `2025-01-16 • COMPSCI 264 2Th` for a lecture note.
+   Attaching a date to these notes *makes them ephemeral* in my
+   brain---they're attached to a particular moment in time.
+2. *Evergreen* notes are notes that I want to stick around in my notes.
+   These include notes on particular concepts that are referenced
+   throughout my notes, as well as broad focus areas (e.g., "Research")
+   and projects (e.g., "2024 Group set").
+
+<aside>
+For more on ephemeral and evergreen notes, see
+<a
+href="https://notes.andymatuschak.org/z5E5QawiXCMbtNtupvxeoEX?stackedNotes=zKGjQtsTKgscAoq271ZzKqw&stackedNotes=zNQV445UEcyLXVsRVgoVSfv">
+these notes by Andy Matuschak</a>,
+who has written a lot on this sort of thing.
+</aside>
+
+This allows me to distinguish between (a) one-off notes I don't care about
+keeping around in my main notes files and (b) evergreen notes I want to
+be able to continue to reference.
+
+The second part of this archival system is actually clearing out
+ephemeral notes I don't care about. All of my archived ephemeral notes
+are stored in an separate `archive/` folder, with subfolders for every
+quarter: `24q1`, `24q2`, and so on. I've implemented a custom command
+that uses org-mode's own archival tools to automatically attach a date
+to archived notes and move them to the correct place. Here's an example
+of me quickly archiving a bunch of inbox tasks:
+
+<aside>
+In this video, the current inbox file is on the left, with the archive
+file (<code>archive/25q1/inbox.org</code>) on the right.
+</aside>
+<video controls loop muted class="w-full mb-4">
+    <source src="./archive.mp4">
+</video> 
+
+Importantly, evergreen notes on projects and areas can *become*
+ephemeral notes as they age. As part of my quarterly/yearly
+intention-setting practice, I like to completely clear out my notes and
+todos for my focus items as a way of literally clearing my virtual head
+and having a fresh start for the new year. Thus, at the end of this
+quarter, my `Research` note will become something like `2025-03-15 •
+Research`. This note is still accessible and linkable if I ever need to
+reference it later on, but it's moved out of the way so that it's no
+longer present of mind for me. It's a kind of Marie Kondo way of
+organizing my virtual brain space.
 
 ## Taking literature notes
 
 - Zotero sync
 
-## Syncing with Google Calendar
+## Showing this info to other people
+
+Obviously, if I want to share information in this system with other
+folks, most people wouldn't want to see it in this format. If I want to
+share my notes with other folks, most folks have touched too much grass
+to want to see my notes in this weird outline format. And if folks want
+to schedule a meeting with me or something, they just want to be able to
+see my availability on Google Calendar or something easy like that.
+
+Normally, if I were using some quirky online notes system, it'd be
+impossible to facilitate this. But because these notes are Just Files On
+My Computer, it's relatively straightforward for me to *write my own
+programs* to accomplish this.
+
+### Syncing with Google Calendar
 
 One issue I've run into in the past is that folks will try to look at my
 Google Calendar to check my availability, even though I don't use Google
@@ -716,7 +839,7 @@ Calendar to keep track of when I'm free.
         syncing tool.
     " />
     </div>
-    <p class="mt-4">
+    <p class="mt-2">
         The interface for my org-to-google-calendar syncing tool,
         showing how many events were synced and how long it took.
         I use <a
@@ -742,7 +865,8 @@ incredibly powerful. It lets me automate many logistical things that
 would be *incredibly painful* to do in an online app like Notion:
 
 - Bulk moving or renaming many different notes or tasks all at once
-- 
+  (e.g., any of the archival stuff I mentioned above)
+- Publishing my notes in a different easily-accessible format (see below)
 
 Crucially, it also lets me add my own custom functionality and behavior
 onto the notes app. Having Google Calendar syncing is normally a paid
@@ -750,11 +874,13 @@ feature offered by online task management services; I get to have it for
 free, and I don't need to wait for some random developer to implement it
 for me. I can do it myself!
 
-## Publishing my notes
+### Publishing my notes
 
+<!--
 Folks often want to view parts of my notes for various
 readings---sometimes I have individual notes I want to share with
 friends or whatever, and for my PhD work I want to have my 
+-->
 
 <!--
 
@@ -774,28 +900,11 @@ The system I have today has
 
 -->
 
-## Other wild shit
-
-Because org-mode has been around since 2003, folks have slowly built in
-their own functionality into the tool, to the point that it can do
-pretty much anything.
-
-For example, did you know that you can create tables with spreadsheet
-formulas in org-mode? I am literally [not fucking
-kidding](https://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html).
-
-org-mode also has built-in time-tracking support. You can record how
-long you spend on tasks, compare the actual time you spend on tasks with
-your own estimates, and add up the time spent on subtasks in a project.
-
-For the programmers out there, you can also use org files as an
-interactive notebook. org files can contain source blocks that you can
-edit and run, meaning you can treat them like a Jupyter notebook.
-
-This rabbit hole doesn't end man it literally goes so deep
-
 # What should you use
 
-okay everyone let's breathe.
+On the whole, I wouldn't recommend anybody use this system. It's obtuse
+and requires years of effort and extensive programming experience. I can
+afford to not touch grass for hours while fixing my notes because I have
+many privileges, including the privilege of having too much free time.
 
 

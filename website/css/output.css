@@ -620,14 +620,6 @@ video {
   top: 0px;
 }
 
-.top-16 {
-  top: 4rem;
-}
-
-.top-20 {
-  top: 5rem;
-}
-
 .top-24 {
   top: 6rem;
 }
@@ -734,14 +726,6 @@ video {
   margin-top: 2rem;
 }
 
-.mr-16 {
-  margin-right: 4rem;
-}
-
-.mr-32 {
-  margin-right: 8rem;
-}
-
 .block {
   display: block;
 }
@@ -818,10 +802,6 @@ video {
   width: 100vw;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
 .max-w-3xl {
   max-width: 48rem;
 }
@@ -858,10 +838,6 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.scroll-pt-16 {
-  scroll-padding-top: 4rem;
 }
 
 .columns-2xs {
@@ -1191,6 +1167,10 @@ video {
   padding-right: 0.5rem;
 }
 
+.pr-8 {
+  padding-right: 2rem;
+}
+
 .pt-3 {
   padding-top: 0.75rem;
 }
@@ -1201,14 +1181,6 @@ video {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pr-4 {
-  padding-right: 1rem;
-}
-
-.pr-8 {
-  padding-right: 2rem;
 }
 
 .text-center {
@@ -1469,10 +1441,6 @@ video {
 
 .underline-offset-4 {
   text-underline-offset: 4px;
-}
-
-.opacity-25 {
-  opacity: 0.25;
 }
 
 .opacity-35 {
@@ -2020,10 +1988,6 @@ main {
     grid-column: span 7 / span 7;
   }
 
-  .lg\:col-span-1 {
-    grid-column: span 1 / span 1;
-  }
-
   .lg\:col-start-1 {
     grid-column-start: 1;
   }
@@ -2103,6 +2067,15 @@ main {
 
 .\[\&_a\]\:mb-2 a {
   margin-bottom: 0.5rem;
+}
+
+.\[\&_a\]\:underline a {
+  text-decoration-line: underline;
+}
+
+.hover\:\[\&_a\]\:text-keynote-400 a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(164 149 184 / var(--tw-text-opacity, 1));
 }
 
 .hover\:\[\&_a\]\:text-keynote-800 a:hover {
