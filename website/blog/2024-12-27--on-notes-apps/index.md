@@ -1,7 +1,6 @@
 ---
 title: On notes apps
 date: 2025-01-14
-draft: true
 ---
 <!-- vim: set tw=72 wrapmargin=0 formatoptions+=t: -->
 
