@@ -338,14 +338,14 @@ my left-brain "everything must be organized" self enjoys this kind of
 organizing very much, my right-brain "i'm quirky and scatterbrained and
 ✨interdisciplinary✨ and everything is connected" self doesn't really!
 Many of the things in my life can't really be siloed away into one
-category like this; [TODO add stuff here].
+category like this. <!-- [TODO add stuff here] -->
 
 This side of me is drawn to apps like
 [*Obsidian*](https://obsidian.md/), which are structured like a personal
 Wikipedia---you structure your notes by creating *links* between
 different notes, and you can see which notes have linked to other notes.
 
-[TODO obsidian video].
+<!-- [TODO obsidian video]. -->
 
 This is the second aspect of flexibility: to be able to structure my
 notes to have *both* strict and rigid hierarchies *and* looser
