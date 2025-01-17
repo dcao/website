@@ -985,7 +985,7 @@ org-mode documents into PDFs:
   document into a *LaTeX* document, which is a typesetting format and
   system often used by computer science research venues.
 - I've specifically configured org-mode to use the *Tufte LaTeX* style,
-  which produces very nice-looking documents
+  a template for LaTeX which produces very nice-looking documents
   ([here's](https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/tufte-latex/sample-handout.pdf)
   an example, not made by me lol).
 
