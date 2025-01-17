@@ -1475,6 +1475,10 @@ video {
   opacity: 0.35;
 }
 
+.opacity-50 {
+  opacity: 0.5;
+}
+
 .mix-blend-difference {
   mix-blend-mode: difference;
 }
@@ -2097,6 +2101,10 @@ main {
   margin-bottom: 0.5rem;
 }
 
+.\[\&_a\]\:mb-3 a {
+  margin-bottom: 0.75rem;
+}
+
 .\[\&_a\]\:underline a {
   text-decoration-line: underline;
 }
@@ -2109,6 +2117,22 @@ main {
 .hover\:\[\&_a\]\:text-keynote-800 a:hover {
   --tw-text-opacity: 1;
   color: rgb(53 30 92 / var(--tw-text-opacity, 1));
+}
+
+.\[\&_li\+li\]\:mb-3 li+li {
+  margin-bottom: 0.75rem;
+}
+
+.\[\&_li\]\:mb-3 li {
+  margin-bottom: 0.75rem;
+}
+
+.\[\&_li\]\:mt-3 li {
+  margin-top: 0.75rem;
+}
+
+.\[\&_li\]\:mt-1 li {
+  margin-top: 0.25rem;
 }
 
 .\[\&_ol\]\:mb-1 ol {

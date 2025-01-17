@@ -258,7 +258,8 @@ roadblocks to inserting, moving, or locating information, I start
 hesitating when using the system. If I hesitate when using the system, I
 start doubting whether I want to use the system. Once I start doubting
 if I want to use the system, it ceases to be useful; I can't offload my
-brain into it anymore.
+brain into it anymore. I'm tired of thinking; I want the system to think
+for me, tyvm.
 
 With the agenda, while it was certainly fast to jot down and retrieve
 information, editing existing information often proved to be cumbersome,
@@ -306,7 +307,7 @@ to write <em>Cornell Notes</em>, which are very heavy on outlining structure.
 Lore!
 </aside>
 
-<video controls loop muted class="w-full mb-4">
+<video controls muted class="w-full mb-4">
     <source src="./workflowy-2.mp4">
 </video> 
 
@@ -505,10 +506,13 @@ with facilities for adding tasks and events and assigning them with
 dates.
 
 <aside>
-Basic task management in org-mode. Please ignore the typo at the end :^)
+Basic task management in org-mode. Throughout these demos, the current
+key that's being pressed will be displayed at the top of the screen. The
+keys I'm pressing are highlighted, with the full name of the command
+displayed adjacent.
 </aside>
 
-<video controls loop muted class="w-full mb-4">
+<video controls muted class="w-full mb-4">
     <source src="./inbox.mp4">
 </video> 
 
@@ -581,12 +585,11 @@ down into my notes for a meeting I had about an upcoming wushu
 competition:
 
 <aside>
-My wushu meeting notes in <code>focus.org</code>. btw, wushu is a kind
-of performance martial arts. I would show y'all my research notes but I
-think those are lowkey confidential rn lmao
+My wushu meeting notes in <code>focus.org</code>. I would show y'all my
+research notes but I think those are lowkey confidential rn lmao
 </aside>
 
-<video controls loop muted class="w-full mb-4">
+<video controls muted class="w-full mb-4">
     <source src="./focus-wushu.mp4">
 </video> 
 
@@ -714,12 +717,11 @@ these cafes and restaurants in one place.
 
 ## Navigating and capturing notes quickly
 
-org-mode is extremely fast. As we've covered so far, part of this is
-because of how customizable it is---it's very easy to add keyboard
-shortcuts and other custom functionality that makes my common tasks fast
-to do. It's also fast to edit notes---because org-mode is built on a
-full-blown code editor, it is naturally quite adept at handling large
-notes files.
+org-mode is extremely fast. Part of this is because of how customizable
+it is---it's very easy to add keyboard shortcuts and other custom
+functionality that makes my common tasks fast to do. It's also fast to
+edit notes---because org-mode is built on a full-blown code editor, it
+is naturally quite adept at handling large notes files.
 
 <aside>
 For the computationally-inclined, I use
@@ -734,29 +736,71 @@ org-mode also has built-in functionality that makes quickly recording
 and later moving information very fast. For the former, org-mode has a
 *capture* system that allows you to quickly create a note using your own
 user-defined templates. For instance, I've written a `journal` capture
-template to quickly create a note whose title starts with today's date,
-then rename that note and move it to a separate `calendar/` folder.
+template to quickly create a note whose title starts with today's date.
+Once I finish writing my note, the template renames it and moves it to a
+separate `calendar/` folder.
 
 <aside>
 I would show a demo of opening and creating new notes quickly, but the
 UI for that also shows all of my other notes. Y'all ain't seeing that!
 </aside>
 
-For quickly moving information around, org-mode allows you to *refile*
+For quickly moving information around, org-mode lets me *refile*
 notes and headlines into other notes and headlines. This interface
 allows me to type out part of the name of the note I want to move
 information into; the system searches through all my notes to show me a
-list of candidates.
-<span class="aside">
-Technical note: this is accomplished via
-<a href="https://github.com/minad/vertico">vertico</a>.
-</span>
-Here, I create a new
-todo in my inbox, then move it to be under my todos for the wushu
-competition I mentioned earlier:
+list of candidates. <span class="aside"> Technical note: this is
+accomplished via <a href="https://github.com/minad/vertico">vertico</a>.
+</span> Here, I create a new todo in my inbox, then move it to be under
+my todos for the wushu competition I mentioned earlier:
 
-<video controls loop muted class="w-full mb-4">
+<video controls muted class="w-full mb-4">
     <source src="./refile.mp4">
+</video> 
+
+### Taking literature notes
+
+As a PhD student, much of my work involves taking notes on different
+readings: papers, books, articles, whatever. To manage all of these
+readings, I use a program called [*Zotero*](https://www.zotero.org/).
+Zotero basically lets you keep a database of a bunch of different
+readings, letting you categorize different readings and automatically
+generate bibliographies from those readings. It also has a *browser
+extension* that lets you visit a page for an academic reading, click a
+button, and automatically import the citation for that reading into your
+Zotero.
+
+On the org-mode side, I use another packaged called
+[*citar*](https://github.com/emacs-citar/citar) which lets me
+programmatically interact with my library of citations from within
+Emacs. With the addition of another package,
+[*citar-org-roam*](https://github.com/emacs-citar/citar-org-roam), I can
+browse my list of readings and automatically create new notes for these
+readings. These notes are placed in the `lit/` directory of my notes and
+have some information pre-included, such as the date the work was
+created, the author(s) of the work, and the title of the work.
+
+<aside>
+One technical bit of detail I glossed over---there is no direct
+integration between citar and Zotero. To paper over this, I use the
+Better BibTex Zotero plugin to automatically export a BibTeX file with
+my Zotero library into my notes directory. citar then reads from this
+BibTeX file, rather than from the Zotero library directly.
+</aside>
+
+Here's a demo of this whole setup from start to finish:
+
+<video controls muted class="mb-4">
+    <source src="./lit-notes.mp4">
+</video> 
+
+org-mode has built-in citation support too, and it interacts with the
+rest of the non-hierarchical linking stuff above. If I go to the notes
+page for a reading, I can see where that reading is cited in all of my
+notes:
+
+<video controls muted class="mb-4">
+    <source src="./lit-notes-2.mp4">
 </video> 
 
 ### Using org-mode on the go
@@ -791,7 +835,7 @@ These actions make use of Drafts' capacity to export notes as files and
 append notes to existing files, letting me interact with my org notes
 directly. Here's what that looks like:
 
-<video controls loop muted class="max-w-xs mx-auto mb-4">
+<video controls muted class="max-w-xs mx-auto mb-4">
     <source src="./drafts.mp4">
 </video> 
 
@@ -825,8 +869,8 @@ My notes as a whole tend to fall into two different buckets:
    brain---they're attached to a particular moment in time.
 2. *Evergreen* notes are notes that I want to stick around in my notes.
    These include notes on particular concepts that are referenced
-   throughout my notes, as well as broad focus areas (e.g., "Research")
-   and projects (e.g., "2024 Group set").
+   throughout my notes, as well as broad focus areas (e.g., `Research`)
+   and projects (e.g., `2024 Group set`).
 
 <aside>
 For more on ephemeral and evergreen notes, see
@@ -852,7 +896,7 @@ of me quickly archiving a bunch of inbox tasks:
 In this video, the current inbox file is on the left, with the archive
 file (<code>archive/25q1/inbox.org</code>) on the right.
 </aside>
-<video controls loop muted class="w-full mb-4">
+<video controls muted class="w-full mb-4">
     <source src="./archive.mp4">
 </video> 
 
@@ -867,33 +911,24 @@ reference it later on, but it's moved out of the way so that it's no
 longer present of mind for me. It's a kind of Marie Kondo way of
 organizing my virtual brain space.
 
-## Taking literature notes
+## Sharing my notes
 
-As a PhD student, much of my work involves taking notes on different
-readings: papers, books, articles, whatever.
+Sometimes folks want to see what's in my notes. This could be for
+professional reasons (they want a record of meeting notes, they want to
+know generally when I'm free) or personal (they want to see my cafe list
+because it's great). In all cases, they probably don't want to deal with
+my quirky notes system.
 
-<!-- TODO: zotero, citar -->
-- Zotero sync
-
-## Showing this info to other people
-
-Obviously, if I want to share information in this system with other
-folks, most people wouldn't want to see it in this format. If I want to
-share my notes with other folks, most folks have touched too much grass
-to want to see my notes in this weird outline format. And if folks want
-to schedule a meeting with me or something, they just want to be able to
-see my availability on Google Calendar or something easy like that.
-
-Normally, if I were using some quirky online notes system, it'd be
-impossible to facilitate this. But because these notes are Just Files On
-My Computer, it's relatively straightforward for me to *write my own
-programs* to accomplish this.
+Normally, if I were using some online service, it'd be impossible to
+facilitate this. But because these notes are Just Files On My Computer,
+it's relatively straightforward for me to *write my own programs* to
+export my notes into other formats!
 
 ### Syncing with Google Calendar
 
-One issue I've run into in the past is that folks will try to look at my
-Google Calendar to check my availability, even though I don't use Google
-Calendar to keep track of when I'm free.
+As an example, one issue I've run into in the past is that folks will
+try to look at my Google Calendar to check my availability, even though
+I don't use Google Calendar to keep track of when I'm free.
 
 <aside>
     <div class="w-3/4 lg:ml-auto">
@@ -910,8 +945,11 @@ Calendar to keep track of when I'm free.
         display my program's output in the task bar.
     </p>
     <p>
-        The code for this is available <a
-        href="https://github.com/dcao/org-tools/tree/main/cal-sync">here</a>.
+        This is accomplished with a custom
+        <a href="https://github.com/dcao/org-tools/tree/main/cal-sync">Rust program</a>
+        that reads and parses all of my org files in parallel, traverses
+        them for future events that have a scheduled time, and uses the
+        Google Calendar API to add these events to my <code>@berkeley</code> calendar.
     </p>
 </aside>
 
@@ -939,34 +977,104 @@ for me. I can do it myself!
 
 ### Publishing my notes
 
-<!--
-Folks often want to view parts of my notes for various
-readings---sometimes I have individual notes I want to share with
-friends or whatever, and for my PhD work I want to have my 
--->
+org-mode already has an extremely robust built-in infrastructure for
+[exporting](https://orgmode.org/manual/Exporting.html) org documents
+into other formats. I primarily use this infrastructure for exporting my
+org-mode documents into PDFs:
 
-<!--
+- org-mode can export a document as PDF by first converting an org
+  document into a *LaTeX* document, which is a typesetting format and
+  system often used by computer science research venues.
+- I've specifically configured org-mode to use the *Tufte LaTeX* style,
+  which produces very nice-looking documents
+  ([here's](https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/tufte-latex/sample-handout.pdf)
+  an example, not made by me lol).
 
--->
+However, sometimes I need more advanced behavior than what is already
+built-in to org-mode. For instance, I would like to export part of my
+notes into its own website, so that I can send e.g., meeting notes to
+folks. I want this website to preserve the non-hierarchical linking
+thing I have going on in my notes too. So, I wrote a program to do just
+that:
 
-# What should you use
+- I [wrote my own program](https://github.com/dcao/org-tools/tree/main/roam-export)
+  to go through all of my notes files and export them into a different
+  format called Markdown. This program is smart and will only export
+  outline items or files with a special tag. Additionally, if a parent
+  and child outline item both have this tag, my program Does The Right
+  Thing, creating separate files for each and creating a link in the
+  parent file to the child.
+- I use another program called [Quartz](https://quartz.jzhao.xyz/) to
+  turn these Markdown files into a webpage which has all of the linking
+  stuff going on.
+
+Being able to jerry-rig this kind of setup is something that's only
+possible because All The Notes Are On My Computer and it's so
+straightforward to programmatically process them.
+
+# Takeaways
 
 This system is definitely not for everyone. :^) It's obtuse and requires
 years of effort and extensive programming experience. I can afford to
 not touch grass for hours while fixing my notes because I have many
 privileges, including the privilege of having too much free time.
 
-In general, my recommendation is to *use whatever thing you'll actually
-use to take notes*. Write your deepest darkest fears in the Notes app!
-Use a paper agenda! Whatever!
+If there's one thing you should take away from this huge long rant, it's
+this: everyone's brain is different, and you should find a way to
+organize your brain that fits you. In general, my recommendation is to
+*use whatever thing you'll actually use to take notes*. Write your
+deepest darkest fears in the Notes app! Use a paper agenda! Whatever!
 
 If you're looking for other potentially interesting apps:
 
-- [Obsidian](https://obsidian.md) also stores notes locally in an
+- [*Obsidian*](https://obsidian.md) also stores notes locally in an
   easy-to-process format (Markdown), and is very good at
   non-hierarchical linking. It is also quite customizable---you can
   [do task management](https://github.com/obsidian-tasks-group/obsidian-tasks),
   [query your notes like a database](https://github.com/blacksmithgu/obsidian-dataview),
   [add Trello-style kanban boards](https://github.com/mgmeyers/obsidian-kanban),
-  and more. All these plugins work on mobile too!
-  They also have a sensible business model and aren't run by VC weirdos.
+  and more. You can even [turn Obsidian into a Notion dupe](http://make.md/).
+  All these plugins work on mobile too! They also have a sensible
+  business model and aren't run by VC weirdos. This is my default
+  recommendation these days.
+- If you don't give a shit, honestly the *Notes* and *Reminders* apps are
+  very well-featured these days. The Notes app lets you [link between
+  notes](https://support.apple.com/guide/iphone/add-links-iph908d1558b/ios),
+  kinda like what I was talking about above, while the Reminders app
+  lets you do cool stuff like create [custom filtered lists of your
+  tasks](https://support.apple.com/guide/iphone/use-smart-lists-iphe882772ed/ios).
+  People have [replaced Notion with Notes and
+  Reminders](https://medium.com/westenberg/how-i-replaced-notion-with-reminders-numbers-and-notes-38282543b29b),
+  so there's a lot you can get out of just those default apps!
+- If you want to try the infinite outliner thing, I have two recs.
+  [*Dynalist*](https://dynalist.io) is made by the same people who make
+  Obsidian (although it's not really maintained anymore because they're
+  busy with... Obsidian), and it comes with some extra features for
+  scheduling tasks and the like.
+  [*Logseq*](https://logseq.com/) is essentially a user-friendly
+  cross-platform org-mode editor with the linking features I mentioned,
+  though its task management support is less robust, its plugin
+  ecosystem is more anemic, and it can be quite slow.
+- If you're in the Apple ecosystem, there are tons of bougie notes/todo
+  apps available: [*Things*](https://culturedcode.com/things/),
+  [*OmniFocus*](https://www.omnigroup.com/omnifocus/) and
+  [*OmniOutliner*](https://www.omnigroup.com/omnioutliner),
+  [*Craft*](https://www.craft.do/) (this one's even on Windows lol)
+- If you have trouble journaling, try using a private Instagram or
+  Twitter/X/Bluesky/Mastodon/whatever with 0 followers! I swear to god
+  this shit actually works so well---it's like subtweeting, but with
+  none of the consequences!
+
+And if you're looking for inspiration on ways of organizing your notes,
+there are lots of resources online on strategies for organizing
+yourself too ([Getting Things Done](https://gettingthingsdone.com/),
+[PARA](https://fortelabs.com/blog/para/), literally any Notion tour video).
+
+Whatever you use, know that integrating these kinds of systems into your
+life is a process and a conversation. There will be roadblocks and
+frustrations and places where you see the world differently from your
+system. But given time and enough adaptation on both sides, I think
+these systems can be incredibly fulfilling. For me, they are an
+essential tool for surviving capitalism and realizing
+self-actualization.
+
