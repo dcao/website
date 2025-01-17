@@ -457,6 +457,10 @@ href"https://github.com/dcao/org-tools">custom Rust tools</a> for
 programmatically interacting with my notes, which I cover more below.
 </aside>
 
+This system genuinely contains my entire life. Work notes, meetings and
+other scheduled events, todo lists, reading lists, reading notes, ...
+it's all there.
+
 This system is also highly amenable to archival and preservation. Online
 services that store your notes can disappear at any point, taking your
 notes with them. Since these notes are in a very simple, transparent
@@ -563,27 +567,23 @@ This functionality is provided by a package called
 
 ## Organizing information
 
-One of my requirements I listed was flexibility, and org-mode allows me
-to organize info along hierarchical and non-hierarchical means.
-
-### Hierarchical organization
-
 org-mode's natural strength lies in its capacity for hierarchical
 organization. For instance, my most important note is `focus.org`, which
 contains notes and tasks for all of the different areas of interest in
-my life: professional (i.e., research), hobbies (e.g., martial arts,
+my life: professional (i.e., research), hobbies (e.g., wushu,
 dance), and general areas of interest (e.g., mental health). 
 
 The capacity to hierarchically break down each of these super broad
 areas into specific goals, projects, and eventually meetings and tasks
 is super helpful for finding information quickly, and just feeling less
 overwhelmed by all the shit happening. For example, here's me drilling
-down into my notes for a meeting I had about an upcoming martial arts
+down into my notes for a meeting I had about an upcoming wushu
 competition:
 
 <aside>
-My martial arts meeting notes in `focus.org`. I would show y'all my
-research notes but I think those are lowkey confidential rn lmao
+My wushu meeting notes in <code>focus.org</code>. btw, wushu is a kind
+of performance martial arts. I would show y'all my research notes but I
+think those are lowkey confidential rn lmao
 </aside>
 
 <video controls loop muted class="w-full mb-4">
@@ -615,8 +615,6 @@ the previous section, but also some additional extras:
 - and adding new outline items and shuffling outline items
   around---e.g., moving an outline item before or after another item or
   making an item a child of another.
-
-### But also fuck hierarchy
 
 While org-mode's natural strength is in hierarchical outlining, over the
 years folks have contributed their own customizations to make org-mode a
@@ -716,27 +714,88 @@ these cafes and restaurants in one place.
 
 ## Navigating and capturing notes quickly
 
-org-mode is by far the fastest system I've used for capturing and
-navigating information. Because org-mode is built on top of a code
-editor, there are tons of facilities for editing and jumping around
-large files.
-<span class="aside">
-For the computationally-inclined, I use <a
-href="https://github.com/emacs-evil/evil">evil mode</a>
-in Emacs to get Vim keybindings, along with
-<a href="https://github.com/Somelauw/evil-org-mode">
-evil-org-mode</a> for evil/org integration. It makes editing org-mode documents incredibly
-fast.
-</span>
-I've also added commands and keyboard shortcuts for quickly opening
-notes, creating notes that follow particular templates, and moving parts of notes into other notes.
+org-mode is extremely fast. As we've covered so far, part of this is
+because of how customizable it is---it's very easy to add keyboard
+shortcuts and other custom functionality that makes my common tasks fast
+to do. It's also fast to edit notes---because org-mode is built on a
+full-blown code editor, it is naturally quite adept at handling large
+notes files.
 
-<!-- TODO: capture -->
-<!-- TODO: refile -->
+<aside>
+For the computationally-inclined, I use
+<a href="https://github.com/emacs-evil/evil">evil mode</a>
+in Emacs to get Vim keybindings, along with
+<a href="https://github.com/Somelauw/evil-org-mode">evil-org-mode</a>
+for evil/org integration. It makes editing org-mode documents incredibly
+fast.
+</aside>
+
+org-mode also has built-in functionality that makes quickly recording
+and later moving information very fast. For the former, org-mode has a
+*capture* system that allows you to quickly create a note using your own
+user-defined templates. For instance, I've written a `journal` capture
+template to quickly create a note whose title starts with today's date,
+then rename that note and move it to a separate `calendar/` folder.
+
+<aside>
+I would show a demo of opening and creating new notes quickly, but the
+UI for that also shows all of my other notes. Y'all ain't seeing that!
+</aside>
+
+For quickly moving information around, org-mode allows you to *refile*
+notes and headlines into other notes and headlines. This interface
+allows me to type out part of the name of the note I want to move
+information into; the system searches through all my notes to show me a
+list of candidates.
+<span class="aside">
+Technical note: this is accomplished via
+<a href="https://github.com/minad/vertico">vertico</a>.
+</span>
+Here, I create a new
+todo in my inbox, then move it to be under my todos for the wushu
+competition I mentioned earlier:
+
+<video controls loop muted class="w-full mb-4">
+    <source src="./refile.mp4">
+</video> 
 
 ### Using org-mode on the go
 
-<!-- TODO: mobile -->
+As part of this system being Fast, I also want to be able to access my
+notes and capture new notes if I don't have access to my laptop. I gave
+up on trying to replicate every aspect of this setup on my
+phone---desktop org-mode is simply too complex and it's not like I have
+access to "keyboard shortcuts" on my phone anyways. Instead, my phone
+needs to do three things (in this order):
+
+1. Let me quickly capture info. I don't care where it goes (I can fix
+   that on my laptop), it just needs to go somewhere.
+2. Let me look at my (upcoming) tasks. If I have a meeting later or
+   groceries I need to pick up, that should be front and center.
+3. Let me look at my other notes if I need to.
+
+#2 and #3 are handled by [Beorg](https://www.beorgapp.com/), which is an
+org-mode app for iOS. Conveniently, Beorg sends notifications when I
+have upcoming events, and comes with a widget that displays upcoming
+tasks.
+
+For #1, I use another app called [Drafts](https://getdrafts.com/), which
+is designed as a way to quickly capture notes and send them to other
+places. Specifically, I've created three actions in Drafts:
+
+1. Add a regular note
+2. Add a journal
+3. Add a todo list item to `inbox.org`.
+
+These actions make use of Drafts' capacity to export notes as files and
+append notes to existing files, letting me interact with my org notes
+directly. Here's what that looks like:
+
+<video controls loop muted class="max-w-xs mx-auto mb-4">
+    <source src="./drafts.mp4">
+</video> 
+
+I use iCloud to sync my notes between my laptop and my phone.
 
 ## Pruning un-needed notes
 
@@ -810,6 +869,10 @@ organizing my virtual brain space.
 
 ## Taking literature notes
 
+As a PhD student, much of my work involves taking notes on different
+readings: papers, books, articles, whatever.
+
+<!-- TODO: zotero, citar -->
 - Zotero sync
 
 ## Showing this info to other people
@@ -884,27 +947,26 @@ friends or whatever, and for my PhD work I want to have my
 
 <!--
 
-## Obsidian
-
-# My system today
-
-The system I have today has
-
-## PDF export
-
-## Google Calendar: Getting the rest of the world to know what's happening
-
-## Website export
-
-## Zotero and citar
-
 -->
 
 # What should you use
 
-On the whole, I wouldn't recommend anybody use this system. It's obtuse
-and requires years of effort and extensive programming experience. I can
-afford to not touch grass for hours while fixing my notes because I have
-many privileges, including the privilege of having too much free time.
+This system is definitely not for everyone. :^) It's obtuse and requires
+years of effort and extensive programming experience. I can afford to
+not touch grass for hours while fixing my notes because I have many
+privileges, including the privilege of having too much free time.
 
+In general, my recommendation is to *use whatever thing you'll actually
+use to take notes*. Write your deepest darkest fears in the Notes app!
+Use a paper agenda! Whatever!
 
+If you're looking for other potentially interesting apps:
+
+- [Obsidian](https://obsidian.md) also stores notes locally in an
+  easy-to-process format (Markdown), and is very good at
+  non-hierarchical linking. It is also quite customizable---you can
+  [do task management](https://github.com/obsidian-tasks-group/obsidian-tasks),
+  [query your notes like a database](https://github.com/blacksmithgu/obsidian-dataview),
+  [add Trello-style kanban boards](https://github.com/mgmeyers/obsidian-kanban),
+  and more. All these plugins work on mobile too!
+  They also have a sensible business model and aren't run by VC weirdos.
