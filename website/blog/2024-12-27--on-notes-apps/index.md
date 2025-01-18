@@ -293,6 +293,14 @@ places!
 Thus, one aspect of flexibility is that *a notes app shouldn't just be a
 notes app*; it should be a todo list app and a calendar app too.
 
+<aside>
+tbh, i've actually become a little less dogmatic about this than i used
+to be. if there are projects where i'm working with other people and
+they use other systems (notion or whatever), i'll just use that for that
+project. i also use other apps on occasion for other things, e.g., time
+tracking.
+</aside>
+
 On top of that, different notes systems encourage you to organize your
 thoughts in particular ways. For example, one of the first notes apps I
 tried was an app called [*WorkFlowy*](https://workflowy.com/). This
@@ -769,7 +777,7 @@ extension* that lets you visit a page for an academic reading, click a
 button, and automatically import the citation for that reading into your
 Zotero.
 
-On the org-mode side, I use another packaged called
+On the org-mode side, I use another package called
 [*citar*](https://github.com/emacs-citar/citar) which lets me
 programmatically interact with my library of citations from within
 Emacs. With the addition of another package,
@@ -780,7 +788,7 @@ have some information pre-included, such as the date the work was
 created, the author(s) of the work, and the title of the work.
 
 <aside>
-One technical bit of detail I glossed over---there is no direct
+One technical bit of detail I glossed over&mdash;there is no direct
 integration between citar and Zotero. To paper over this, I use the
 Better BibTex Zotero plugin to automatically export a BibTeX file with
 my Zotero library into my notes directory. citar then reads from this
@@ -983,7 +991,8 @@ org-mode documents into PDFs:
 
 - org-mode can export a document as PDF by first converting an org
   document into a *LaTeX* document, which is a typesetting format and
-  system often used by computer science research venues.
+  system often used by computer science research venues for producing
+  high-quality PDFs.
 - I've specifically configured org-mode to use the *Tufte LaTeX* style,
   a template for LaTeX which produces very nice-looking documents
   ([here's](https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/tufte-latex/sample-handout.pdf)
