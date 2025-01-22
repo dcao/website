@@ -8,8 +8,7 @@ My early 20s have been a lot.<sup><em>[citation needed]</em></sup>
 
 I grew up in the Bay, and so coming back here for my PhD has brought out
 my inner child in ways I'm continuing to grapple with and process.
-Preventing myself from just becoming me in high school is a daily
-challenge. On top of that, building a new support network and finding my
+On top of that, building a new support network and finding my
 communities here has been incredibly rewarding, but also scary and
 anxiety-inducing at times---what if folks don't like me or get a bad
 impression of me? This is while I've also been navigating how to
@@ -43,12 +42,12 @@ important emails I don't even know exist that I need to triage, hobbies
 and outside passions I need to make time for, *and* internal thoughts on
 all of this that I need to journal and process.
 
-On top of that, late-stage capitalism fucking sucks, and finding space
+On top of that, settler-colonial capitalism fucking sucks, and finding space
 for joy and leisure while bearing (witness to) the everyday violences of
 white supremacy, capitalism, and colonialism is a lot. My tax dollars
 fund genocide, climate catastrophe marches on unabated, and tech
-companies are busy building themselves fake LLM friends to because they
-lack real ones, yet I still gotta Lock In because I have an assignment
+companies are busy building themselves fake AI friends because they
+don't have real ones, yet I still gotta Lock In because I have an assignment
 due at 11:59.
 
 Needless to say, I get overwhelmed sometimes.
@@ -435,7 +434,7 @@ personal.
 <!-- personal as opposed to wanting to scale for everyone? -->
 
 
-# What I use
+# How I notes
 
 Finding the notes system that works for you is a deeply personal
 process, and it's a process that takes lots of introspection and lots of
@@ -570,10 +569,9 @@ Some key observations from this demo:
   will too.
 
 Now, being able to do all this notes stuff is cool, but this system
-isn't of much use if I can't keep track of all my tasks in one place. Of
-course, there is org-mode functionality for that too. org-mode comes
-with an *Agenda view* that allows you to see all of your upcoming tasks
-in one place:
+isn't of much use if I can't keep track of all my tasks in one place.
+org-mode comes with an *Agenda view* that allows you to see all of your
+upcoming tasks in one place:
 
 <aside>
 Note: I've censored some of the stuff in here. These are my personal
@@ -1057,6 +1055,12 @@ digital systems together into a cohesive whole. And I've been able to
 derive immense satisfaction in creating custom digital tools that work
 in just the ways that I want them to.
 
+This is to say nothing of the joy I get from using the system itself. I
+literally would be unable to function without a system like this, and
+writing all this up is my way of showing appreciation to all the
+[collective labor](https://orgmode.org/worg/org-contribute.html) that
+has gone in to making this system as powerful and usable as it is.
+
 But this isn't for everyone! The system I described above specifically
 is fit for my particular needs. And in general, committing to org-mode
 required a bunch of programming knowledge and many nights spent not
@@ -1107,9 +1111,8 @@ If you're looking for other potentially interesting apps:
   [*OmniOutliner*](https://www.omnigroup.com/omnioutliner),
   [*Craft*](https://www.craft.do/) (this one's even on Windows lol)
 - If you have trouble journaling, try using a private Instagram or
-  Twitter/X/Bluesky/Mastodon/whatever with 0 followers! I swear to god
-  this shit actually works so well---it's like subtweeting, but with
-  none of the consequences!
+  Twitter/X/Bluesky/Mastodon/whatever with 0 followers---it's like
+  subtweeting, but with none of the consequences!
 
 And if you're looking for inspiration on ways of organizing your notes,
 there are lots of resources online on strategies for organizing
