@@ -1,8 +1,22 @@
 ---
 title: On notes apps
-date: 2025-01-16
+date: 2025-01-31
 ---
 <!-- vim: set tw=72 wrapmargin=0 formatoptions+=t: -->
+
+My early 20s have been a lot.<sup><em>[citation needed]</em></sup>
+
+I grew up in the Bay, and so coming back here for my PhD has brought out
+my inner child in ways I'm continuing to grapple with and process.
+Preventing myself from just becoming me in high school is a daily
+challenge. On top of that, building a new support network and finding my
+communities here has been incredibly rewarding, but also scary and
+anxiety-inducing at times---what if folks don't like me or get a bad
+impression of me? This is while I've also been navigating how to
+maintain my existing now-long-distance friendships and grow them beyond
+catching up once every quarter. And realizing self-actualization in this
+space---reconnecting with my cultural background and interrogating the
+politics and vibes of my research work---has been a lot too.
 
 <aside>
     <img src="notes_apps.png" alt="
@@ -19,20 +33,6 @@ date: 2025-01-16
     </p>
 </aside>
 
-My early 20s have been a lot.<sup><em>[citation needed]</em></sup>
-
-I grew up in the Bay, and so coming back here for my PhD has brought out
-my inner child in ways I'm continuing to grapple with and process.
-Preventing myself from just becoming me in high school is a daily
-challenge. On top of that, building a new support network and finding my
-communities here has been incredibly rewarding, but also scary and
-anxiety-inducing at times---what if folks don't like me or get a bad
-impression of me? This is while I've also been navigating how to
-maintain my existing now-long-distance friendships and grow them beyond
-catching up once every quarter. And realizing self-actualization in this
-space---reconnecting with my cultural background and interrogating the
-politics and vibes of my research work---has been a lot too.
-
 These large-scale concerns create a deluge of little things I need to
 keep track of in the day-to-day. I have class deadlines on ~~Canvas~~
 bCourses I need to keep track of, self-directed research projects that I
@@ -47,9 +47,9 @@ On top of that, late-stage capitalism fucking sucks, and finding space
 for joy and leisure while bearing (witness to) the everyday violences of
 white supremacy, capitalism, and colonialism is a lot. My tax dollars
 fund genocide, climate catastrophe marches on unabated, and tech
-companies are too busy building themselves fake AI friends because they
-don't have any real ones, yet I still gotta Lock In because I have an
-assignment due at 11:59.
+companies are busy building themselves fake LLM friends to because they
+lack real ones, yet I still gotta Lock In because I have an assignment
+due at 11:59.
 
 Needless to say, I get overwhelmed sometimes.
 
@@ -113,68 +113,74 @@ which apps are amenable to being molded to work with your brain!
 
 ## This is not an endorsement of capitalism
 
-One of the ✨silly and goofy✨ aspects of our capitalist hell is that it
-sells you band-aid solutions that superficially address (but actually
-worsen) the systemic violences it enacts. Feeling a deep sense of ennui
-and alienation from your labor? Here's a meditation app you can
-subscribe to!
-<span class="aside"> Lots of folks have written on the co-opting of
-self-care;
-<a href="https://read.dukeupress.edu/south-atlantic-quarterly/article-abstract/120/2/325/173307/Reclaiming-the-Radical-Politics-of-Self-CareA-Crip?redirectedFrom=fulltext">"Reclaiming the Radical Politics of Self-Care: A Crip-of-Color Critique"</a>
-by Jina
-Kim and Sami Schalk is my favorite treatment of this right now.
-</span>
-
-And so it goes with notes apps. 
-
-These days, numerous companies and startups have popped out of the
-woodwork, looking to sell you Free Time As A Service. These tools all
-speak a particular kind of language, looking to ["optimize" your
-schedule](https://reclaim.ai/) or
+Notes apps often sell themselves by appealing to a certain Capitalist
+Sigma Grindset mentality. Websites for notes apps often claim to
+["optimize" your schedule](https://reclaim.ai/) or
 "[maximize](https://www.notion.com/use-case/time-management)
-[productivity](https://www.usemotion.com/)."
+[productivity](https://www.usemotion.com/)," seeing the end goal of an
+organizational system as Making The Number Go Up: more productivity,
+more earnings, more work.
 
 <aside>
 <p>
-Obviously, this is not the case with <em>every</em> digital
-organizational tool. However, this kind of framing and marketing does
-tend to be particularly common with (1) tools marketed for business use,
-and/or (2) tools backed by VC funding. Go figure!
+This isn't the case with every digital organizational tool. However,
+this kind of framing and marketing does tend to be particularly common
+with (1) tools marketed for business use, and/or (2) tools backed by
+venture capital.
 </p>
 
-<p> There are certainly diversions from this kind of rhetoric. For
-example, the use of the term <a href="https://maggieappleton.com/garden-history">"digital garden"</a> to
-refer to personal wikis and knowledge bases emphasizes the practice of
-knowledge organization as a kind of self-care, like tending to a
-garden&mdash;a personal practice and art that can be enjoyed for its own
-sake.
+<p>
+There are notable diversions from this kind of rhetoric. For example,
+some folks refer to notetaking as
+<a href="https://maggieappleton.com/garden-history">"digital gardening"</a>,
+emphasizing the practice of knowledge organization as a
+kind of self-care, like tending to a garden&mdash;a personal practice
+and art that can be enjoyed for its own sake.
 </p>
 </aside>
 
-These are tools marketed as
-ways to cope with the imperatives of capital, yet they are still
-beholden to its syntax and semantics, seeing themselves as valuable only
-insofar as they enable you to do more work or make creative output [more
-dependable and reproducible](https://www.linkingyourthinking.com/), as
-if we are all Henry Ford looking to assembly line our brains into order.
-I am no longer a person trying to live an introspective, fulfilling, and
-restful life. I'm a [*knowledge worker*](https://logseq.com/),
-apparently.
+These tools see
+themselves as valuable only insofar as they enable you to be a
+["high performer"](https://www.morgen.so/) or
+[do more](https://akiflow.com/) [work](https://noteplan.co/) or make
+creative output [more dependable and
+reproducible](https://www.linkingyourthinking.com/), as if we're all
+Henry Ford looking to assembly line our brains into order. I am no
+longer a person trying to live a loving, fulfilling, and restful
+life. I'm a [*knowledge worker*](https://logseq.com/), apparently.
 
-These apps are full of the same Silicon Valley bullshit that has become
-inescapable in the rest of our lives. All this info is stuck in whatever
-bullshit cloud these companies want to lock my data away in, because
-heaven forbid my data outlasts the 5 years these companies last before
-their VC funding runs out. And why do I want AI turning my notes into
-["actionable insights??"](https://www.notion.com/product/ai) What the
-*fuck*?
+It's not just in how these tools advertise themselves, too; it extends
+to how these tools function. Cloud-based apps like Notion keep your info
+stuck on their servers, making exporting information (and having access
+to your notes without WiFi) difficult and frustrating, because it's
+easier to make money off you if your notes are stuck in one place.
+Everything requires a subscription because those venture capital firms
+won't recoup those investments by themselves.
+And of course, all of these apps have ["""AI"""](https://www.notion.com/product/ai)
+now because that's what will attract those sweet sweet investment
+dollars. These are tools marketed as ways to cope with the imperatives of
+capital, yet they are still beholden to both its syntax and semantics.
 
-Relatedly, a whole subculture of folks focused on "productivity" has
+<!--
+These apps are largely full of the same Silicon Valley bullshit that has
+become inescapable in the rest of our lives. All this info is stuck in
+whatever bullshit cloud these companies want to lock my data away in,
+condemned to disappear if and when these companies exhaust their venture
+capital funding.
+-->
+
+Meanwhile, a whole subculture of folks focused on "productivity" has
 sprung up around these tools. Influencers show off their perfectly
 curated Notions that they use to plan out their content schedule.
-Academics and students on TikTok talking about how they use these tools,
+Academics and students on TikTok talk about how they use these tools,
 proclaiming that this "one simple trick" got them all A's in their
-classes.
+classes. Everyone's always chasing more work, more studying, more
+*grind*.
+
+<!--
+Notes apps are part of a long line of technological interventions that
+offer capitalist solutions for capitalist problems: meditation apps that ...
+-->
 
 ---
 
@@ -185,6 +191,31 @@ I don't want my tools to let me do more work. I want my tools to bring
 *joy* into my life. These are tools to let me do things I enjoy and
 spend time with folks I love---making space for joy and leisure in the
 midst of the bullshit that is productivity culture and capitalism.
+
+<!--
+---
+
+Many of these notes apps are part of a broader trend: technology that
+tries to fix capitalism, but just intensifies it further. 
+Settler-colonial states displace folks into refugee camps; in response,
+crypto boosters [sell broken food and money disbursement software to
+humanitarian
+agencies](https://journals.sagepub.com/doi/full/10.1177/2056305119863146),
+gatekeeping refugees' access to basic necessities.
+AI boosters offer us
+[chatbot](https://futurism.com/the-byte/openai-employee-chatgpt-therapy)
+[therapists](https://www.theverge.com/2024/12/9/24315126/friend-pendant-artificial-intelligence-companionship-avi-schiffmann) as a balm for the mental burden of existing under the matrix of oppression of capitalism and settler-colonialism; this technology itself is built on material suffering, from the [workers tech firms exploit to train their
+models](https://time.com/6247678/openai-chatgpt-kenya-workers/), to the
+[artists whose works have been stolen for
+training](https://llmlitigation.com/), to [literally all of us who will
+have to deal with the warming planet these tech companies leave
+behind](https://www.npr.org/2024/07/12/g-s1-9545/ai-brings-soaring-emissions-for-google-and-microsoft-a-major-contributor-to-climate-change).
+
+The future imagined by these technologies is anchored in a deeply
+exploitative present. Obviously, notes apps don't cause the same level
+of catastrophic consequences, but they are largely subject to the same
+forces and incentives as these other technological interventions.
+-->
 
 <!-- notes apps as critical resistance -->
 
@@ -211,10 +242,7 @@ structured way, letting me keep track of what I have to do and all of
 the resources I need to do these things. It should be a kind of *second
 brain* that can help do some thinking for me.
 
-To satisfy these use cases, I need a notes system that is __fast,
-flexible, and fun__.
-
-## Fast
+## Fast systems
 
 My first organizational tool was a weekly agenda, given to me for free
 by my high school. I used it to record deadlines for assignments and
@@ -267,7 +295,7 @@ This is a critique I have in general of handwriting-based systems like
 [bullet journaling](https://bulletjournal.com/), though of course, your
 mileage may vary.
 
-## Flexible
+## Flexible systems
 
 As I started exploring the world of digital knowledge management tools,
 I found that lots of tools were very good at one specific kind of task:
@@ -359,7 +387,7 @@ This is the second aspect of flexibility: to be able to structure my
 notes to have *both* strict and rigid hierarchies *and* looser
 interlinked taxonomies.
 
-## Fun
+## Fun systems
 
 Most importantly, it should be a *joy to use the tool itself*. It should
 feel *good* to take notes, to list out everything I have to do and check
@@ -807,7 +835,7 @@ page for a reading, I can see where that reading is cited in all of my
 notes:
 
 <video controls muted class="mb-4">
-    <source src="./lit-notes-2.mp4">
+    <source src="./citation.mp4">
 </video> 
 
 ### Using org-mode on the go
@@ -1022,10 +1050,17 @@ straightforward to programmatically process them.
 
 # Takeaways
 
-This system is definitely not for everyone. :^) It's obtuse and requires
-years of effort and extensive programming experience. I can afford to
-not touch grass for hours while fixing my notes because I have many
-privileges, including the privilege of having too much free time.
+I've been able to find a lot of joy in working on the system itself.
+It's a kind of *digital woodworking*, a process of meditative and
+iterative refinement: crafting, improvising, and jerry-rigging different
+digital systems together into a cohesive whole. And I've been able to
+derive immense satisfaction in creating custom digital tools that work
+in just the ways that I want them to.
+
+But this isn't for everyone! The system I described above specifically
+is fit for my particular needs. And in general, committing to org-mode
+required a bunch of programming knowledge and many nights spent not
+touching grass to have all this put together.
 
 If there's one thing you should take away from this huge long rant, it's
 this: everyone's brain is different, and you should find a way to
@@ -1043,10 +1078,10 @@ If you're looking for other potentially interesting apps:
   [add Trello-style kanban boards](https://github.com/mgmeyers/obsidian-kanban),
   and more. You can even [turn Obsidian into a Notion dupe](http://make.md/).
   All these plugins work on mobile too! They also have a sensible
-  business model and aren't run by VC weirdos. This is my default
-  recommendation these days.
-- If you don't give a shit, honestly the *Notes* and *Reminders* apps are
-  very well-featured these days. The Notes app lets you [link between
+  business model and aren't run by VC weirdos. This is my current
+  default recommendation.
+- The *Notes* and *Reminders* apps are very well-featured these days.
+  The Notes app lets you [link between
   notes](https://support.apple.com/guide/iphone/add-links-iph908d1558b/ios),
   kinda like what I was talking about above, while the Reminders app
   lets you do cool stuff like create [custom filtered lists of your
@@ -1054,7 +1089,7 @@ If you're looking for other potentially interesting apps:
   People have [replaced Notion with Notes and
   Reminders](https://medium.com/westenberg/how-i-replaced-notion-with-reminders-numbers-and-notes-38282543b29b),
   so there's a lot you can get out of just those default apps!
-- If you want to try the infinite outliner thing, I have two recs.
+- If you want to try the infinite outliner thing, I have two main recs.
   [*Dynalist*](https://dynalist.io) is made by the same people who make
   Obsidian (although it's not really maintained anymore because they're
   busy with... Obsidian), and it comes with some extra features for
@@ -1063,6 +1098,9 @@ If you're looking for other potentially interesting apps:
   cross-platform org-mode editor with the linking features I mentioned,
   though its task management support is less robust, its plugin
   ecosystem is more anemic, and it can be quite slow.
+  There is also [*Godspeed*](https://godspeedapp.com/), which I'm not
+  too familiar with, but it does task-centric infinite outlining and
+  they claim it's quite fast.
 - If you're in the Apple ecosystem, there are tons of bougie notes/todo
   apps available: [*Things*](https://culturedcode.com/things/),
   [*OmniFocus*](https://www.omnigroup.com/omnifocus/) and
