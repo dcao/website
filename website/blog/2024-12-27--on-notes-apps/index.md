@@ -506,9 +506,9 @@ functionality on top of this.
 <aside>
 For the computationally inclined among y'all who want more technical
 info: I use Doom Emacs, and my config is on <a
-href="https://github.com/dcao/dots2/tree/main/config-mut/doom">GitHub</a>
+href="https://codeberg.org/dcao/dots/src/branch/main/config-mut/doom">GitHub</a>
 if you want to follow along. Additionally, I have written <a
-href"https://github.com/dcao/org-tools">custom Rust tools</a> for
+href"https://codeberg.org/dcao/org-tools">custom Rust tools</a> for
 programmatically interacting with my notes, which I cover more below.
 </aside>
 
@@ -999,7 +999,7 @@ I don't use Google Calendar to keep track of when I'm free.
     </p>
     <p>
         This is accomplished with a custom
-        <a href="https://github.com/dcao/org-tools/tree/main/cal-sync">Rust program</a>
+        <a href="https://codeberg.org/dcao/org-tools/src/branch/main/cal-sync">Rust program</a>
         that reads and parses all of my org files in parallel, traverses
         them for future events that have a scheduled time, and uses the
         Google Calendar API to add these events to my <code>@berkeley</code> calendar.
@@ -1051,7 +1051,7 @@ folks. I want this website to preserve the non-hierarchical linking
 thing I have going on in my notes too. So, I wrote a program to do just
 that:
 
-- I [wrote my own program](https://github.com/dcao/org-tools/tree/main/roam-export)
+- I [wrote my own program](https://codeberg.org/dcao/org-tools/src/branch/main/roam-export)
   to go through all of my notes files and export them into a different
   format called Markdown. This program is smart and will only export
   outline items or files with a special tag. Additionally, if a parent
