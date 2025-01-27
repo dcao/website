@@ -372,19 +372,39 @@ However, I don't want *all* of my notes to be structured this way! While
 my left-brain "everything must be organized" self enjoys this kind of
 organizing very much, my right-brain "i'm quirky and scatterbrained and
 ✨interdisciplinary✨ and everything is connected" self doesn't really!
-Many of the things in my life can't really be siloed away into one
-category like this. <!-- [TODO add stuff here] -->
+Lots of parts of my life can't really be siloed away into one category
+like this. If I do a really interesting reading for one of my classes, I
+might want to reference it later in a journal. Concepts that come up in
+one class or context might be referenced in other classes and contexts,
+and I want to be able to keep track of that.
 
 This side of me is drawn to apps like
 [*Obsidian*](https://obsidian.md/), which are structured like a personal
 Wikipedia---you structure your notes by creating *links* between
 different notes, and you can see which notes have linked to other notes.
 
-<!-- [TODO obsidian video]. -->
+As an example, the concept of "universalism" (and critique thereof)
+comes up in a few places in my notes---e.g., notes for different class
+lectures and notes on different readings. Obsidian allowed me to easily
+*link* to different notes and see which notes link to the current note
+(*backlinks*):
 
-This is the second aspect of flexibility: to be able to structure my
+<video controls muted class="w-full mb-4">
+    <source src="./obsidian.mp4">
+</video> 
+
+tbh tho, neither of these representative brain-chemistry-altering apps were
+entirely sufficient. Workflowy's hierarchical notes structuring felt too
+rigid to facilitate connecting thoughts across the different parts of my
+life. On the other hand, Obsidian felt way too loosey-goosey (kind of
+like using the regular Notes app); it was super hard to structure and
+organize my notes, and even after multiple tries at making folder
+hierarchies, I've still been left *lost in the sauce* of my notes.
+
+I'm selfish and I want both! I want to be able to structure my
 notes to have *both* strict and rigid hierarchies *and* looser
-interlinked taxonomies.
+interlinked taxonomies; this is the second kind of flexibility I'm
+aiming to have.
 
 ## Fun systems
 
