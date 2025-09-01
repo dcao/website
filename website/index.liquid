@@ -46,14 +46,16 @@ layout: base-new.njk
         </form>
 
         {% for post in collections.blog reversed %}
-            <div class="grid grid-cols-1 lg:grid-cols-13 lg:gap-4">
-                <p class="lg:col-start-1 lg:col-span-6 lg:text-right text-keynote-400">{{ post.data.date | utcDate }}</p>
-                <div class="lg:col-start-7 lg:col-span-5">
-                    <a href="{{ post.url }}" class=" underline hover:text-keynote-400">
-                        {{ post.data.title }}
-                    </a>
+            {% if not post.data.wip and not post.data.draft %}
+                <div class="grid grid-cols-1 lg:grid-cols-13 lg:gap-4">
+                    <p class="lg:col-start-1 lg:col-span-6 lg:text-right text-keynote-400">{{ post.data.date | utcDate }}</p>
+                    <div class="lg:col-start-7 lg:col-span-5">
+                        <a href="{{ post.url }}" class=" underline hover:text-keynote-400">
+                            {{ post.data.title }}
+                        </a>
+                    </div>
                 </div>
-            </div>
+            {% endif %}
         {% endfor %}
     </div>
 
