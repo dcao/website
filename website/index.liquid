@@ -11,7 +11,11 @@ layout: base-new.njk
     </div>
 
     <div class="hidden lg:block lg:absolute lg:w-[15vw] bottom-2 left-2">
-        <img src="/img/me.jpg" alt="A picture of me!" />
+        <p class="mb-2 text-keynote-400">
+            Photo by
+            <a href="https://www.burkesclaire.com/" class="underline hover:text-keynote-700">Claire S. Burke</a>
+        </p>
+        <img src="/img/me.jpg" alt="A picture of me, taken by Claire S. Burke." />
     </div>
 
     <p class="font-xanh text-lg lg:col-span-7 max-w-prose text-keynote-700">
@@ -50,7 +54,7 @@ layout: base-new.njk
                 <div class="grid grid-cols-1 lg:grid-cols-13 lg:gap-4">
                     <p class="lg:col-start-1 lg:col-span-6 lg:text-right text-keynote-400">{{ post.data.date | utcDate }}</p>
                     <div class="lg:col-start-7 lg:col-span-5">
-                        <a href="{{ post.url }}" class=" underline hover:text-keynote-400">
+                        <a href="{{ post.url }}" class="underline hover:text-keynote-400">
                             {{ post.data.title }}
                         </a>
                     </div>

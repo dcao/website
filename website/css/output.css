@@ -588,6 +588,14 @@ video {
   }
 }
 
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
 .fixed {
   position: fixed;
 }
@@ -1850,6 +1858,11 @@ main {
 .hover\:text-keynote-600:hover {
   --tw-text-opacity: 1;
   color: rgb(109 89 138 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-keynote-700:hover {
+  --tw-text-opacity: 1;
+  color: rgb(81 60 115 / var(--tw-text-opacity, 1));
 }
 
 .hover\:text-slate-200:hover {
