@@ -227,17 +227,17 @@ The corrosiveness of these academic spaces show up in overt ways too.
 Computer science is notorious for being [overtly
 sexist](https://medium.com/@abbyramirez03/this-isnt-a-one-off-f8a4c315ee55)
 and racist. My PhD cohort has ~50 students, but I'm still looking for a
-single other Viet PhD student here. When I take the elevator up to meet
-with my advisor every week, the first thing I see out the elevator is
-the Lockheed Martin Meeting Room.
+single other Viet PhD student here.
+<span class="aside">
+If you are a Vietnamese PhD student in EECS, hmu. We should hang :^)
+</span>
+When I take the elevator up to meet with my advisor every week, the
+first thing I see out the elevator is the Lockheed Martin Meeting Room.
 <span class="aside">
 I'm deadass. Soda Hall, 6th floor.
 </span>
-This place tells me it believes in justice, all while it funds my peers'
-research into weapons of death. I'm told this is a place of free speech,
-even when my administration is snitching on my professors and
-classmates. Being here feels like constant performance, a constant
-internal trans discipline.
+Being in this place makes me feel out of my body: a constant
+performance, a constant internal trans discipline.
 
 In many ways, this PhD feels like it's disciplining me, over and over
 again. I think of work and I imagine the teacher at the front of the
