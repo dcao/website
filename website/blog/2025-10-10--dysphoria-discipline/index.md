@@ -1,7 +1,6 @@
 ---
 title: Dysphoria and trans discipline
-date: 2025-10-08
-wip: true
+date: 2025-10-10
 ---
 <!-- vim: set tw=72 wrapmargin=0 formatoptions+=t: -->
 
@@ -211,24 +210,34 @@ And then I look at the last research paper I submitted, and I see an
 impossible gulf between these two worlds.
 
 By and large, the academy is not built to support life-affirming work.
-Many disciplines, from STEM fields to law, still suture themselves to
-beliefs around positivism and empiricism. They demand we dedicate our
-entire emotional and intellectual selves to this labor, and yet reject
-work that is too personal or not objective enough. The academy demands I
-centralize my energy with it, instead of with community or passions or
-art or organizing. And yet those are the things that give me life, that
-make my academic work possible and give it meaning and tempo.
-This is what Moten and Harvey write about---even though the university
-depends on the creativity and the imaginativity of minoritized folks'
-creative labor, it still actively stifles and suppresses it. This labor
-is always made fugitive.
+Many disciplines, from STEM fields to law, still maintain intellectual
+commitments to beliefs around positivism and empiricism. And academia as
+a whole maintains epistemological commitments to orthodoxy and
+tradition. They demand we dedicate our entire emotional and intellectual
+selves to this labor, and yet reject work that is too personal or not
+objective enough. The academy demands I centralize my energy with it,
+instead of with community or passions or art or organizing. And yet
+those activities are what give me life, that make my academic work
+possible and give it meaning and tempo. This is what Moten and Harvey
+write about---even though the university depends on the creativity and
+the imaginativity of minoritized folks' creative labor, it still
+actively stifles and suppresses it. This labor is always made fugitive.
 
 The corrosiveness of these academic spaces show up in overt ways too.
 Computer science is notorious for being [overtly
 sexist](https://medium.com/@abbyramirez03/this-isnt-a-one-off-f8a4c315ee55)
 and racist. My PhD cohort has ~50 students, but I'm still looking for a
-single other Viet PhD student here. Being here feels like constant
-performance, a constant internal trans discipline.
+single other Viet PhD student here. When I take the elevator up to meet
+with my advisor every week, the first thing I see out the elevator is
+the Lockheed Martin Meeting Room.
+<span class="aside">
+I'm deadass. Soda Hall, 6th floor.
+</span>
+This place tells me it believes in justice, all while it funds my peers'
+research into weapons of death. I'm told this is a place of free speech,
+even when my administration is snitching on my professors and
+classmates. Being here feels like constant performance, a constant
+internal trans discipline.
 
 In many ways, this PhD feels like it's disciplining me, over and over
 again. I think of work and I imagine the teacher at the front of the
@@ -251,34 +260,19 @@ doing things you don't like. Pain is the process.
 During my childhood I did two main extracurricular activities: I
 received a classical piano training, and I did wushu.
 <span class="aside">
-More specifically, I trained in traditional Shaolin martial arts with
-some folks from the Shaolin Temple!
+More specifically, I trained in traditional Shaolin
+martial arts with some folks from the Shaolin Temple!
 </span>
-<!--
-In both cases I spent hours and hours and hours practicing in my
-childhood. In both cases, I eventually became okay at the endeavor of
-choice. And in both cases, I absolutely *hated* the process of getting
-there.
--->
 Training and practice were always grueling tasks for me. A lot of it was
 endemic to the task; I remember my wushu coach throwing his phone at one
 of the students because she was fooling around too much. But part of it
-was also my personal commitment issues.
-<!--
-I hated practicing piano pieces slowly, how weird and discordant the
-pieces sounded when you broke them down into drill-sized pieces. I hated
-scales, hated arpeggios, hated warm-ups, hated music theory. I hated the
-joylessness of practices, the lack of gratification. I hated having to
-wait three months or six months to reap the fruits of my labor.
--->
-I was so bored by the delayed gratification of drilling piano pieces
-that I started covertly scrolling on Reddit while I practiced my pieces.
-I would literally keep my phone behind my sheet music, then when my dad
-wasn't looking and when a pause in one of the hands came up, I'd whip
-the phone out, scroll through another three posts, then slide the phone
-back under and keep playing.
+was also my personal commitment issues. I was so bored by the delayed
+gratification of drilling piano pieces that I started covertly scrolling
+on Reddit while I practiced my pieces. I kept my phone behind my sheet
+music, then when my dad wasn't looking and when the time was right, I'd
+scroll just enough to see the next few comments, and I'd keep playing.
 
-The worst part of this process was not feeling any internal motivation
+The worst part of this process was the lack of any internal motivation
 for practicing. It was always my dad telling me: "this will be a good
 idea. You'll see. Give it 10 or 20 years, and you'll understand." Always
 working for an authority figure or some abstract future version of me.
@@ -343,7 +337,7 @@ doing me.
 
 This blog post has been the sum of many months of late-night rants and
 co-commiseration sessions with many a close friend. A special shout-out
-to
+to my dea friend
 [Florence](https://florenceyho.substack.com/p/a-flailing-attempt-at-self-reinvention)
 for inspiring me to write this out, and for all the folks with whom I've
 complained endlessly about myself. Y'all are why I'm still here :^)
