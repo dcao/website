@@ -160,15 +160,10 @@ acknowledge the social construction of borders is to insist on a future
 where freedom of mobility is quotidian. These texts are unafraid to
 imagine the world as it ought to be, and not simply as it is.
 Imaginativity and futurity necessarily demand ambition and play---a
-willingness to fuck with words, ideas, disciplinary boundaries.
-<span class="aside">
-During one of my Black disability studies classes, we spent a large
-chunk of time talking through the differences between disability,
-dis/ability, and (dis)ability. I loved that shit.
-</span>
-These are political, muscular theories: theories with teeth, rooted in
-action. Theory that speaks to what minoritized folks experience and *and
-what we can do about it*.
+willingness to fuck with words, ideas, disciplinary boundaries. These
+are political, muscular theories: theories with teeth, rooted in action.
+Theory that speaks to what minoritized folks experience and *and what we
+can do about it*.
 
 My favorite work is also deeply personal. A lot of folks come into
 theory to understand their own experiences. Here I'm thinking of Jina
@@ -335,9 +330,14 @@ doing me.
 
 ---
 
-This blog post has been the sum of many months of late-night rants and
-co-commiseration sessions with many a close friend. A special shout-out
-to my dea friend
+This blog post has been the sum total of the past half-year or so of
+couch talks, bar nights, and rant sessions over co-op dinners. The
+thoughts and ideas of so many different friends and community members
+are interwoven throughout this piece, and I'm so thankful to all y'all
+for the time and space we get to share together. Y'all are the reason
+I'm still here <3
+
+A special shout-out to my dear friend
 [Florence](https://florenceyho.substack.com/p/a-flailing-attempt-at-self-reinvention)
-for inspiring me to write this out, and for all the folks with whom I've
-complained endlessly about myself. Y'all are why I'm still here :^)
+for inspiring me to write this out! I hope I can speak to the early 20s
+feelings of confusion and aimlessness as poignantly as she has.
