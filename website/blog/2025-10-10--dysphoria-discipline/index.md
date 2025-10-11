@@ -58,7 +58,7 @@ I don't know if I fully buy the idea, but I can see some merit in it.
 There is a kind of privilege of operating in gender confusion, of
 getting to choose when you perform *they* and when you perform *he*. If
 I'm meeting new friends, I get to be a *queer person of color*. But if
-I'm eating home-cooked pho, I don't need to correct my parents if they
+I'm eating home-cooked phở, I don't need to correct my parents if they
 call me a boy. Scary, permanent questions around gender-affirming
 surgery or medical treatment can always remain someone else's problem.
 And if a fascist president decides to sic ICE to fight the "trans
@@ -92,7 +92,14 @@ I've also been having some Job Trouble. I think I have job dysphoria.
 
 I came into the PhD with big dreams of doing transdisciplinary (or
 interdisciplinary or antidisciplinary or disciplin't or whatever term
-*du jour* you want to use) work. I was going to combine computer science
+*du jour* you want to use) work.
+<span class="aside">
+A big shoutout to my friend Sunnie here, both for reintroducing
+transdisciplinarity and imaginativity and futurity back into my lexicon,
+and for generally helping make this piece what it's become! Our shared
+experiences and struggles are such an animating force for this writing
+</span>
+I was going to combine computer science
 and ethnic studies. I was gonna do _woke programming languages_,
 something that totally has never been done before, because I'm not like
 the other computer science majors! I did a humanities degree, and I have
@@ -159,6 +166,13 @@ These texts are necessarily imaginative and rooted in futurity. To
 acknowledge the social construction of borders is to insist on a future
 where freedom of mobility is quotidian. These texts are unafraid to
 imagine the world as it ought to be, and not simply as it is.
+<span class="aside">
+My friend <a href="https://florenceyho.substack.com">Florence</a> and I
+have had lots of conversations about the expansiveness of theoretical
+work, especially in a world where large-scale societal change can feel
+so grinding; thinking of our conversations of how theory can make "leaps
+and bounds" in ways the real world just can't.
+</span>
 Imaginativity and futurity necessarily demand ambition and play---a
 willingness to fuck with words, ideas, disciplinary boundaries. These
 are political, muscular theories: theories with teeth, rooted in action.
@@ -179,6 +193,11 @@ imaginitivity of that text---that was enough to fill my cup.
 I think about Fred Moten and Stefano Harvey and their work drawing on
 the possibilities of fugitivity in making visible the undercommons: the
 everyday work that we do in to survive in the academy.
+<span class="aside">
+Shoutout to my friend Chris for recommending this reading and for our
+cooperative yap time to work through the ideas :^) It was a dense text
+but I've found it so so generative
+</span>
 
 These are folks who see live and breathe theory, because they see
 theorizing and imagining happening in the lives of themselves and their
@@ -340,4 +359,4 @@ I'm still here <3
 A special shout-out to my dear friend
 [Florence](https://florenceyho.substack.com/p/a-flailing-attempt-at-self-reinvention)
 for inspiring me to write this out! I hope I can speak to the early 20s
-feelings of confusion and aimlessness as poignantly as she has.
+feelings of confusion and self-(re)discovery as poignantly as she has.
