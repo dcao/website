@@ -194,7 +194,7 @@ I think about Fred Moten and Stefano Harvey and their work drawing on
 the possibilities of fugitivity in making visible the undercommons: the
 everyday work that we do in to survive in the academy.
 
-These are folks who see live and breathe theory, because they see
+These are folks who live and breathe theory, because they see
 theorizing and imagining happening in the lives of themselves and their
 communities. My favorite academic work is tied so desperately,
 intimately, inextricably to the people who create them: theorists who
