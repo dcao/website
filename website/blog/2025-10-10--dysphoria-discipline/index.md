@@ -193,11 +193,6 @@ imaginitivity of that text---that was enough to fill my cup.
 I think about Fred Moten and Stefano Harvey and their work drawing on
 the possibilities of fugitivity in making visible the undercommons: the
 everyday work that we do in to survive in the academy.
-<span class="aside">
-Shoutout to my friend Chris for recommending this reading and for our
-cooperative yap time to work through the ideas :^) It was a dense text
-but I've found it so so generative
-</span>
 
 These are folks who see live and breathe theory, because they see
 theorizing and imagining happening in the lives of themselves and their
@@ -207,16 +202,23 @@ draw from their positionalities and their own tales of craftiness and
 survival to give us new tools to call out this fuck-ass society for what
 it is and imagine new ways of being.
 
-<span class="aside">
-I'm also legally obligated to talk about José Esteban Muñoz and
-<em>Cruising Utopia</em> :^)
-</span>
+<aside>
+Shoutout to my friend Chris for recommending this reading and for our
+cooperative yap time to work through the ideas :^) It was a dense text
+but I've found it so so generative
+</aside>
 
 At the same time, these texts feel like they're speaking to me directly.
 They give me language to contend with my thoughts, my feelings, my own
 reality. These texts give me language to see and describe a future that
 I want to live in. A world of shared liberation and queer
 existence---where we can all come and be _normal_, as we are.
+
+<aside>
+I'm also legally obligated to talk about José Esteban Muñoz and
+<em>Cruising Utopia</em> :^)
+</aside>
+
 
 ---
 
