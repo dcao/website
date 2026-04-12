@@ -17,7 +17,7 @@
             inherit system overlays;
           };
 
-          buildInputs = with pkgs; [ ];
+          buildInputs = with pkgs; [ nodePackages.nodejs ];
         in
         with pkgs;
         {
