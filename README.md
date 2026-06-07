@@ -1,8 +1,8 @@
 # website
 
-my website; uses 11ty
+my website; uses lume
 
 ## running
 
-for dev: `npm run serve`
-for building: `npm run build`
+for dev: `deno run serve`
+for building: `deno run build`

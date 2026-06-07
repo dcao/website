@@ -1,0 +1,475 @@
+@import "tailwindcss";
+
+@theme {
+    --color-keynote-100: #faf1ff;
+    --color-keynote-200: #dcd1e6;
+    --color-keynote-300: #c0b3cf;
+    --color-keynote-400: #a495b8;
+    --color-keynote-500: #8877a1;
+    --color-keynote-600: #6d598a;
+    --color-keynote-700: #513c73;
+    --color-keynote-800: #351e5c;
+    --color-keynote-900: #190045;
+
+    --font-xanh: "Xanh Mono";
+    --font-plex: "IBM Plex Sans";
+}
+
+main {
+    counter-reset: heading;
+
+    pre {
+        padding: 1.25em;
+        background-color: --alpha(var(--color-keynote-200) / 50%);
+        border-radius: 0.25rem;
+        font-size: 0.8em;
+        margin-top: 0.25em;
+        margin-bottom: 1em;
+        overflow: scroll;
+    }
+
+    ul,
+    ol {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 0.35em;
+        margin-block-end: 0.75em;
+        padding-inline-start: 1em;
+    }
+
+    &> :not(ul, ol)+ul,
+    &> :not(ul, ol)+li {
+        margin-block-start: 1em;
+    }
+
+    ol {
+        list-style-type: decimal;
+    }
+
+    li {
+        display: list-item;
+        text-align: match-parent;
+    }
+
+    ::marker {
+        unicode-bidi: isolate;
+        font-variant-numeric: tabular-nums;
+        text-transform: none;
+    }
+
+    a {
+        text-decoration: underline;
+
+        &:hover {
+            color: var(--color-keynote-400);
+        }
+    }
+
+    h1,
+    h2,
+    h3 {
+        scroll-margin-top: 4rem;
+    }
+
+    h1 {
+        line-height: 1.3;
+        margin-top: 2.25em;
+        margin-bottom: 1em;
+
+        color: var(--color-keynote-700);
+        counter-reset: subheading;
+    }
+
+    h2 {
+        line-height: 1.3;
+        margin-top: 2.2em;
+        margin-bottom: 0.75em;
+
+        color: var(--color-keynote-600);
+        counter-reset: subsubheading;
+    }
+
+    h3 {
+        line-height: 1.3;
+        margin-top: 2em;
+        margin-bottom: 0.75em;
+
+        color: var(--color-keynote-500);
+    }
+
+    h1::before {
+        counter-increment: heading;
+        content: counter(heading);
+    }
+
+    h2::before {
+        counter-increment: subheading;
+        content: counter(heading) "." counter(subheading);
+    }
+
+    h3::before {
+        counter-increment: subsubheading;
+        content: counter(heading) "." counter(subheading) "." counter(subsubheading);
+    }
+
+
+    h1::before,
+    h2::before,
+    h3::before {
+        font-size: 0.9em;
+        line-height: 1.5;
+        margin-right: 2vw;
+
+        @media (min-width: theme(--breakpoint-lg)) {
+            display: inline;
+            float: left;
+            position: relative;
+            width: 5vw;
+            margin-left: -6.25vw;
+            margin-right: 0;
+            text-align: right;
+        }
+    }
+
+    aside,
+    .aside {
+        font-size: 0.8em;
+        line-height: 1.5;
+
+        color: var(--color-keynote-500);
+
+        @media (min-width: theme(--breakpoint-lg)) {
+            display: inline;
+            float: left;
+            position: relative;
+            width: 22vw;
+            margin-left: -23.25vw;
+            text-align: right;
+
+        }
+
+        @media (max-width: theme(--breakpoint-lg)) {
+            display: block;
+            float: none;
+            margin: 5% 4% 5% 4%;
+            width: 80%;
+        }
+    }
+
+    p {
+        margin-bottom: 0.75em;
+        hyphens: auto;
+    }
+
+    hr {
+        border-color: var(--color-keynote-300);
+        margin-top: 1.75em;
+        margin-bottom: 1.75em;
+    }
+}
+
+@font-face {
+    font-family: 'Xanh Mono';
+    src: url('/static/XanhMono-Regular.woff2') format('woff2'),
+        url('/static/XanhMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Xanh Mono';
+    src: url('/static/XanhMono-Italic.woff2') format('woff2'),
+        url('/static/XanhMono-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('/static/BeVietnamPro-ThinItalic.woff2') format('woff2'),
+        url('/static/BeVietnamPro-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('/static/BeVietnamPro-Thin.woff2') format('woff2'),
+        url('/static/BeVietnamPro-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('/static/BeVietnamPro-SemiBoldItalic.woff2') format('woff2'),
+        url('/static/BeVietnamPro-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('/static/BeVietnamPro-SemiBold.woff2') format('woff2'),
+        url('/static/BeVietnamPro-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('/static/BeVietnamPro-Regular.woff2') format('woff2'),
+        url('/static/BeVietnamPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('/static/BeVietnamPro-MediumItalic.woff2') format('woff2'),
+        url('/static/BeVietnamPro-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('/static/BeVietnamPro-Medium.woff2') format('woff2'),
+        url('/static/BeVietnamPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('/static/BeVietnamPro-LightItalic.woff2') format('woff2'),
+        url('/static/BeVietnamPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('/static/BeVietnamPro-Light.woff2') format('woff2'),
+        url('/static/BeVietnamPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('/static/BeVietnamPro-Italic.woff2') format('woff2'),
+        url('/static/BeVietnamPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('/static/BeVietnamPro-ExtraLightItalic.woff2') format('woff2'),
+        url('/static/BeVietnamPro-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('/static/BeVietnamPro-ExtraLight.woff2') format('woff2'),
+        url('/static/BeVietnamPro-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('/static/BeVietnamPro-ExtraBoldItalic.woff2') format('woff2'),
+        url('/static/BeVietnamPro-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('/static/BeVietnamPro-ExtraBold.woff2') format('woff2'),
+        url('/static/BeVietnamPro-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('/static/BeVietnamPro-BoldItalic.woff2') format('woff2'),
+        url('/static/BeVietnamPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('/static/BeVietnamPro-Bold.woff2') format('woff2'),
+        url('/static/BeVietnamPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('/static/BeVietnamPro-BlackItalic.woff2') format('woff2'),
+        url('/static/BeVietnamPro-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('/static/BeVietnamPro-Black.woff2') format('woff2'),
+        url('/static/BeVietnamPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('/static/IBMPlexSans-ThinItalic.woff2') format('woff2'),
+        url('/static/IBMPlexSans-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('/static/IBMPlexSans-Thin.woff2') format('woff2'),
+        url('/static/IBMPlexSans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('/static/IBMPlexSans-SemiBoldItalic.woff2') format('woff2'),
+        url('/static/IBMPlexSans-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('/static/IBMPlexSans-SemiBold.woff2') format('woff2'),
+        url('/static/IBMPlexSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('/static/IBMPlexSans-Regular.woff2') format('woff2'),
+        url('/static/IBMPlexSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('/static/IBMPlexSans-MediumItalic.woff2') format('woff2'),
+        url('/static/IBMPlexSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('/static/IBMPlexSans-Medium.woff2') format('woff2'),
+        url('/static/IBMPlexSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('/static/IBMPlexSans-LightItalic.woff2') format('woff2'),
+        url('/static/IBMPlexSans-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('/static/IBMPlexSans-Light.woff2') format('woff2'),
+        url('/static/IBMPlexSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('/static/IBMPlexSans-Italic.woff2') format('woff2'),
+        url('/static/IBMPlexSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('/static/IBMPlexSans-ExtraLightItalic.woff2') format('woff2'),
+        url('/static/IBMPlexSans-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('/static/IBMPlexSans-ExtraLight.woff2') format('woff2'),
+        url('/static/IBMPlexSans-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('/static/IBMPlexSans-BoldItalic.woff2') format('woff2'),
+        url('/static/IBMPlexSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('/static/IBMPlexSans-Bold.woff2') format('woff2'),
+        url('/static/IBMPlexSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

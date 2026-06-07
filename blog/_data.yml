@@ -1,0 +1,6 @@
+layout: layouts/blog.vto
+tags:
+  - post
+transformImages:
+  resize: [400] # Set 200px width, calculate the height automatically
+  format: webp

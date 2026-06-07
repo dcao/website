@@ -2,3 +2,9 @@ node_modules/
 _site/
 .DS_Store
 .env
+
+tests/coverage
+_binary
+TODO
+deno.lock
+_cache
