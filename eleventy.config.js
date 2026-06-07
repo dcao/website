@@ -2,8 +2,9 @@ import { DateTime } from "luxon";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import anchor from "markdown-it-anchor";
 import toc from "eleventy-plugin-toc";
+import sidenote_plugin from "markdown-it-sidenote";
 
-export default async function(config) {
+export default async function (config) {
     // All of the files for the website will be in the `website/` folder.
     config.setInputDirectory("website");
 
@@ -30,16 +31,18 @@ export default async function(config) {
         tags: ['h1', 'h2', 'h3'],
     });
 
+    config.amendLibrary("md", (mdLib) => mdLib.use(sidenote_plugin));
+
     config.addFilter("readableDate", (dateObj, format, zone) => {
         // Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
         return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "LLL dd, yyyy");
     });
 
-    config.addFilter("utcDate", function(date) {
+    config.addFilter("utcDate", function (date) {
         return date.toISOString().slice(0, 10)
     });
 
-    config.addPairedShortcode("homeItem", function(rest, time, typ, item) {
+    config.addPairedShortcode("homeItem", function (rest, time, typ, item) {
         let typeColor;
         switch (typ) {
             case "position":
