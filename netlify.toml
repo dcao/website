@@ -1,6 +1,9 @@
 [build]
 publish = "_site"
-command = "deno run build"
+command = """
+  curl -fsSL https://deno.land/install.sh | sh && \
+  /opt/buildhome/.deno/bin/deno task build \
+"""
 
 [[redirects]]
 from = "http://www.cao.sh/*"
