@@ -72,16 +72,15 @@ take space and Just Say Things, I Can Too.
 One byproduct of this is that people are very well read! Folks are incredibly
 willing to take in texts from across a wide array of sources to try to inform
 how they are thinking about their work. The other CS girlies are reading Saidiya
-Hartman and the literary studies folks are engaging with Freud and
-psychoanalysis while also doing close readings of technical reports. We have a
-shared resources doc that the cohort has been working on over the week: it is
-_twelve pages long_. There is such a vast array of literature and scholarship
-folks are engaged in---and it seems like *constantly* engaged in, not just in a
-just-in-time way for whenever they need to submit to conference or journal, but
-in a way that lets them sit in the soup of ideas. That kind of reading
-practice---the muscle of constantly reaching outward into spaces unknown to pull
-theories, concepts, method, analytical frame s---*that* is what I want to have
-for myself.
+Hartman and the Film and TV studies folks are doing close readings of technical
+reports. And everyone is reading Freud. We have a shared resources doc that the
+cohort has been working on over the week: it is _twelve pages long_. There is
+such a vast array of literature and scholarship folks are engaged in---and it
+seems like *constantly* engaged in, not just in a just-in-time way for whenever
+they need to submit to conference or journal, but in a way that lets them sit in
+the soup of ideas. That kind of reading practice---the muscle of constantly
+reaching outward into spaces unknown to pull theories, concepts, method,
+analytical frames---*that* is what I want to have for myself.
 
 Again, people honor themselves and their own ideas very seriously. In her
 keynote, Lisa Nakamura noted that writing theory is a writing style and that
@@ -90,10 +89,10 @@ In that frame, the point of being well-read isn't just to say "oh `x` person
 says this, therefore I have the license to say `z`."  It is to confidently and
 boldly claim that `z` is true, and then to be able to point to `x` and to `y`
 and to whoever else as corroborating evidence that speaks to your academic
-truth.  ^[Shoutout to Jasmine for this insight on the purpose of _reading the
+truth. ^[Shoutout to Jasmine for this insight on the purpose of _reading the
 canon_.  One insight discussion we had was that the point of reading the canon
 also isn't necessarily because we like the canon, but because we want to be able
-to be precise in deconstructing or critiquing the canon.]  Often times, this
+to be precise in deconstructing or critiquing the canon.] Often times, this
 means being willing to do the work even when it's unpopular or illegible in your
 own discipline. Several of the speakers we had expressed that during their early
 academic careers, folks would advise them not to do the work that has now
@@ -101,28 +100,27 @@ defined their careers.
 
 Up to this point, I've realized I haven't fully taken myself seriously as an
 academic. Part of that is because I haven't taken computer science seriously as
-an academic discipline
-<!-- ^[I sit in between two computing subdisciplines---programming languages (PL) and
-human-computer interaction (HCI). The PL folks do very "technical" writing,
-which entails all of the baggage of "empirical," "objective," or "universal"
-writing conventions. The HCI folks do engage with critical theory and things,
-but, as my labmate Eric and I have chatted about, it feels less like HCI folks
-are thinking with this scholarship than they are just doing book reports on this
-theorization and not staking their own intellectual claims. A more specific
-critique I have is that the connection between theory and practice feels very
-tenuous---it's difficult for me to imagine how a VR app in the Meta Quest App
-Store is actualizing Black feminism.]. -->
-Part of that is because I've had lots of friends who are non-academics, and I
-didn't want to watch myself disappear into the ivory tower and become alienated
-from my friends; I wanted to stay relatable, and initially to me being relatable
-means a kind of anti-intellectualism: making fun of academic jargon, undermining
-the seriousness and precision of the work that I'm supposed to be doing. But
-being an academic and using the jargon isn't just about performing knowledge and
-navel-gazing. It's about honoring the genealogy of where all these terms come
-from, of enacting a citational politics. And it's about talking with precision
-in our field. And even if it _is_ a little navel-gazy, I'd like to care for
-myself enough to give myself permission to take space and navel-gaze every once
-in a while!
+an academic discipline. <!-- ^[I sit in between two computing
+subdisciplines---programming languages (PL) and human-computer interaction
+(HCI). The PL folks do very "technical" writing, which entails all of the
+baggage of "empirical," "objective," or "universal" writing conventions. The HCI
+folks do engage with critical theory and things, but, as my labmate Eric and I
+have chatted about, it feels less like HCI folks are thinking with this
+scholarship than they are just doing book reports on this theorization and not
+staking their own intellectual claims. A more specific critique I have is that
+the connection between theory and practice feels very tenuous---it's difficult
+for me to imagine how a VR app in the Meta Quest App Store is actualizing Black
+feminism.]. --> Part of that is because I've had lots of friends who are
+non-academics, and I didn't want to watch myself disappear into the ivory tower
+and become alienated from my friends; I wanted to stay relatable, and initially
+to me being relatable means a kind of anti-intellectualism: making fun of
+academic jargon, undermining the seriousness and precision of the work that I'm
+supposed to be doing. But being an academic and using the jargon isn't just
+about performing knowledge and navel-gazing. It's about honoring the genealogy
+of where all these terms come from, of enacting a citational politics. And it's
+about talking with precision in our field. And even if it _is_ a little
+navel-gazy, I'd like to care for myself enough to give myself permission to take
+space and navel-gaze every once in a while!
 
 <!-- As an example---Josef Nguyen gave a talk on consent and his view that, in
 summary, consent is doing a ton of heavy lifting right now! We want consent to
@@ -289,18 +287,18 @@ use-case.  And yet, I don't think a world where people can easily extract
 information from PDFs (or even a world where people can make their own tools for
 extracting information from `insert your favorite semi-structured data format
 here`) feels like a particularly compelling vision of a speculative
-(decolonial/liberatory) future.  Moreover, "getting info out of PDFs at scale"
-is the kind of task that many not-so-great people---insurance companies,
-militaries, and the like---would *love* to have. ^[Here's a link to a [Palantir
-documentation
+(decolonial/liberatory/feminist/your favorite word here) future.  Moreover,
+"getting info out of PDFs at scale" is the kind of task that many not-so-great
+people---insurance companies, militaries, and the like---would *love* to
+automate.  ^[Here's a link to a [Palantir documentation
 site](https://build.palantir.com/platform/feb5b61a-6527-4d22-8e0c-11e8843d9c6e)
-offering a similar thing. In general, it's very easy for this kind of task to
-fall into "well why don't you just use an AI agent (tm)" territory, and at some
-point I committed to myself that if a task was AI-able, it was no longer
-interesting research for me.] This kind of work was uninteresting to me from a
-computational perspective and uncompelling to me from a political perspective.
-Trying to make a tool that did real-world political work limited my own
-imagination of the kinds of interventions we can build and imagine.
+offering a similar PDF extraction tool. In general, it's very easy for this kind
+of task to fall into "well why don't you just use an AI agent (tm)" territory,
+and at some point I committed to myself that if a task was AI-able, it was no
+longer interesting research for me.] This kind of work was uninteresting to me
+from a computational perspective and uncompelling to me from a political
+perspective.  Trying to make a tool that did real-world political work limited
+my own imagination of the kinds of interventions we can build and imagine.
 
 Separately, I've found that my experience of computer science as a field has
 been hostile to conceptual play. In "technical" fields like programming language
@@ -361,18 +359,31 @@ work in computing also, in different ways, apply to folks doing work outside of
 computing.
 
 The lesson is that I don't need to take my work as literally needing to make
-political change. And in doing so, my work is free to be imaginative, to sit in
-an otherwise outside "can we make PDF data extraction marginally faster" and to
-imagine another way of being with technology, to be interesting computationally
-and weave in my conceptual inspirations---my friends' artistic and archival
-practices, my own conversations with my elders, and the new interlocutors I've
-found here---in ways that feel lived and aren't constrained to the hyperliteral.
-I want to do work that speaks to marginality in computing in the same way a
-close reading of the *Cancer Journals* would speak to disability and queerness,
-in the same way *Bodyminds Reimagined* reads theorizing of Blackness and
-disability in Black speculative fiction. And at the same time, I am under no
-pretenses that this intellectual work can be conflated with the real, material
-work of creating solidarity and liberation and otherwise in the real world.
+political change ^[To add a finer point on this for the PL girlies: while I'm
+happy for my work to materially improve the (work) conditions of organizers and
+movements workers whose work I care about, I think what continues to compel me
+towards PL as a research discipline is that the tools we make can be very
+imaginative and speculative, that our tools and techniques can be very general
+and not necessarily wedded to a particular domain, and that we can work concepts
+and theorization in ways that subtle but that live and breathe in the design
+decisions of our tools. One broader reflection I had during this week is that
+I do think CS is still cool, and in fact, I do think there is a lot of
+conceptual and political work left to be done with programming tools. I want to
+commit to that project, both in a defensive way---we can't cede the future to
+fascists---and in an affirmative way---we must do the work of imagining
+otherwise in our interfaces with computing.]. And in doing so, my work is free to be imaginative,
+to sit in an otherwise outside "can we make PDF data extraction marginally
+faster" and to imagine another way of being with technology, to be interesting
+computationally and weave in my conceptual inspirations---my friends' artistic
+and archival practices, my own conversations with my elders, and the new
+interlocutors I've found here---in ways that feel lived and aren't constrained
+to the hyperliteral.  I want to do work that speaks to marginality in computing
+in the same way a close reading of the *Cancer Journals* would speak to
+disability and queerness, in the same way *Bodyminds Reimagined* reads
+theorizing of Blackness and disability in Black speculative fiction. And at the
+same time, I am under no pretenses that this intellectual work can be conflated
+with the real, material work of creating solidarity and liberation and otherwise
+in the real world.
 
 ---
 
@@ -402,7 +413,5 @@ back in the Bay, and I want to hold on to this sense of unencumbered
 intellectual movement as long and as hard as I can. What does it mean to be
 open, playful, and vulnerable in spaces that have felt hostile to that in the
 past? This past week has given me a new faith in the capacity for community,
-imaginativity, and futurity in intellectual spaces. But as Zohran Mamdani
-reminds us, "Faith without works is dead" ^[the bible reminds us of this
-too, i guess. lol.]. What does it look like to work that faith in my everyday
-academic life?
+imaginativity, and futurity in intellectual spaces. Now, what does it look like
+to work that faith in my everyday academic life?
