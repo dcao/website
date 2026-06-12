@@ -4,25 +4,26 @@ layout: layouts/base-new.vto
 
 <div class="mt-32">
     <div class="grid gap-2 grid-cols-1 gap-8 lg:gap-4 lg:grid-cols-13">
-        <p class="text-keynote-500 font-xanh text-2xl lg:col-start-7 lg:col-span-6">{{ date |> date("yyyy-MM-dd") }}</p>
-    </div>
-
-    <div class="grid gap-2 grid-cols-1 gap-8 lg:gap-4 lg:grid-cols-13">
-        <p class="font-xanh text-2xl lg:col-start-7 lg:col-span-6">{{ title }}</p>
-    </div>
-
-    <div class="grid gap-2 grid-cols-1 gap-8 lg:gap-4 lg:grid-cols-13 mt-12">
+        <div class="font-xanh text-2xl lg:col-start-7 lg:col-span-6">
+            <p class="text-keynote-500">{{ date |> date("yyyy-MM-dd") }}</p>
+            <p class="font-xanh text-2xl lg:row-start-1 lg:col-start-7 lg:col-span-6">{{ title }}</p>
+        </div>
+        <div class="lg:row-start-1 lg:col-start-4 lg:col-span-3 max-w-prose">
+        {{ if wip }}
+            <p class="py-2 px-3 bg-orange-200/50 text-orange-700 lg:text-right lg:align-text-bottom">
+                This article is a <em>work in progress</em>. Text and content may be changed or updated.
+            </p>
+        {{ /if }}
         {{ if draft }}
-            <p class="p-2 bg-red-300 text-red-700 lg:col-start-7 lg:col-span-6 rounded max-w-prose">
+            <p class="p-2 bg-red-300 text-red-700">
             This is a draft. This page shouldn't be published on the
             live version of this site.
             </p>
         {{ /if }}
-        {{ if wip }}
-            <p class="p-2 bg-orange-300 text-orange-700 lg:col-start-7 lg:col-span-6 rounded max-w-prose">
-            This article is a <em>work in progress</em>.
-            </p>
-        {{ /if }}
+        </div>
+    </div>
+
+    <div class="grid gap-2 grid-cols-1 gap-8 lg:gap-4 lg:grid-cols-13 mt-12">
 
         <!--
         <div class="opacity-35 hover:opacity-100 transition sticky hidden w-[20vw] lg:flex flex-col top-24 lg:col-span-2 pr-8 self-start">
