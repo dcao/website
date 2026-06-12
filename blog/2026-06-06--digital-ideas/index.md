@@ -5,7 +5,7 @@ date: 2026-06-06
 ---
 <!-- vim: set tw=72 wrapmargin=0 formatoptions+=t: -->
 
-![A photo of a slideshow presentation and a desk. On the presentation is a quote from Parable of the Sower by Octavia Butler: "All that you touch / You Change. / All that you Change / Changes you. / The only lasting truth / is Change."](IMG_0163.png)
+<img class="mb-4" src="./IMG_0163.png" alt="A photo of a slideshow presentation and a desk. On the presentation is a quote from Parable of the Sower by Octavia Butler: 'All that you touch / You Change. / All that you Change / Changes you. / The only lasting truth / is Change.'" transform-images="avif webp jpg 450@2" />
 
 Recently, I returned from a trip in Michigan for Digital IDEAS, a summer
 institute for new media folks! I had a bunch of great conversations and
