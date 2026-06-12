@@ -366,24 +366,25 @@ towards PL as a research discipline is that the tools we make can be very
 imaginative and speculative, that our tools and techniques can be very general
 and not necessarily wedded to a particular domain, and that we can work concepts
 and theorization in ways that subtle but that live and breathe in the design
-decisions of our tools. One broader reflection I had during this week is that
-I do think CS is still cool, and in fact, I do think there is a lot of
-conceptual and political work left to be done with programming tools. I want to
-commit to that project, both in a defensive way---we can't cede the future to
+decisions of our tools. One broader reflection I had during this week is that I
+do think CS is still cool, and in fact, I do think there is a lot of conceptual
+and political work left to be done with programming tools. I want to commit to
+that project, both in a defensive way---we can't cede the future to
 fascists---and in an affirmative way---we must do the work of imagining
-otherwise in our interfaces with computing.]. And in doing so, my work is free to be imaginative,
-to sit in an otherwise outside "can we make PDF data extraction marginally
-faster" and to imagine another way of being with technology, to be interesting
-computationally and weave in my conceptual inspirations---my friends' artistic
-and archival practices, my own conversations with my elders, and the new
-interlocutors I've found here---in ways that feel lived and aren't constrained
-to the hyperliteral.  I want to do work that speaks to marginality in computing
-in the same way a close reading of the *Cancer Journals* would speak to
-disability and queerness, in the same way *Bodyminds Reimagined* reads
-theorizing of Blackness and disability in Black speculative fiction. And at the
-same time, I am under no pretenses that this intellectual work can be conflated
-with the real, material work of creating solidarity and liberation and otherwise
-in the real world.
+otherwise in our interfaces with computing, in a way that is not just
+metaphoric, but material, precise, and worked.]. And in doing so, my work is
+free to be imaginative, to sit in an otherwise outside "can we make PDF data
+extraction marginally faster" and to imagine another way of being with
+technology, to be interesting computationally and weave in my conceptual
+inspirations---my friends' artistic and archival practices, my own conversations
+with my elders, and the new interlocutors I've found here---in ways that feel
+lived and aren't constrained to the hyperliteral.  I want to do work that speaks
+to marginality in computing in the same way a close reading of the *Cancer
+Journals* would speak to disability and queerness, in the same way *Bodyminds
+Reimagined* reads theorizing of Blackness and disability in Black speculative
+fiction. And at the same time, I am under no pretenses that this intellectual
+work can be conflated with the real, material work of creating solidarity and
+liberation and otherwise in the real world.
 
 ---
 
