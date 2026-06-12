@@ -80,8 +80,7 @@ folks are engaged in---and it seems like *constantly* engaged in, not just in a
 just-in-time way for whenever they need to submit to conference or journal, but
 in a way that lets them sit in the soup of ideas. That kind of reading
 practice---the muscle of constantly reaching outward into spaces unknown to pull
-theories, concepts, method, analytical frame
-s---*that* is what I want to have
+theories, concepts, method, analytical frame s---*that* is what I want to have
 for myself.
 
 Again, people honor themselves and their own ideas very seriously. In her
@@ -94,7 +93,11 @@ and to whoever else as corroborating evidence that speaks to your academic
 truth.  ^[Shoutout to Jasmine for this insight on the purpose of _reading the
 canon_.  One insight discussion we had was that the point of reading the canon
 also isn't necessarily because we like the canon, but because we want to be able
-to be precise in deconstructing or critiquing the canon.]
+to be precise in deconstructing or critiquing the canon.]  Often times, this
+means being willing to do the work even when it's unpopular or illegible in your
+own discipline. Several of the speakers we had expressed that during their early
+academic careers, folks would advise them not to do the work that has now
+defined their careers.
 
 Up to this point, I've realized I haven't fully taken myself seriously as an
 academic. Part of that is because I haven't taken computer science seriously as
@@ -138,7 +141,7 @@ practice and be more comfortable taking space, being brave, and trusting my own
 sensibilities in academic settings. Materially, that means writing a little bit
 every day, maybe starting my day with 30 minutes or an hour of writing to keep
 that muscle strong. It means a more committed reading practice, where I'm
-blocking in reading time as a daily part of my schedule
+blocking in reading time as a daily part of my schedule!
 
 With reading in particular, I've always struggled mightily with reading
 practice. I think part of it is the affective side---it feels scary and draining
@@ -196,6 +199,22 @@ coming from a place of generosity, not of cynical nitpicking (the "well
 actually" of it all). Again, this is a kind of social curb cut effect---because
 we feel comfortable and affirmed in the space, those of us normally less
 inclined to speak on our hot takes feel empowered to do so.
+
+Part of that is honoring the messy and "ugly" feelings of marginalization and
+the academy: there's lots of discourse around making space for care and rest,
+but what about for hatred and rage? It is those uglier feelings that were the
+most cathartic to share in. Much of what I got out of the week was hearing from
+other computer science survivors---folks in or graduated from computing
+programs---who gave me the language to articulate the experience of alienation
+from being in computing. The lived experience of being in this kind of field is
+incredibly hard to articulate, and it was a shared, lived hatred and anger that
+sutured us together and bound us in community. In my own personal life I've been
+trying to let myself be messy around others---to trust that I will be held even
+if I communicate in a way that's unformed, unpolished, and potentially sharp to
+the touch. And it was beautiful getting see other folks taking the leap of faith
+to hate! To not try to predict beforehand if it would be safe or socially
+acceptable to do so and just express themselves in their rawest form. And to
+watch other folks, myself included, feel empowered to hate in the space they 
 
 When Chris and I were processing this afterwards, we were reflecting on what it
 means that we've been able to find an academic space that makes us feel like we
@@ -361,14 +380,29 @@ There is a distinction to be made between doing committed intellectual work and
 valorizing the academy as the only place to do committed intellectual work.
 Simultaneously, there's a distinction to be made between doing personal
 intellectual work and needing your intellectual work to fulfill your entire
-person.  One thing that felt resonant about the community here was that while
-folks were committed to intellectual work, nobody was committed to the
-*academy*, and if anything, folks had a generally adversarial relationship to it
-(owing to their own experiences of marginalization and isolation in academic
-spaces). Regardless of the criticality of the work people do, it does make a
-difference if folks see themselves as in the university or of the university;
-whether they see themselves as a professionalized academic or whether they see
-themselves as an organizer or movement worker or creative. The university is of
-the fabric that weaves state violence and exploitation, and it's exciting to
-find a community of folks in academia, but whose home---whose otherwises---exist
-outside and beyond it.
+person. Part of what made Digital IDEAS feel so safe is that folks had an
+oppositional relationship to the university. I've found it easier to build trust
+with other folks who, despite being in the institution, still hold that sense
+this hatred and anger towards the institution that comes from a lived experience
+of marginalization. And regardless of the criticality of the work people do, it
+does make a difference if folks see themselves as in the university or of the
+university; whether they see themselves as a professionalized academic within
+academia, or whether they see themselves as an organizer or movement worker or
+creative outside it. The university is of the fabric that weaves state violence
+and exploitation, and it wants to create a slippage between institution,
+academic, and intellectual/researcher. It's exciting to find a community of
+thinkers whose practices disarticulate these, whose home---whose
+otherwises---exist outside and beyond it.
+
+# Forward
+
+The question I'm left with now is to how to hold on to this sense of freedom,
+lightness, and play in the other spaces I move in. I'm home from Ann Arbor and
+back in the Bay, and I want to hold on to this sense of unencumbered
+intellectual movement as long and as hard as I can. What does it mean to be
+open, playful, and vulnerable in spaces that have felt hostile to that in the
+past? This past week has given me a new faith in the capacity for community,
+imaginativity, and futurity in intellectual spaces. But as Zohran Mamdani
+reminds us, "Faith without works is dead" ^[the bible reminds us of this
+too, i guess. lol.]. What does it look like to work that faith in my everyday
+academic life?

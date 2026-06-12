@@ -190,7 +190,7 @@ at the End of the World_ at this point. But reading even just that
 introduction and seeing the earnestness and vulnerability and
 imaginitivity of that text---that was enough to fill my cup.
 </span>
-I think about Fred Moten and Stefano Harvey and their work drawing on
+I think about Fred Moten and Stefano Harney and their work drawing on
 the possibilities of fugitivity in making visible the undercommons: the
 everyday work that we do in to survive in the academy.
 
@@ -234,7 +234,7 @@ selves to this labor, and yet reject work that is too personal or not
 objective enough. The academy demands I centralize my energy with it,
 instead of with community or passions or art or organizing. And yet
 those activities are what give me life, that make my academic work
-possible and give it meaning and tempo. This is what Moten and Harvey
+possible and give it meaning and tempo. This is what Moten and Harney
 write about---even though the university depends on the creativity and
 the imaginativity of minoritized folks' creative labor, it still
 actively stifles and suppresses it. This labor is always made fugitive.
