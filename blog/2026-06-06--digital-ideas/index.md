@@ -212,7 +212,7 @@ at these spaces to try to discover some heretofore undiscovered seenness within
 these spaces. And that is okay! I just need to do the work of finding those
 spaces myself.
 
-# Politics / work / otherwise
+# Politics / otherwise
 
 One question that came up repeatedly was what it means to do _political_
 work in and through the academy. Is there space in the academy to do
@@ -227,18 +227,20 @@ think with humanistic traditions, it's very easy to conflate the latter with the
 former. Unfortunately, writing the book alone will not abolish the prison.
 
 When I entered the PhD, I wanted my computing work to do both and more. I want
-the work to materially affect change in subjugated peoples' lives---that's why I
-chose computer science. I also wanted the work to have something theoretically
-interesting to say about marginalized folks' experiences with the digital. On
-*top* of that (and I didn't fully recognize this at the time), I also wanted my
-work to be theoretically interesting and rigorous in a computing capacity as
-well. My Achilles heel has always been being interested in twenty-five different
-things and wanting to be perfect at all of them, and my initial PhD goals were a
-manifestation of that: I wanted a project that was theoretically sound in both a
-humanities and computing register while also creating material change for people
-in the real world. And in my own experience, I've found that project incredibly
-difficult. In some ways, this is a benefit I have over the humanities
-girlies---the nature of my field makes it impossible to pretend.
+the work to not just materially affect change in subjugated peoples' lives, but
+to materially disrupt the systems that create the conditions for the subjugation
+in the first place---that's why I chose computer science. I also wanted the work
+to have something theoretically interesting to say about marginalized folks'
+experiences with the digital. On *top* of that (and I didn't fully recognize
+this at the time), I also wanted my work to be theoretically interesting and
+rigorous in a computing capacity as well. My Achilles heel has always been being
+interested in twenty-five different things and wanting to be perfect at all of
+them, and my initial PhD goals were a manifestation of that: I wanted a project
+that was theoretically sound in both a humanities and computing register while
+also creating material change for people in the real world. And in my own
+experience, I've found that project incredibly difficult. In some ways, this is
+a benefit I have over the humanities girlies---the nature of my field makes it
+impossible to pretend.
 
 Because I do programming languages research, part of the day-to-day of my
 research practice involves building programming tools. One initial theory I had
@@ -286,11 +288,12 @@ been hostile to conceptual play. In "technical" fields like programming language
 (PL) research, we are taught to discipline the poetic, the affective, the
 lyrical, and the personal out of any of our writing. Our writing is meant to be
 dismebodied and universal. PL papers are meant to deliver truths of the
-computational universe and to read as if they are written by God.  <!-- It is an
+computational universe and to read as if they are written by God. <!-- It is an
 instrumental view of language where the purpose of any text is to coerce the
 reader into understanding^[Shoutout to my labmate Eric for noodling on that turn
 of phrase]. The intellectual tradition of the field begins and ends with: "Look!
-We made a new thing!" -->
+We made a new thing!" --> The field would see my own experiences of politics or
+marginality as preposterous to include in any "serious," "technical" writing.
 
 One of the feelings I've been working through during this week is a
 Foucault-flavored internalized self-discipline, the disembodied voice of The
@@ -323,10 +326,10 @@ were not constantly disciplined at the altar of practicality or legibility.
 I suspect that being in computing makes it easier to realize that my work can't
 encompass my entire political and spiritual life. The disciplinary norms of
 computer science---particularly a "technical" field like programming language
-research---makes it incredibly difficult to pretend like your academic work is
-embodying your full self, or that your academic work is doing real political
-work entirely aligned with your own political goals and values. It's easier for
-the person in the humanities writing about late-20th century Asian American
+research---makes it incredibly difficult to pretend like my academic work
+embodies my full self, or that my academic work is doing real political work
+entirely aligned with my own political goals and values. It's easier for the
+person in the humanities writing about late-20th century Asian American
 resistance movements to feel that their academic work is capacious enough to
 contain their spiritual, political, and intellectual selves than for the PL
 person writing a paper on a new type system. In my own experience, trying to
@@ -334,7 +337,9 @@ make a computer science paper do political work ends up doing a disservice to
 the political part and the computer science part, and that has freed my
 intellectual work from needing to do "real" political work. And I think this is
 a lesson that the folks were noodling on generally---it is very different to
-write about organizing than it is to organize!
+write about organizing than it is to organize! The constraints that apply to
+work in computing also, in different ways, apply to folks doing work outside of
+computing.
 
 The lesson is that I don't need to take my work as literally needing to make
 political change. And in doing so, my work is free to be imaginative, to sit in
@@ -346,4 +351,24 @@ found here---in ways that feel lived and aren't constrained to the hyperliteral.
 I want to do work that speaks to marginality in computing in the same way a
 close reading of the *Cancer Journals* would speak to disability and queerness,
 in the same way *Bodyminds Reimagined* reads theorizing of Blackness and
-disability in Black speculative fiction.
+disability in Black speculative fiction. And at the same time, I am under no
+pretenses that this intellectual work can be conflated with the real, material
+work of creating solidarity and liberation and otherwise in the real world.
+
+---
+
+There is a distinction to be made between doing committed intellectual work and
+valorizing the academy as the only place to do committed intellectual work.
+Simultaneously, there's a distinction to be made between doing personal
+intellectual work and needing your intellectual work to fulfill your entire
+person.  One thing that felt resonant about the community here was that while
+folks were committed to intellectual work, nobody was committed to the
+*academy*, and if anything, folks had a generally adversarial relationship to it
+(owing to their own experiences of marginalization and isolation in academic
+spaces). Regardless of the criticality of the work people do, it does make a
+difference if folks see themselves as in the university or of the university;
+whether they see themselves as a professionalized academic or whether they see
+themselves as an organizer or movement worker or creative. The university is of
+the fabric that weaves state violence and exploitation, and it's exciting to
+find a community of folks in academia, but whose home---whose otherwises---exist
+outside and beyond it.
