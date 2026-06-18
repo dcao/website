@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./univers.css";
 
 @theme {
     --color-keynote-100: #faf1ff;
@@ -13,6 +14,9 @@
 
     --font-xanh: "Xanh Mono";
     --font-plex: "IBM Plex Sans";
+    --font-univers: "univers-next-pro";
+    --font-univers-wide: "univers-next-pro-extended";
+    --font-univers-narrow: "univers-next-pro-condensed";
 }
 
 main {
