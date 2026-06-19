@@ -1,7 +1,6 @@
 ---
-title: Reflections on Digital IDEAS
-wip: true
-date: 2026-06-06
+title: Digital IDEAS and SIGCIS
+date: 2026-06-19T19:00
 ---
 <!-- vim: set tw=72 wrapmargin=0 formatoptions+=t: -->
 
@@ -9,21 +8,140 @@ date: 2026-06-06
 
 Recently, I returned from a trip in Michigan for Digital IDEAS, a summer
 institute for new media folks! I had a bunch of great conversations and
-experiences while I was out there---it felt like my academic cup had been
-refilled, and I was able to remember what it was like to be in academic
-community, to feel empowered to take space and dish out hot takes and be my most
-raw intellectual self. It did feel like the various misfit toys of different
-academic disciplines all coming together to hang out, and sharing in that was so
-so precious.
+experiences while I was out there---it felt like my academic cup had
+been refilled, and I was able to remember what it was like to be in
+academic community, to feel empowered to take space and dish out hot
+takes and be my most raw intellectual self. It did feel like the various
+misfit toys of different academic disciplines all coming together to
+hang out, and sharing in that was so so precious.
+
+Even more recently, I presented on some of my computing history work at
+SIGCIS in Berkeley. Again, it was an incredibly heartwarming
+experience---I got to meet and talk to so many exciting scholars and
+hear about their work, and I heard them refract my work through their
+analytic lenses and questions, and again, I'm feeling that same sense of
+expansiveness, extroversion, openness and comfort. It feels really
+good!!!
 
 I had a wonderful debrief call with my dear friend
-[Chris](https://www.asc.upenn.edu/people/graduate-student/christine-phan) about
-the week recently since we were both at the summer school, and I wanted to give
-y'all some thoughts on academia and reflections on the work I'm doing, both for
-the benefit of having it out there in the world somewhere, and for my own
-benefit so that I don't forget what this moment felt like.
+[Chris](https://www.asc.upenn.edu/people/graduate-student/christine-phan)
+about Digital IDEAS specifically, since we were both at the summer
+school, and I wanted to give y'all some thoughts on academia and
+reflections on the work I'm doing, both for the benefit of having it out
+there in the world somewhere, and for my own benefit so that I don't
+forget what this moment felt like.
 
-# Labor / practice
+# Independence & interdependence
+
+As recently as the start of this year, I don't think I was truly open to
+learning. To exposing myself to feedback on my honest work, or to show
+what I was truly thinking, and to receive feedback on that. Rather, I
+would work on things I wasn't actually interested in, or I wouldn't show
+my full hand in terms of what I'm thinking, in fear it wouldn't be
+received well or wouldn't be legible or, most importantly, that people
+would hear it and think, "oh... that's not..."
+
+The implication of hearing that (or even sensing that it could come
+out): that I'm a flop, that I'm stupid, that I'm embarrassing to listen
+to, that I don't belong in that space, that I'm not a real computer
+scientist or a real humanistic intellectual or a real academic.
+
+As I've mentioned [previously](../2025-10-10--dysphoria-discipline/), I
+did a humanities undergrad. And much of my grad school identity centered
+around, "I'm doing interdisciplinary work. I'm committed to CS and
+ethnic studies. And I know how to speak humanities, because of that
+ethnic studies experience."
+
+But I was always scared and insecure that I wasn't a real humanities
+girlie! I'd never fully developed a rigorous reading or writing practice
+in that space, and I was able to get by relying on the fact that my
+computing stuff wouldn't be legible enough to scrutinize or critique in
+the ethnic studies space, and vice versa. Thus, I was scared that if I
+tried doing humanistic work or started earnestly expressing my
+humanities-inflected opinions, people would discover that I'm a fraud
+and actually I don't know what I'm talking about. But now that I'm
+actually doing grad school and actually attempting to have those
+crossdisciplinary conversations with folks who know how to do work at
+those meeting grounds, there's no more running away from that fear and
+from scrutiny of my work. I want to take doing crossdisciplinary work
+seriously, and that means producing work that is serious, earnest,
+truthful to myself, and committed ^[I will say, writing this out now, I
+am puzzled by my own past anxiety. I was just an undergrad, and of
+course I was still in a place of active learning at the time! There's no
+shame in not knowing things immediately out of undergrad!].
+
+Recently, when I have felt those anxieties around "being found out,"
+I've been trying to feel that anxiety and embarrassment in my body,
+breathe through it, and open myself to the gift of not knowing and being
+able to learn something new. This is what it means to live, to do work
+that I have stakes in, that I care about. It's scary because it matters
+to me that I do this right, and because I care about the people I'm
+engaging with---both my interlocutors and my intellectual touchpoints.
+
+Having now done some engagements in more humanistic spaces and having
+had positive reactions, my new fear is that this "success" is purely
+contingent on relying on other people's feedback and insights and taking
+them as my own. That my ideas "alone" aren't sufficient, and that I'm
+reliant on "taking" other people's refractions of my ideas. It's scary
+from an ego perspective---that I don't have any good ideas, or that my
+ideas wouldn't be "good enough" without relying on feedback from a
+particular place.
+
+And more broadly, I've always been fearful of asking for help from other
+folks! Maybe it's that I don't want to create a burden on other people,
+or that I feel like I'm doing a maximally good job if I burden other
+people as little as possible. And it's scary from a reliance
+perspective. There's that fear that I'll fuck it up somehow, that
+something will happen out of my control that will make me lose this
+academic community. *Or* that I'll do something that will cause this
+academic community to leave me. That mid-conversation with a potential
+collaborator I won't know what to say and then it'll be awkward and then
+I'll have fucked it up with someone I was hoping to work with.
+
+In response to that, one thought I have is that the only way to find out
+if there is true capacity for collaboration is to just *talk* and find
+out! Better that than to be avoidant and preclude myself from having the
+opportunity to engage with those folks in the first place. And what a
+privilege it is not just that I am able to engage with these folks and
+learn more about them and their world, but also that I'm not coming from
+a place of scarcity in these interactions anymore! I know myself more
+and more, and I know that I have peers who see and understand me.
+
+Another reflection that I'm holding onto, especially from SIGCIS, is
+that I'm not the child looking up wondrously at all these academics
+anymore. *These are my peers*. I deserve to be here, I have things to
+say, and these folks have questions to ask of me. And I want to hold
+that and feel that and move through the world with that!
+
+There is also an inherent egotism in assuming that any work at any time
+just comes from myself. My work comes from my lived experience, and my
+lived experience is always influenced by the people around me. And all
+of my work has always been a product of my community. Certainly, all the
+CS papers I've ever worked on---and really, my career as a researcher up
+to this point---were hugely collaborative.
+
+As I've also mentioned before, part of the shock of coming into grad
+school is realizing I'm not actually the first person to have an
+interdisciplinary (computing) thought. And it's scary thinking about if
+I have anything new or interesting to say to any intellectual field that
+hasn't already been said before. But I think part of what I bring *is* a
+willingness to learn and be vulnerable with the incredible community of
+folks around me. To name names of friends briefly: I wouldn't be the
+scholar I am without Eric's generosity in engaging my ideas with
+seriousness and rigor and commitment, or Sunnie's generosity in her
+incisiveness and in offering me a higher conceptual register to think
+about my work, or Chris' generosity in teaching me what it looks like to
+be a radiant and earnest and grounded scholar, or Harry's generosity in
+affirming and uplifting my writing practice. And (within reason ofc),
+being in academia means to freely gift and receive refractions on
+refractions on refractions of ideas, to be open to taking on someone
+else's lens on my work, offering it to the world, and being willing to
+pass it on to the next scholar.
+			
+My work is to be in conversation with lots of folks and hold their
+perspectives in me. And I want to embrace that.
+
+# Labor & practice
 
 One of the persistently difficult things I've struggled with in academia is the
 formlessness of our work. The charge of our work is to think
@@ -34,27 +152,29 @@ or to connect with folks who inspire you in unexpected ways, And yet the most
 interesting work comes out of the serendipitous, the unexpected, the surprising;
 the "work" of moving outside the on-paper requirements of getting a degree.
 
-The conceptual bounds of my work now are informed not by the CS papers that are
-given to me as our discipline's canon, but from the happenstance, serendipitous
-encounters I've had with other minds and other thinking. My conversations with
-artist friends made me see my PhD not just as labor, but as its own *[artistic]
-practice* ^[Big shoutout to my friend [Sunnie](https://www.sunnieliu.com/) for
-all of our insightful conversations on the parallels between art and research
-practice. I do want to note I'm not arguing that research should be my life. I
-am arguing that seeing the PhD as artistic practice has been a more helpful
-frame for distinguishing the work that I'm doing. I'm not just building
-programming tools because they're cool or because I want to do underpaid advance
-labor for Google's language development division. I'm building tools to ask
+The conceptual bounds of my work now are informed not by the CS papers
+that are given to me as our discipline's canon, but from the
+happenstance, serendipitous encounters I've had with other minds and
+other thinking. My conversations with artist friends made me see my PhD
+not just as labor, but as its own *[artistic] practice* ^[Big shoutout
+to Sunnie for all of our insightful conversations on the parallels
+between art and research practice. I do want to note I'm not arguing
+that research should be my life. I am arguing that seeing the PhD as
+artistic practice has been a more helpful frame for distinguishing the
+work that I'm doing. I'm not just building programming tools because
+they're cool or because I want to do underpaid advance labor for
+Google's language development division. I'm building tools to ask
 questions: to denaturalize and tease apart the assumptions about what
-interacting with a computer looks like now, to ask speculative questions about
-different worlds, and to try to imagine what programming might look like in
-those speculative worlds.]. My oral history exchanges with Asian American elders
-and my wushu practice have informed my thinking on improvisation and serendipity
-that form the theoretical and conceptual core of my language building work now.
-And my reading in Asian American, Black, and New Media Studies---and my time
-spent organizing and in life-affirming academic spaces like Digital
-IDEAS---provide the political and spiritual grounding that inform the
-sensibility of my work.
+interacting with a computer looks like now, to ask speculative questions
+about different worlds, and to try to imagine what programming might
+look like in those speculative worlds.]. My oral history exchanges with
+Asian American elders and my wushu practice have informed my thinking on
+improvisation and serendipity that form the theoretical and conceptual
+core of my language building work now. And my reading in Asian American
+studies and Black studies and (Dis)ability studies and everywhere
+else---and my time spent organizing and in life-affirming academic
+spaces like Digital IDEAS---provide the political and spiritual
+grounding that inform the sensibility of my work.
 
 One thing that's been very inspiring coming from this conference is seeing how
 seriously people take their own academic practices. I spent a lot of the
@@ -82,21 +202,23 @@ the soup of ideas. That kind of reading practice---the muscle of constantly
 reaching outward into spaces unknown to pull theories, concepts, method,
 analytical frames---*that* is what I want to have for myself.
 
-Again, people honor themselves and their own ideas very seriously. In her
-keynote, Lisa Nakamura noted that writing theory is a writing style and that
-that style is *just swag*.  Being a theorist means confidently Just Saying Shit!
-In that frame, the point of being well-read isn't just to say "oh `x` person
-says this, therefore I have the license to say `z`."  It is to confidently and
-boldly claim that `z` is true, and then to be able to point to `x` and to `y`
-and to whoever else as corroborating evidence that speaks to your academic
-truth. ^[Shoutout to Jasmine for this insight on the purpose of _reading the
-canon_.  One insight discussion we had was that the point of reading the canon
-also isn't necessarily because we like the canon, but because we want to be able
-to be precise in deconstructing or critiquing the canon.] Often times, this
-means being willing to do the work even when it's unpopular or illegible in your
-own discipline. Several of the speakers we had expressed that during their early
-academic careers, folks would advise them not to do the work that has now
-defined their careers.
+Again, people honor themselves and their own ideas very seriously. One
+memorable quote I remember hearing is that writing theory is a writing
+style and that style is *just swag*.  Being a theorist means
+confidently Just Saying Shit! In that frame, the point of being
+well-read isn't just to say "oh `x` person says this, therefore I have
+the license to say `z`."  It is to confidently and boldly claim that `z`
+is true, and then to be able to point to `x` and to `y` and to whoever
+else as corroborating evidence that speaks to your academic truth.
+^[Shoutout to [Jasmine](https://www.jasminelehrhardt.com/) for this
+insight on the purpose of _reading the canon_.  One insightful
+discussion we had was that the point of reading the canon also isn't
+necessarily because we like the canon, but because we want to be able to
+be precise in deconstructing or critiquing the canon.] Often times, this
+means being willing to do the work even when it's unpopular or illegible
+in your own discipline. Several of the speakers we had expressed that
+during their early academic careers, folks would advise them not to do
+the work that has now defined their careers.
 
 Up to this point, I've realized I haven't fully taken myself seriously as an
 academic. Part of that is because I haven't taken computer science seriously as
@@ -165,7 +287,7 @@ honor that responsibility. I want to honor myself and my own ideas. And I think
 honoring myself in this way will require a transformation in what I see myself
 to be doing and who I see myself to be in conversation with.
 
-# Vulnerability / space
+# Vulnerability & space
 
 I've been in conference spaces previously where it's felt like I've needed to
 *coerce myself into feeling good*. The situation of, "I feel really dislocated
@@ -229,7 +351,12 @@ at these spaces to try to discover some heretofore undiscovered seenness within
 these spaces. And that is okay! I just need to do the work of finding those
 spaces myself.
 
-# Politics / otherwise
+I think now, I'm thinking about *letting myself be drawn to spaces that
+are for me*. Instead of thinking about it as "I need to force myself to
+talk to this person" or "oh no, am I missing out by not talking to this
+person," I'm trying to think through
+
+# Politics & otherwise
 
 One question that came up repeatedly was what it means to do _political_
 work in and through the academy. Is there space in the academy to do
@@ -300,17 +427,19 @@ from a computational perspective and uncompelling to me from a political
 perspective.  Trying to make a tool that did real-world political work limited
 my own imagination of the kinds of interventions we can build and imagine.
 
-Separately, I've found that my experience of computer science as a field has
-been hostile to conceptual play. In "technical" fields like programming language
-(PL) research, we are taught to discipline the poetic, the affective, the
-lyrical, and the personal out of any of our writing. Our writing is meant to be
-dismebodied and universal. PL papers are meant to deliver truths of the
-computational universe and to read as if they are written by God. <!-- It is an
-instrumental view of language where the purpose of any text is to coerce the
-reader into understanding^[Shoutout to my labmate Eric for noodling on that turn
-of phrase]. The intellectual tradition of the field begins and ends with: "Look!
-We made a new thing!" --> The field would see my own experiences of politics or
-marginality as preposterous to include in any "serious," "technical" writing.
+Separately, I've found that my experience of computer science as a field
+has been unfriendly to conceptual play. In "technical" fields like
+programming language (PL) research, we are taught to discipline the
+poetic, the affective, the lyrical, and the personal out of our writing.
+Our writing is meant to be dismebodied and universal. PL papers are
+meant to deliver truths of the computational universe and to read as if
+they are written by God. <!-- It is an instrumental view of language
+where the purpose of any text is to coerce the reader into
+understanding^[Shoutout to my labmate Eric for noodling on that turn of
+phrase]. The intellectual tradition of the field begins and ends with:
+"Look! We made a new thing!" --> The field would see my own experiences
+of politics or marginality as preposterous to include in any "serious,"
+"technical" writing.
 
 One of the feelings I've been working through during this week is a
 Foucault-flavored internalized self-discipline, the disembodied voice of The
@@ -330,7 +459,7 @@ to speak up in any capacity---across every keynote and large group discussion, I
 spoke twice: once to ask Ruha Benjamin a question, and once during the
 semi-mandatory end-of-week presentation.
 
-The most insidious part of this self-discipline is it covers its own tracks.  To
+The most insidious part of this self-discipline is it covers its own tracks. To
 even write about this now---to articulate the texture of this spiritual
 violence---is tough when it's become so deeply ingrained that imagining an
 otherwise feels impossible. I think one thing I really enjoyed about this
@@ -406,13 +535,3 @@ academic, and intellectual/researcher. It's exciting to find a community of
 thinkers whose practices disarticulate these, whose home---whose
 otherwises---exist outside and beyond it.
 
-# Forward
-
-The question I'm left with now is to how to hold on to this sense of freedom,
-lightness, and play in the other spaces I move in. I'm home from Ann Arbor and
-back in the Bay, and I want to hold on to this sense of unencumbered
-intellectual movement as long and as hard as I can. What does it mean to be
-open, playful, and vulnerable in spaces that have felt hostile to that in the
-past? This past week has given me a new faith in the capacity for community,
-imaginativity, and futurity in intellectual spaces. Now, what does it look like
-to work that faith in my everyday academic life?
