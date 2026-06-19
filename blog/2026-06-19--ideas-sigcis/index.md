@@ -1,8 +1,10 @@
 ---
-title: Digital IDEAS and SIGCIS
+title: Thinking through Digital IDEAS (and SIGCIS)
 date: 2026-06-19T19:00
 ---
 <!-- vim: set tw=72 wrapmargin=0 formatoptions+=t: -->
+
+*(or, reports from my recent conference adventures)*
 
 <img class="mb-4" src="./IMG_0163.png" alt="A photo of a slideshow presentation and a desk. On the presentation is a quote from Parable of the Sower by Octavia Butler: 'All that you touch / You Change. / All that you Change / Changes you. / The only lasting truth / is Change.'" transform-images="avif webp jpg 450@2" />
 
