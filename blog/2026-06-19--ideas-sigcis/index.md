@@ -6,22 +6,23 @@ date: 2026-06-19T19:00
 
 <img class="mb-4" src="./IMG_0163.png" alt="A photo of a slideshow presentation and a desk. On the presentation is a quote from Parable of the Sower by Octavia Butler: 'All that you touch / You Change. / All that you Change / Changes you. / The only lasting truth / is Change.'" transform-images="avif webp jpg 450@2" />
 
-Recently, I returned from a trip in Michigan for Digital IDEAS, a summer
-institute for new media folks! I had a bunch of great conversations and
-experiences while I was out there---it felt like my academic cup had
-been refilled, and I was able to remember what it was like to be in
-academic community, to feel empowered to take space and dish out hot
-takes and be my most raw intellectual self. It did feel like the various
-misfit toys of different academic disciplines all coming together to
-hang out, and sharing in that was so so precious.
+Recently, I returned from a trip in Michigan for [Digital
+IDEAS](https://www.digitalstudies.umich.edu/digital-ideas/apply-here.html),
+a summer institute for new media folks! I had a bunch of great
+conversations and experiences while I was out there---it felt like my
+academic cup had been refilled, and I was able to remember what it was
+like to be in academic community, to feel empowered to take space and
+dish out hot takes and be my most raw intellectual self. It did feel
+like the various misfit toys of different academic disciplines all
+coming together to hang out, and sharing in that was so so precious.
 
 Even more recently, I presented on some of my computing history work at
-SIGCIS in Berkeley. Again, it was an incredibly heartwarming
-experience---I got to meet and talk to so many exciting scholars and
-hear about their work, and I heard them refract my work through their
-analytic lenses and questions, and again, I'm feeling that same sense of
-expansiveness, extroversion, openness and comfort. It feels really
-good!!!
+[SIGCIS](https://meetings.sigcis.org/) in Berkeley. Again, it was an
+incredibly heartwarming experience---I got to meet and talk to so many
+exciting scholars and hear about their work, and I heard them refract my
+work through their analytic lenses and questions, and again, I'm feeling
+that same sense of expansiveness, extroversion, openness and comfort. It
+feels really good!!!
 
 I had a wonderful debrief call with my dear friend
 [Chris](https://www.asc.upenn.edu/people/graduate-student/christine-phan)
@@ -127,16 +128,17 @@ I have anything new or interesting to say to any intellectual field that
 hasn't already been said before. But I think part of what I bring *is* a
 willingness to learn and be vulnerable with the incredible community of
 folks around me. To name names of friends briefly: I wouldn't be the
-scholar I am without Eric's generosity in engaging my ideas with
-seriousness and rigor and commitment, or Sunnie's generosity in her
-incisiveness and in offering me a higher conceptual register to think
-about my work, or Chris' generosity in teaching me what it looks like to
-be a radiant and earnest and grounded scholar, or Harry's generosity in
-affirming and uplifting my writing practice. And (within reason ofc),
-being in academia means to freely gift and receive refractions on
-refractions on refractions of ideas, to be open to taking on someone
-else's lens on my work, offering it to the world, and being willing to
-pass it on to the next scholar.
+scholar I am without [Eric](https://www.ericrawn.media/)'s generosity in
+engaging my ideas with seriousness and rigor and commitment, or
+[Sunnie](https://www.sunnieliu.com/)'s generosity in her incisiveness
+and in offering me a higher conceptual register to think about my work,
+or Chris' generosity in teaching me what it looks like to be a radiant
+and earnest and grounded scholar, or Harry's generosity in affirming and
+uplifting my writing practice. And (within reason ofc), being in
+academia means to freely gift and receive refractions on refractions on
+refractions of ideas, to be open to taking on someone else's lens on my
+work, offering it to the world, and being willing to pass it on to the
+next scholar.
 			
 My work is to be in conversation with lots of folks and hold their
 perspectives in me. And I want to embrace that.
